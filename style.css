@@ -231,22 +231,56 @@ CASTILLO PRIMARIA
 		border: none;
 	}
 
+/*título slide*/
+
 	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title {
 		margin-top: -40px;
 		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
-		font-family: 'Raleway', Georgia, serif;
-		font-size: 4.0rem;
-		font-weight: bold;
-		color: #f9bfad;
-		display: block;
-		padding: 50px 20px 0px 0px;
-		margin-top: -43px;
-		margin-bottom: 20px;
-	}
+.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
+    font-family: 'Nunito';
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    padding: 30px 20px 20px 20px;
+    border-radius: 0 0 20px 20px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    background-color: #1d549e;
+    width: fit-content;
+}
+
+.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
+	background: url(images/decoracion_01b.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 72px;
+    position: absolute;
+    right: 0px;
+    z-index: 100;
+    top: -127px;
+    width: 30px;
+    margin-right: 21px;
+}
+
+.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:after {
+	background: url(images/decoracion_01a.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 72px;
+    position: absolute;
+    left: 0px;
+    z-index: 100;
+    top: -127px;
+    width: 30px;
+    margin-right: 21px;
+}
+
 	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.2rem;
