@@ -1,18 +1,18 @@
 (function (blink) {
 	'use strict';
 
-	var castilloprimaria2022Style = function () {
+	var castilloprimaria2022demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	castilloprimaria2022Style.prototype = {
+	castilloprimaria2022demoStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_castilloprimaria2022',
+		bodyClassName: 'content_type_clase_castilloprimaria2022demo',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
-			name: 'castilloprimaria2022',
+			name: 'castilloprimaria2022demo',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
@@ -124,9 +124,9 @@
 		//BK15873 Quitamos la funcion getEditorStyles para que herede de parent
 	};
 
-	castilloprimaria2022Style.prototype = _.extend({}, new blink.theme.styles.basic(), castilloprimaria2022Style.prototype);
+	castilloprimaria2022demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), castilloprimaria2022demoStyle.prototype);
 
-	blink.theme.styles.castilloprimaria2022 = castilloprimaria2022Style;
+	blink.theme.styles.castilloprimaria2022demo = castilloprimaria2022demoStyle;
 
 })( blink );
 
@@ -147,8 +147,8 @@ $(document).ready(function () {
 		});
 
 	// BK-8433 cambiamos el logo de las slides por el del dominio
-	var src_logo = $('.content_type_clase_castilloprimaria2022').find('.logo_slide').attr('logo_dominio');
+	var src_logo = $('.content_type_clase_castilloprimaria2022demo').find('.logo_slide').attr('logo_dominio');
 	if (typeof(src_logo) != 'undefined' && src_logo && src_logo != '' && src_logo.indexOf('gif1x1.gif') == -1) {
-		$('.content_type_clase_castilloprimaria2022').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
+		$('.content_type_clase_castilloprimaria2022demo').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
 	}
 });
