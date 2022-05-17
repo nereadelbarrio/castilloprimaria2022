@@ -254,6 +254,19 @@ CASTILLO PRIMARIA
 }
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
+    background: url(images/decoracion_01c.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 111px 224px 0px 216px;
+    position: absolute;
+    left: -66px;
+    z-index: 1;
+    top: 0px;
+}
+
+/*
+.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
 	background: url(images/decoracion_01b.png);
     content: "";
     background-size: contain;
@@ -277,7 +290,7 @@ CASTILLO PRIMARIA
     left: 14px;
     z-index: 10;
     top: 20px;
-}
+}*/
 
 	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 span {
 		display: block;
