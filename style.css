@@ -832,6 +832,13 @@ background: url(images/decoracion_01---copia.png);
 		font-weight: bold;
 	}
 
+
+/**subrayado*/
+.bck-underline {
+    text-decoration: underline;
+    color: #1d539c;
+}
+
 /*hr*/
 	.content hr,
 	.cke_contents hr {
