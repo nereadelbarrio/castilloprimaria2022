@@ -2,7 +2,175 @@
 CASTILLO PRIMARIA
 */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic,500italic,500);
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Black.eot');
+    src: url('fonts/Nunito-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Black.woff2') format('woff2'),
+        url('fonts/Nunito-Black.woff') format('woff'),
+        url('fonts/Nunito-Black.ttf') format('truetype'),
+        url('fonts/Nunito-Black.svg#Nunito-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-BlackItalic.eot');
+    src: url('fonts/Nunito-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-BlackItalic.woff2') format('woff2'),
+        url('fonts/Nunito-BlackItalic.woff') format('woff'),
+        url('fonts/Nunito-BlackItalic.ttf') format('truetype'),
+        url('fonts/Nunito-BlackItalic.svg#Nunito-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraLight.eot');
+    src: url('fonts/Nunito-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraLight.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraLight.woff') format('woff'),
+        url('fonts/Nunito-ExtraLight.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraLight.svg#Nunito-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Bold.eot');
+    src: url('fonts/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Bold.woff2') format('woff2'),
+        url('fonts/Nunito-Bold.woff') format('woff'),
+        url('fonts/Nunito-Bold.ttf') format('truetype'),
+        url('fonts/Nunito-Bold.svg#Nunito-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraBoldItalic.eot');
+    src: url('fonts/Nunito-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/Nunito-ExtraBoldItalic.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraBoldItalic.svg#Nunito-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-BoldItalic.eot');
+    src: url('fonts/Nunito-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-BoldItalic.woff2') format('woff2'),
+        url('fonts/Nunito-BoldItalic.woff') format('woff'),
+        url('fonts/Nunito-BoldItalic.ttf') format('truetype'),
+        url('fonts/Nunito-BoldItalic.svg#Nunito-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraBold.eot');
+    src: url('fonts/Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraBold.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraBold.woff') format('woff'),
+        url('fonts/Nunito-ExtraBold.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraBold.svg#Nunito-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-SemiBoldItalic.eot');
+    src: url('fonts/Nunito-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Nunito-SemiBoldItalic.woff') format('woff'),
+        url('fonts/Nunito-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/Nunito-SemiBoldItalic.svg#Nunito-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-SemiBold.eot');
+    src: url('fonts/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-SemiBold.woff2') format('woff2'),
+        url('fonts/Nunito-SemiBold.woff') format('woff'),
+        url('fonts/Nunito-SemiBold.ttf') format('truetype'),
+        url('fonts/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Regular.eot');
+    src: url('fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Regular.woff2') format('woff2'),
+        url('fonts/Nunito-Regular.woff') format('woff'),
+        url('fonts/Nunito-Regular.ttf') format('truetype'),
+        url('fonts/Nunito-Regular.svg#Nunito-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-LightItalic.eot');
+    src: url('fonts/Nunito-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-LightItalic.woff2') format('woff2'),
+        url('fonts/Nunito-LightItalic.woff') format('woff'),
+        url('fonts/Nunito-LightItalic.ttf') format('truetype'),
+        url('fonts/Nunito-LightItalic.svg#Nunito-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Italic.eot');
+    src: url('fonts/Nunito-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Italic.woff2') format('woff2'),
+        url('fonts/Nunito-Italic.woff') format('woff'),
+        url('fonts/Nunito-Italic.ttf') format('truetype'),
+        url('fonts/Nunito-Italic.svg#Nunito-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Light.eot');
+    src: url('fonts/Nunito-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Light.woff2') format('woff2'),
+        url('fonts/Nunito-Light.woff') format('woff'),
+        url('fonts/Nunito-Light.ttf') format('truetype'),
+        url('fonts/Nunito-Light.svg#Nunito-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraLightItalic.eot');
+    src: url('fonts/Nunito-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraLightItalic.woff') format('woff'),
+        url('fonts/Nunito-ExtraLightItalic.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraLightItalic.svg#Nunito-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
 
 	.body_clase .content-wrapper {
 		padding-top: 100px;
@@ -24,11 +192,11 @@ CASTILLO PRIMARIA
 		margin-bottom: 10px;
 	}
 
-	.is_app.content_type_clase_castilloprimaria2022 {
+	.is_app.content_type_clase_castilloprimaria2022demo {
 		padding-top: 0px;
 	}
 
-	.content_type_clase_castilloprimaria2022 #actividad {
+	.content_type_clase_castilloprimaria2022demo #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
@@ -48,8 +216,8 @@ CASTILLO PRIMARIA
 		margin-top: 75px;
 	}
 
-	.content_type_clase_castilloprimaria2022 #actividad .content .header .title img,
-	.content_type_clase_castilloprimaria2022 #actividad .content .header .chapter {
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title img,
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header .chapter {
 		display: none;
 	}
 
@@ -59,17 +227,17 @@ CASTILLO PRIMARIA
 		visibility: hidden;
 	}
 
-	.content_type_clase_castilloprimaria2022 #actividad .content .header {
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header {
 		border: none;
 	}
 
-	.content_type_clase_castilloprimaria2022 #actividad .content .header .title {
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title {
 		margin-top: -40px;
 		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 
-	.content_type_clase_castilloprimaria2022 #actividad .content .header .title h3 {
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
 		font-family: 'Raleway', Georgia, serif;
 		font-size: 4.0rem;
 		font-weight: bold;
@@ -79,13 +247,13 @@ CASTILLO PRIMARIA
 		margin-top: -43px;
 		margin-bottom: 20px;
 	}
-	.content_type_clase_castilloprimaria2022 #actividad .content .header .title h3 span {
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.2rem;
 		font-weight: 400;
 	}
-	.content_type_clase_castilloprimaria2022 #actividad .texto_curso,
-	.content_type_clase_castilloprimaria2022 #actividad .slide_content_type_1 .pregunta .texto_curso {
+	.content_type_clase_castilloprimaria2022demo #actividad .texto_curso,
+	.content_type_clase_castilloprimaria2022demo #actividad .slide_content_type_1 .pregunta .texto_curso {
 		font-size: 1.6rem;
 	}
 
@@ -109,7 +277,7 @@ CASTILLO PRIMARIA
 	    padding-bottom: 100px;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slide_main input {
+	.content_type_clase_castilloprimaria2022demo .slide_main input {
 		color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -121,7 +289,7 @@ CASTILLO PRIMARIA
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slide_main input:focus {
+	.content_type_clase_castilloprimaria2022demo .slide_main input:focus {
 		border-top-color: #3AC62A;
 		border-right-color: #3AC62A;
 		border-bottom-color: #3AC62A;
@@ -131,25 +299,25 @@ CASTILLO PRIMARIA
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 	}
 
-	.content_type_clase_castilloprimaria2022 .slide_main input[disabled],
-	.content_type_clase_castilloprimaria2022 .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_castilloprimaria2022 .slide_main input {
+	.content_type_clase_castilloprimaria2022demo .slide_main input[disabled],
+	.content_type_clase_castilloprimaria2022demo .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main input {
 		cursor: not-allowed;
 		background-color: #eee;
 		opacity: 1;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slide_main input.respuesta_ok {
+	.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slide_main input.respuesta_ko {
+	.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slide_main input.solucion {
+	.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
@@ -289,7 +457,7 @@ CASTILLO PRIMARIA
 /**/
 
 /* Navbar (Breadcums) */
-	.content_type_clase_castilloprimaria2022 .publisher-navbar {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar {
 		position: fixed;
 		top: 44px;
 		background: #ffffff;
@@ -300,11 +468,11 @@ CASTILLO PRIMARIA
 	}
 
 	/* BK-18572 Ajustar estilo en UX */
-	.content_type_clase_castilloprimaria2022 .publisher-navbar.tmpux {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar.tmpux {
 		top: 0px;
 	}
 
-	.is_app.content_type_clase_castilloprimaria2022 .publisher-navbar {
+	.is_app.content_type_clase_castilloprimaria2022demo .publisher-navbar {
 		position: fixed;
 		top: 0px;
 	}
@@ -328,18 +496,18 @@ CASTILLO PRIMARIA
     	background: linear-gradient(to left, rgba(0, 160, 228, 0.21), transparent);
     }
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .navbar-content {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-left: 90px;
 		padding-right: 50px;
 	}
 
-	.content_type_clase_castilloprimaria2022 .logo-publisher {
+	.content_type_clase_castilloprimaria2022demo .logo-publisher {
 		display: block;
 		margin-left: -48px;
 	}
-	.content_type_clase_castilloprimaria2022 .logo-publisher {
+	.content_type_clase_castilloprimaria2022demo .logo-publisher {
 		content: " ";
 		background-image: url(logo-blink.png);
 		height: 36px;
@@ -351,7 +519,7 @@ CASTILLO PRIMARIA
 		background-size: contain;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slider-indicators {
+	.content_type_clase_castilloprimaria2022demo .slider-indicators {
 		padding: 0;
 		display: inline-block;
 		text-align: center;
@@ -365,8 +533,8 @@ CASTILLO PRIMARIA
 	}
 
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown button,
-	.content_type_clase_castilloprimaria2022 .publisher-navbar li {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button,
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar li {
 		border-radius: 5px;
 		border: none;
 		background-color: transparent;
@@ -381,12 +549,12 @@ CASTILLO PRIMARIA
 		background: #5ebdb2;
 		border-radius: 120px;
 	}
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown button {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button {
 		background: none;
 		color: #5ebdb2;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slider-indicators:after {
+	.content_type_clase_castilloprimaria2022demo .slider-indicators:after {
 		content: '';
 		display: block;
 		clear: both;
@@ -395,7 +563,7 @@ CASTILLO PRIMARIA
 		height: 0;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slider-indicators li {
+	.content_type_clase_castilloprimaria2022demo .slider-indicators li {
 		width: 35px;
 		height: 35px;
 		margin: 0 8px 0 0;
@@ -404,24 +572,24 @@ CASTILLO PRIMARIA
 		position: relative;
 	}
 
-	.content_type_clase_castilloprimaria2022 .slider-indicators li.active,
-	.content_type_clase_castilloprimaria2022 .publisher-navbar li:hover {
+	.content_type_clase_castilloprimaria2022demo .slider-indicators li.active,
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar li:hover {
 		opacity: 1;
 		background:#f9bfad;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar #top-navigator {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar #top-navigator {
 		float: none;
 		margin-top: 10px;
 		display: block;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown {
 		float: left;
 		display: block;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown button {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
@@ -432,25 +600,25 @@ CASTILLO PRIMARIA
 		overflow-y: auto;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown button {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button {
 		border: none;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown button:focus {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button:focus {
 		outline: none;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown li {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown li {
 		display: list-item;
 		width: auto;
 		background: none;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown li a {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown li a {
 		color: #5ebdb2;
 	}
 
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .dropdown .caret {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown .caret {
 		border-color: #5ebdb2 transparent transparent transparent;
 		margin-left: 6px;
 
@@ -479,7 +647,7 @@ CASTILLO PRIMARIA
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/castilloprimaria2022_audio.png) 0 0 no-repeat;
+	background: url(images/castilloprimaria2022demo_audio.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -489,7 +657,7 @@ CASTILLO PRIMARIA
 }
 
 #actividad .player.video {
-	background: url(images/castilloprimaria2022_video.png) 0 0 no-repeat;
+	background: url(images/castilloprimaria2022demo_video.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -801,7 +969,7 @@ CASTILLO PRIMARIA
   		border-right: 1px solid #eee;
     }
 
-    .content_type_clase_castilloprimaria2022 .logo-publisher {
+    .content_type_clase_castilloprimaria2022demo .logo-publisher {
 		margin-right: 0px;
 	}
 }
@@ -812,7 +980,7 @@ CASTILLO PRIMARIA
 		padding-left: 30px;
 	}
 
-	.content_type_clase_castilloprimaria2022 #actividad .content .header .title h3 {
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
 		margin-left: -30px;
 		padding-left: 20px;
 		padding-right: 50px;
@@ -828,10 +996,10 @@ CASTILLO PRIMARIA
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	.content_type_clase_castilloprimaria2022 .publish {
+	.content_type_clase_castilloprimaria2022demo .publish {
 		padding-left: 25px;
 	}
-	.content_type_clase_castilloprimaria2022 .logo-publisher {
+	.content_type_clase_castilloprimaria2022demo .logo-publisher {
 		margin-left: -20px;
 	}
 
@@ -853,11 +1021,11 @@ CASTILLO PRIMARIA
     .bck-img.left, img[style~="float:left"] {
         max-width: 50%
     }
-	.content_type_clase_castilloprimaria2022 .publisher-navbar {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar {
 		top: 88px;
 	}
 
-	.content_type_clase_castilloprimaria2022 .logo-publisher {
+	.content_type_clase_castilloprimaria2022demo .logo-publisher {
 		margin-right: -20px;
 	}
 
@@ -895,11 +1063,11 @@ CASTILLO PRIMARIA
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .navbar-content {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .navbar-content {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.content_type_clase_castilloprimaria2022 .publisher-navbar .logo-publisher:before {
+	.content_type_clase_castilloprimaria2022demo .publisher-navbar .logo-publisher:before {
 		content: none;
 		display: none;
 
@@ -912,7 +1080,7 @@ CASTILLO PRIMARIA
 		font-size: 2.4rem;
 		width: 60px;
 	}
-	.content_type_clase_castilloprimaria2022 #actividad .content .header .title h3 {
+	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
 		padding-right: 20px;
 		margin-bottom: 20px;
 	}
@@ -933,14 +1101,14 @@ div.calculo table.marco * {
     border-top: 2px dashed #f9bfad !important;
 }
 
-.content_type_clase_castilloprimaria2022 .slide_main input {
+.content_type_clase_castilloprimaria2022demo .slide_main input {
     border: 1px solid #ccc !important;
 }
 
 /* TMPUX STYLES */
-.tmpux.content_type_clase_castilloprimaria2022.modo_revision .castilloprimaria2022-navbar,
-.tmpux.content_type_clase_castilloprimaria2022.modo-correccion .castilloprimaria2022-navbar,
-.tmpux.content_type_clase_castilloprimaria2022.modo-deber .castilloprimaria2022-navbar {
+.tmpux.content_type_clase_castilloprimaria2022demo.modo_revision .castilloprimaria2022demo-navbar,
+.tmpux.content_type_clase_castilloprimaria2022demo.modo-correccion .castilloprimaria2022demo-navbar,
+.tmpux.content_type_clase_castilloprimaria2022demo.modo-deber .castilloprimaria2022demo-navbar {
 		top: 0;
 		display: block !important;
 	}
@@ -953,9 +1121,9 @@ div.calculo table.marco * {
 	margin-top: 10px;
 }
 
-body.is_app.tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria2022.content_type_curso_castilloprimaria2022 .content-wrapper,
-body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria2022.content_type_curso_castilloprimaria2022 .content-wrapper,
- body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria2022.content_type_curso_castilloprimaria2022 .content-wrapper, 
- body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria2022.content_type_curso_castilloprimaria2022 .content-wrapper {
+body.is_app.tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper,
+body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper,
+ body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper, 
+ body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper {
 	margin-top: 10px;
  }
