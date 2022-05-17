@@ -739,7 +739,8 @@ background: url(images/decoracion_01---copia.png);
 		font-family: 'Nunito';
 	}
 
-	.bck-title1 h2{
+/*titulo 01*/
+	.bck-title1 {
 		font-size: 20px;
 	    padding: 10px 40px 10px 98px;
 	    margin-bottom: 25px;
@@ -749,6 +750,7 @@ background: url(images/decoracion_01---copia.png);
 	    font-family: 'Nunito';
 	}
 
+/*titulo 02*/
 	.bck-title2 {
 		font-size: 2.0rem;
 		clear: both;
@@ -756,9 +758,15 @@ background: url(images/decoracion_01---copia.png);
 		margin-bottom: 20px;
 	}
 
+/*titulo 03*/
 	.bck-title3 {
 		font-size: 1.6rem;
 	}
+
+/*titulo 04*/
+	.bck-title3 {
+		font-size: 1.6rem;
+	}	
 
 	.bck-enfasis,
 	strong {
