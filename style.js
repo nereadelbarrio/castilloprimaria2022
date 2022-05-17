@@ -18,7 +18,7 @@
 				{ name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 02', element: 'h3', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 03', element: 'h3', attributes: { 'class': 'bck-title3'} },
-				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title4'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
