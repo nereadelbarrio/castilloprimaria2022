@@ -272,13 +272,11 @@ CASTILLO PRIMARIA
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 72px;
+    padding: 37px;
     position: absolute;
-    left: 0px;
-    z-index: 100;
-    top: -127px;
-    width: 30px;
-    margin-right: 21px;
+    left: 14px;
+    z-index: 10;
+    top: 20px;
 }
 
 	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 span {
