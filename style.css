@@ -872,6 +872,30 @@ background: url(images/decoracion_01---copia.png);
     background-repeat: no-repeat;
 }
 
+
+.popover-template .popover-title {
+    display: block;
+    position: relative;
+    background: #1d549e;
+    padding-left: 46px;
+    color: #fff;
+    font-family: 'Nunito';
+    /* font-size: 1.7rem; */
+    min-height: 35px;
+}
+
+.popover-template .popover-title:before {
+	display: none;
+}
+
+
+.popover-template .popover-content {
+    height: auto;
+    overflow-y: auto;
+    position: relative;
+    font-family: 'Nunito';
+    font-size: 1em;
+}
 /*listas*/
 	.content ol,
 	.cke_contents ol {
