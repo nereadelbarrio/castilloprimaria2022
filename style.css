@@ -761,12 +761,18 @@ background: url(images/decoracion_01---copia.png);
 
 /*titulo 03*/
 	.bck-title3 {
-		font-size: 1.6rem;
+	font-weight: 700;
+    color: #1d549e;
+    font-family: 'Nunito';
+    font-size: 25px;
 	}
 
 /*titulo 04*/
 	.bck-title3 {
-		font-size: 1.6rem;
+	font-weight: 900;
+    color: #1d549e;
+    font-family: 'Nunito';
+    font-size: 25px;
 	}	
 
 	.bck-enfasis,
