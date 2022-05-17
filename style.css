@@ -251,6 +251,7 @@ CASTILLO PRIMARIA
     margin-bottom: 20px;
     background-color: #1d549e;
     width: fit-content;
+    position: relative;
 }
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
