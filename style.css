@@ -1,1252 +1,155 @@
-/* General 
-CASTILLO PRIMARIA
-*/
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-Black.eot');
-    src: url('fonts/Nunito-Black.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-Black.woff2') format('woff2'),
-        url('fonts/Nunito-Black.woff') format('woff'),
-        url('fonts/Nunito-Black.ttf') format('truetype'),
-        url('fonts/Nunito-Black.svg#Nunito-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-BlackItalic.eot');
-    src: url('fonts/Nunito-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-BlackItalic.woff2') format('woff2'),
-        url('fonts/Nunito-BlackItalic.woff') format('woff'),
-        url('fonts/Nunito-BlackItalic.ttf') format('truetype'),
-        url('fonts/Nunito-BlackItalic.svg#Nunito-BlackItalic') format('svg');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-ExtraLight.eot');
-    src: url('fonts/Nunito-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-ExtraLight.woff2') format('woff2'),
-        url('fonts/Nunito-ExtraLight.woff') format('woff'),
-        url('fonts/Nunito-ExtraLight.ttf') format('truetype'),
-        url('fonts/Nunito-ExtraLight.svg#Nunito-ExtraLight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-Bold.eot');
-    src: url('fonts/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-Bold.woff2') format('woff2'),
-        url('fonts/Nunito-Bold.woff') format('woff'),
-        url('fonts/Nunito-Bold.ttf') format('truetype'),
-        url('fonts/Nunito-Bold.svg#Nunito-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-ExtraBoldItalic.eot');
-    src: url('fonts/Nunito-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-ExtraBoldItalic.woff2') format('woff2'),
-        url('fonts/Nunito-ExtraBoldItalic.woff') format('woff'),
-        url('fonts/Nunito-ExtraBoldItalic.ttf') format('truetype'),
-        url('fonts/Nunito-ExtraBoldItalic.svg#Nunito-ExtraBoldItalic') format('svg');
-    font-weight: 800;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-BoldItalic.eot');
-    src: url('fonts/Nunito-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-BoldItalic.woff2') format('woff2'),
-        url('fonts/Nunito-BoldItalic.woff') format('woff'),
-        url('fonts/Nunito-BoldItalic.ttf') format('truetype'),
-        url('fonts/Nunito-BoldItalic.svg#Nunito-BoldItalic') format('svg');
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-ExtraBold.eot');
-    src: url('fonts/Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-ExtraBold.woff2') format('woff2'),
-        url('fonts/Nunito-ExtraBold.woff') format('woff'),
-        url('fonts/Nunito-ExtraBold.ttf') format('truetype'),
-        url('fonts/Nunito-ExtraBold.svg#Nunito-ExtraBold') format('svg');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-SemiBoldItalic.eot');
-    src: url('fonts/Nunito-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-SemiBoldItalic.woff2') format('woff2'),
-        url('fonts/Nunito-SemiBoldItalic.woff') format('woff'),
-        url('fonts/Nunito-SemiBoldItalic.ttf') format('truetype'),
-        url('fonts/Nunito-SemiBoldItalic.svg#Nunito-SemiBoldItalic') format('svg');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-SemiBold.eot');
-    src: url('fonts/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-SemiBold.woff2') format('woff2'),
-        url('fonts/Nunito-SemiBold.woff') format('woff'),
-        url('fonts/Nunito-SemiBold.ttf') format('truetype'),
-        url('fonts/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-Regular.eot');
-    src: url('fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-Regular.woff2') format('woff2'),
-        url('fonts/Nunito-Regular.woff') format('woff'),
-        url('fonts/Nunito-Regular.ttf') format('truetype'),
-        url('fonts/Nunito-Regular.svg#Nunito-Regular') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-LightItalic.eot');
-    src: url('fonts/Nunito-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-LightItalic.woff2') format('woff2'),
-        url('fonts/Nunito-LightItalic.woff') format('woff'),
-        url('fonts/Nunito-LightItalic.ttf') format('truetype'),
-        url('fonts/Nunito-LightItalic.svg#Nunito-LightItalic') format('svg');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-Italic.eot');
-    src: url('fonts/Nunito-Italic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-Italic.woff2') format('woff2'),
-        url('fonts/Nunito-Italic.woff') format('woff'),
-        url('fonts/Nunito-Italic.ttf') format('truetype'),
-        url('fonts/Nunito-Italic.svg#Nunito-Italic') format('svg');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-Light.eot');
-    src: url('fonts/Nunito-Light.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-Light.woff2') format('woff2'),
-        url('fonts/Nunito-Light.woff') format('woff'),
-        url('fonts/Nunito-Light.ttf') format('truetype'),
-        url('fonts/Nunito-Light.svg#Nunito-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('fonts/Nunito-ExtraLightItalic.eot');
-    src: url('fonts/Nunito-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
-        url('fonts/Nunito-ExtraLightItalic.woff') format('woff'),
-        url('fonts/Nunito-ExtraLightItalic.ttf') format('truetype'),
-        url('fonts/Nunito-ExtraLightItalic.svg#Nunito-ExtraLightItalic') format('svg');
-    font-weight: 200;
-    font-style: italic;
-}
-
-
-
-	.body_clase .content-wrapper {
-		padding-top: 100px;
-		font-family: 'Raleway', Georgia, serif;
-		font-weight: 500;
-		padding-bottom: 0;
-	}
-	.body_clase.edit .content-wrapper {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	body.is_app .content-wrapper,
-	body.app:not(.offline-pc) .content-wrapper,
-	body.user_demo .content-wrapper {
-	    margin-top: 60px;
-	}
-
-	.cke_contents  table {
-		margin-bottom: 10px;
-	}
-
-	.is_app.content_type_clase_castilloprimaria2022demo {
-		padding-top: 0px;
-	}
-
-	.content_type_clase_castilloprimaria2022demo #actividad {
-		margin-bottom: 0px;
-		-webkit-transform: none;
-		-webkit-transform-style: flat;
-	}
-
-
-
-	#actividad .carousel-inner .item-container {
-		background-image: none;
-		margin: 20px auto 30px;
-		padding: 0px;
-		padding-bottom: 90px;
-		position: relative;
-	}
-
-	#actividad .carousel-inner .item-container.tmpux {
-		margin-top: 75px;
-	}
-
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title img,
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header .chapter {
-		display: none;
-	}
-
-	#indice .units ul li a .number,
-	#indice .unit-content .header .number
-	 {
-		visibility: hidden;
-	}
-
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header {
-		border: none;
-	}
-
-/*título slide*/
-
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title {
-		margin-top: -40px;
-		padding-top: 30px;
-		padding-bottom: 20px;
-		z-index: 100;
-    	position: relative;
-	}
-
-.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
-	font-family: 'Nunito';
-    font-size: 30px;
-    font-weight: 700;
-    /* z-index: 0; */
-    color: #fff;
-    display: block;
-    padding: 30px 20px 20px 20px;
-    border-radius: 0 0 20px 20px;
-    margin-top: -30px;
-    margin-bottom: 20px;
-    background-color: #1d549e;
-    margin-left: -22px;
-    width: fit-content;
-    position: relative;
-}
-
-.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
-background: url(images/decoracion_01---copia.png);
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 125px 171px 2px 400px;
-    /* width: 133%; */
-    position: absolute;
-    left: -66px;
-    z-index: -1;
-    top: -3px;
-}
-
-/*
-.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
-	background: url(images/decoracion_01b.png);
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 72px;
-    position: absolute;
-    right: 0px;
-    z-index: 100;
-    top: -127px;
-    width: 30px;
-    margin-right: 21px;
-}
-
-.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:after {
-	background: url(images/decoracion_01a.png);
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 37px;
-    position: absolute;
-    left: 14px;
-    z-index: 10;
-    top: 20px;
-}*/
-
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 span {
-		display: block;
-		font-size:2.2rem;
-		font-weight: 400;
-	}
-	.content_type_clase_castilloprimaria2022demo #actividad .texto_curso,
-	.content_type_clase_castilloprimaria2022demo #actividad .slide_content_type_1 .pregunta .texto_curso {
-		font-size: 1.6rem;
-	}
-
-/*textos*/
-.texto_curso p {
-	line-height: 1.43em!important;
-    margin-bottom: 20px;
-    font-size: 16px;
-    font-family: 'Nunito';
-    color: #676767;
-}
-
-	.texto_curso p:last-of-type {
-		margin-bottom: 15px;
-	}
-
-	#actividad .class_slide {
-    	padding: 40px 88px 0px;
-	}
-
-	#actividad .class_slide:last-of-type {
-	    padding-bottom: 100px;
-	}
-
-	#actividad .slide-concatenate .class_slide {
-	    padding-bottom: 20px;
-	}
-
-	#actividad .slide-concatenate:last-of-type .class_slide {
-	    padding-bottom: 100px;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slide_main input {
-		color: #555;
-		background-color: #fff;
-		background-image: none;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slide_main input:focus {
-		border-top-color: #3AC62A;
-		border-right-color: #3AC62A;
-		border-bottom-color: #3AC62A;
-		border-left-color: #3AC62A;
-		outline-width: 0px;
-		outline-style: none;
-		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slide_main input[disabled],
-	.content_type_clase_castilloprimaria2022demo .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main input {
-		cursor: not-allowed;
-		background-color: #eee;
-		opacity: 1;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ok {
-		border-color: #57e900;
-		background: #D1F3BD;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
-		border-color: #FF3626;
-		background: #FFA49D;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
-		border-color: #00BDFF;
-		background: #B6ECFF;
-	}
-
-	table {
-		margin-bottom: 20px;
-	}
-/**/
-
-/* Navigators */
-	.navigator {
-		bottom: -20px;
-		left: 0;
-		position: absolute;
-		width: 100%;
-		padding: 0px 97px;
-	}
-
-	.navigator .title {
-		width: calc(100% - 20px);
-		font-size: 1.9rem;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		line-height: 4.8rem;
-		display: inline-block;
-		vertical-align: top;
-	}
-
-	.main-navigator {
-		padding: 30px 0px 50px;
-		width: 100%;
-	}
-
-	.navigator .left, .navigator .right {
-		width: 50%;
-		display: inline-block;
-	}
-
-	.navigator .right {
-		text-align: right;
-	}
-
-	.navigator .slider-control.left,
-	.navigator .slider-control.right {
-		height: auto;
-		width: 100%;
-		background-color: transparent;
-		border-radius: 0px;
-		margin: 0px;
-		opacity: 1;
-		text-shadow: none;
-		color: #f9bfad;
-		font-size: 1.9rem;
-		position: relative;
-		top: auto;
-		left: auto;
-		cursor: pointer;
-	}
-
-	body:not(.android) .main-navigator .slider-control:not(.disabled):hover {
-		color: #f77249;
-	}
-
-	.navigator .slider-control.left:before,
-	.navigator .slider-control.right:after {
-		font-family: 'FontAwesome';
-		position: absolute;
-		margin-top: 0;
-		background: none;
-		color: #f9bfad;
-		border-radius: 120px;
-		width: 48px;
-		height: 48px;
-		line-height: 4.8rem;
-		text-align: center;
-		font-size: 4.8rem;
-	}
-
-	.navigator .slider-control.left {
-		padding-left: 58px;
-	}
-	.navigator .slider-control.right {
-		left: 0;
-		padding-right: 58px;
-	}
-	.navigator .slider-control.left:before {
-		content: "\f104";
-		left: 0;
-		padding-right: 5px;
-	}
-
-	.navigator .slider-control.right:after {
-		content: "\f105";
-		right: 0;
-		padding-left: 5px;
-	}
-
-	.navigator .slider-control span {
-		position: static;
-		margin: 0px;
-        cursor: pointer;
-	}
-/**/
-
-/* Navbar */
-	.navbar-bottom {
-		background: #eee;
-		display: none;
-	}
-	.edit .navbar-bottom {
-		display: block;
-	}
-
-	.slider-indicators {
-	    padding-left: 100px;
-	    padding-right: 100px;
-	}
-
-	.slider-indicators li,
-	.edit .slider-indicators li {
-		background-color: #f9bfad;
-		color: #ffffff;
-		opacity: 0.5;
-	}
-
-	.slider-indicators .active,
-	.slider-indicators li:hover,
-	.edit .slider-indicators li.active,
-	.edit .slider-indicators .concat.active {
-		opacity: 1;
-	}
-	.edit .slider-indicators .concat.active {
-		color: #f9bfad;
-	}
-
-/**/
-
-/* Navbar (Breadcums) */
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar {
-		position: fixed;
-		top: 44px;
-		background: #ffffff;
-		width: 100%;
-		left: 0;
-		height: 58px;
-		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
-	}
-
-	/* BK-18572 Ajustar estilo en UX */
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar.tmpux {
-		top: 0px;
-	}
-
-	.is_app.content_type_clase_castilloprimaria2022demo .publisher-navbar {
-		position: fixed;
-		top: 0px;
-	}
-
-	#top-navigator {
-		height: 44px;
-		overflow: hidden;
-		position: relative;
-	}
-
-	#top-navigator.show_left:before, #top-navigator.show_right:after {
-        color: #5ebdb2;
-        top: 0px;
-    }
-
-    #top-navigator.show_left:before {
-    	background: linear-gradient(to right, rgba(0, 160, 228, 0.21), transparent);
-    }
-
-    #top-navigator.show_right:after {
-    	background: linear-gradient(to left, rgba(0, 160, 228, 0.21), transparent);
-    }
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .navbar-content {
-		max-width: 960px;
-		margin: 0 auto;
-		padding-left: 90px;
-		padding-right: 50px;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .logo-publisher {
-		display: block;
-		margin-left: -48px;
-	}
-	.content_type_clase_castilloprimaria2022demo .logo-publisher {
-		content: " ";
-		background-image: url(logo-blink.png);
-		height: 36px;
-		background-repeat: no-repeat;
-		width: 100px;
-		margin-left: -100px;
-		margin-right: 60px;
-		float: left;
-		background-size: contain;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slider-indicators {
-		padding: 0;
-		display: inline-block;
-		text-align: center;
-		position: relative;
-		width: 5000px;
-		bottom: 0px;
-		left: 0px;
-		z-index: 0;
-		background-color: #ffffff;
-	    color: #00599C;
-	}
-
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button,
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar li {
-		border-radius: 5px;
-		border: none;
-		background-color: transparent;
-		color: #ffffff;
-		vertical-align: middle;
-		margin: 0px 5px;
-		text-indent: 0px;
-		line-height: 3.5rem;
-		font-size: 2.0rem;
-		font-weight: 400;
-		cursor: pointer;
-		background: #5ebdb2;
-		border-radius: 120px;
-	}
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button {
-		background: none;
-		color: #5ebdb2;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slider-indicators:after {
-		content: '';
-		display: block;
-		clear: both;
-		visibility: hidden;
-		line-height: 0;
-		height: 0;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slider-indicators li {
-		width: 35px;
-		height: 35px;
-		margin: 0 8px 0 0;
-		text-align: center;
-		opacity: 0.5;
-		position: relative;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .slider-indicators li.active,
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar li:hover {
-		opacity: 1;
-		background:#f9bfad;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar #top-navigator {
-		float: none;
-		margin-top: 10px;
-		display: block;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown {
-		float: left;
-		display: block;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button {
-		width: auto;
-		padding: 0px 10px;
-	}
-
-	.open > .dropdown-menu {
-		display: block;
-		max-height: 300px;
-		overflow-y: auto;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button {
-		border: none;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button:focus {
-		outline: none;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown li {
-		display: list-item;
-		width: auto;
-		background: none;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown li a {
-		color: #5ebdb2;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown .caret {
-		border-color: #5ebdb2 transparent transparent transparent;
-		margin-left: 6px;
-
-	}
-/**/
-
-/* Pagination */
-
-.js-slide-wrapper > .header .single-pagination {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 75px;
-	height: 75px;
-	background: #5ebdb2;
-	color: #ffffff;
-	font-size: 4.5rem;
-	line-height: 4.5rem;
-	padding: 2px 16px 2px 2px;
-	font-family: 'Raleway', Georgia, serif;
-	font-weight: bold;
-	text-align: center;
-	border-radius: 0 0 120px 0;
-}
-
-/* Iconos */
-
-#actividad .player.audio {
-	background: url(images/castilloprimaria2022demo_audio.png) 0 0 no-repeat;
-	background-size: contain;
-	width: 36px;
-	height:24px;
-	border-radius: 0;
-	vertical-align: middle;
-
-}
-
-#actividad .player.video {
-	background: url(images/castilloprimaria2022demo_video.png) 0 0 no-repeat;
-	background-size: contain;
-	width: 36px;
-	height:24px;
-	border-radius: 0;
-	vertical-align: middle;
-
-}
-
-#actividad .bck-file-attach img {
-	display: none;
-}
-
-/* CKEDITOR */
-
-	.bck-title1,
-	.bck-title2,
-	.bck-title3,
-	.bck-title-activity {
-		font-family: 'Nunito';
-	}
-
-/*titulo 01*/
-	.bck-title1 {
-		font-size: 28px;
-	    padding: 10px 40px 10px 98px;
-	    margin-bottom: 25px;
-	    color: #1d549e;
-	    margin-left: -98px;
-	    font-weight: 900;
-	    font-family: 'Nunito';
-	}
-
-/*titulo 02*/
-	.bck-title2 {
-		font-weight: 700;
-    color: #000;
-    font-size: 2rem;
-    font-family: 'Nunito';
-    font-size: 25px;
-	}
-
-/*titulo 03*/
-	.bck-title3 {
-	font-weight: 700;
-    color: #1d549e;
-    font-family: 'Nunito';
-    font-size: 25px;
-	}
-
-/*titulo 04*/
-	.bck-title4 {
-	font-weight: 900;
-    color: #1d549e;
-    font-family: 'Nunito';
-    font-size: 25px;
-	}	
-
-/*tooltip*/
-.bck-tooltip {
-	    text-decoration: dotted;
-    border-bottom: 1px dotted #1d549e;
-    color: #1d549e;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.popover-title {
-	margin: 0;
-    padding: 8px 14px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Nunito';
-    line-height: 18px;
-    background-color: #1d549e;
-    border-bottom: none;
-    border-radius: 5px 5px 0 0;
-    color: #fff;
-}
-
-.popover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1010;
-    display: none;
-    max-width: 276px;
-    padding: 0px;
-    text-align: left;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: none;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    white-space: normal;
-}
-
-.popover.top>.arrow {
-    left: 50%;
-    margin-left: -11px;
-    border-bottom-width: 0;
-    border-top-color: #999;
-    border-top-color: rgb(0 0 0 / 0%);
-    bottom: -11px;
-}
-
-/*enfasis*/
-	.bck-enfasis,
-	strong {
-		color: #f9bfad;
-		font-weight: bold;
-	}
-
-/*hr*/
-	.content hr,
-	.cke_contents hr {
-		border: 0;
-		border-top: 2px dashed #f9bfad;
-	}
-
-
-/*listas*/
-	.content ol,
-	.cke_contents ol {
-		list-style: none;
-		padding: 0;
-		margin: 0 0 20px 0;
-	}
-	.content ol li,
-	.cke_contents ol li {
-		counter-increment: bck-li-counter 1;
-		position: relative;
-		padding-left: 32px;
-	}
-
-	.content ol li:before,
-	.cke_contents ol li:before {
-		content: counter(bck-li-counter)') ';
-		position: absolute;
-		margin-left: -30px;
-		font-weight: bold;
-		font-size: 2.0rem;
-		text-align: right;
-		color: #5ebdb2;
-		margin-top: -2px;
-	}
-
-	.texto_curso ul li,
-	.workspace ul li ul li,
-	.cke_contents ul li {
-		position: relative;
-		padding-left: 18px;
-		margin-bottom: 20px;
-	}
-
-	.texto_curso ul li:before,
-	.workspace ul li ul li:before,
-	.cke_contents ul li:before {
-		background-color: #f9bfad;
-		height: 12px;
-		width: 12px;
-		margin-top: 5px;
-		margin-left: -18px;
-	}
-
-	.content figure:first-child:last-child,
-	.content .js--row figure,
-	.cke_contents figure:first-child:last-child,
-	.cke_contents .js--row figure {
-		padding-left: 0;
-		padding-right: 0;
-		padding-top: 0;
-		margin-left: 0;
-		margin-right: 0;
-		margin-top: 0;
-	}
-
-	.content figure figcaption,
-	.cke_contents figure figcaption {
-		text-align: left;
-		margin-top: 10px;
-	}
-
-	.cke_contents table:not(.rf-tablegrid),
-	.content table:not(.rf-tablegrid) {
-		border: 1px solid #CBCCCD;
-	}
-
-	.cke_contents table:not(.rf-tablegrid) td,
-	.cke_contents table:not(.rf-tablegrid) th,
-	.content table:not(.rf-tablegrid) td,
-	.content table:not(.rf-tablegrid) th {
-		border: 1px solid #CBCCCD;
-		padding: 7px;
-	}
-
-	.cke_contents table:not(.rf-tablegrid) caption,
-	.content table:not(.rf-tablegrid) caption {
-		margin-bottom: 10px;
-	}
-
-	.bck-td {
-		background: #dcdcdc;
-	}
-
-	.bck-box {
-		margin-bottom: 30px;
-	}
-	.bck-box.center {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.bck-box .bck-title {
-		font-size: 2.5rem;
-		margin-bottom: 10px;
-	}
-	.bck-box .bck-title1,
-	.bck-box .bck-title2 {
-		border-left: 0;
-		margin-left: 0;
-		padding: 0;
-		margin-bottom: 10px;
-	}
-
-	.bck-box.box-1 {
-		border: 3px solid #5ebdb2;
-		background: #ffffff;
-		padding: 40px;
-		position: relative;
-		margin-top: 60px;
-		border-radius: 40px;
-	}
-
-	.bck-box.box-1 hr {
-		border: 0;
-		display: block;
-		border-top: 1px solid #5ebdb2;
-	}
-
-	.bck-box.box-1 .bck-title {
-		color: #f9bfad;
-		font-size: 2.4rem;
-	}
-
-	.bck-box.box-1 .bck-title1 {
-		font-size: 3.0rem;
-		margin-left: -40px;
-		padding: 4px 20px 4px 40px;
-	}
-	.bck-box.box-1 .bck-title2 {
-		font-size: 2.0rem;
-		font-weight: 400;
-		color: #706f6f;
-		margin-bottom: 10px;
-	}
-
-	.bck-box.box-2,
-	.bck-box.box-3  {
-		border: 0;
-		padding: 20px;
-		font-size: 1.4rem;
-		position: relative;
-		margin-bottom: 40px;
-		border-radius: 40px;
-		box-shadow: 0 0 30px 0px rgba(0,0,0,.1);
-	}
-
-	.bck-box.box-2 {
-
-	}
-
-
-	.bck-box.box-3 {
-		margin-bottom: 80px;
-	}
-
-	.bck-box.box-2 .bck-title,
-	.bck-box.box-2 .bck-title1,
-	.bck-box.box-3 .bck-title,
-	.bck-box.box-3 .bck-title1 {
-		color: #f9bfad;
-		background: none;
-		font-size: 1.8rem;
-		margin-bottom: 20px;
-		font-family: 'Raleway', sans-serif;
-		font-weight: bold;
-	}
-
-	.bck-box.box-2 .bck-title,
-	.bck-box.box-3 .bck-title {
-		margin-top: -20px;
-		margin-left: -20px;
-		margin-right: -20px;
-		border-radius: 40px 40px 0 0 ;
-		padding: 14px 20px 10px;
-		color: #ffffff;
-		background: #f9bfad;
-		font-weight: 400;
-	}
-	.bck-box.box-3 .bck-title {
-		background: #5ebdb2;
-	}
-
-	.bck-box.box-2 .bck-title p,
-	.bck-box.box-3 .bck-title p {
-		margin-bottom: 0;
-	}
-
-	.bck-box.box-2 .bck-title2,
-	.bck-box.box-3 .bck-title2,
-	.bck-box.box-2 .bck-title3,
-	.bck-box.box-3 .bck-title3 {
-		color: #f9bfad;
-		margin-bottom: 10px;
-		font-family: 'Raleway', sans-serif;
-		font-size: 1.6rem;
-		font-weight: bold;
-	}
-	.bck-box.box-2 .bck-title3,
-	.bck-box.box-3 .bck-title3 {
-		font-size: 1.4rem;
-	}
-	.bck-box.box-3 .bck-title1,
-	.bck-box.box-3 .bck-title2,
-	.bck-box.box-3 .bck-title3 {
-		color: #5ebdb2;
-	}
-
-	.bck-box.box-2 hr,
-	.bck-box.box-3 hr {
-		border: 0;
-		display: block;
-		border-top: 2px solid #f9bfad;
-	}
-
-	.bck-box.box-3 hr {
-		border-top-color: #5ebdb2;
-	}
-
-
-	.bck-box.box-2 ul li:before {
-		font-family: 'FontAwesome';
-		content:"\f00c";
-		color: #f9bfad;
-		background: none;
-		margin-top: -2px;
-		margin-left: -24px;
-		font-size: 2.0rem;
-	}
-
-/**/
-
-@media screen and (max-width: 1099px) {
-    .body_clase .content-wrapper {
-        max-width: 100%;
-    }
-
-    #actividad .content {
-        border-radius: 0;
-    }
-
-    #actividad .carousel-inner .item-container {
-        margin: 0;
-        width: 100% !important;
-        max-width: none;
-        box-shadow: none;
-    }
-
-    .ipad #actividad .carousel-inner .item-container {
-  		border-right: 1px solid #eee;
-    }
-
-    .content_type_clase_castilloprimaria2022demo .logo-publisher {
-		margin-right: 0px;
-	}
-}
-
-@media screen and (max-width: 992px) {
-	#actividad .class_slide {
-		padding-right: 30px;
-		padding-left: 30px;
-	}
-
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
-		margin-left: -30px;
-		padding-left: 20px;
-		padding-right: 50px;
-	}
-	.js-slide-wrapper > .header .single-pagination {
-		right: 0;
-		left: auto;
-		border-radius: 0 0 0 120px;
-		padding-left: 16px;
-		padding-right: 2px;
-	}
-	.navigator {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.content_type_clase_castilloprimaria2022demo .publish {
-		padding-left: 25px;
-	}
-	.content_type_clase_castilloprimaria2022demo .logo-publisher {
-		margin-left: -20px;
-	}
-
-}
-
-@media screen and (max-width: 767px) {
-    #actividad .carousel-inner .class_slide {
-        padding: 40px 20px 0px;
-    }
-
-    .navigator {
-        padding: 0px 20px;
-    }
-
-    .bck-img.right, img[style~="float:right"] {
-        max-width: 50%
-    }
-
-    .bck-img.left, img[style~="float:left"] {
-        max-width: 50%
-    }
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar {
-		top: 88px;
-	}
-
-	.content_type_clase_castilloprimaria2022demo .logo-publisher {
-		margin-right: -20px;
-	}
-
-}
-
-@media screen and (max-width: 579px) {
-	.bck-row .col-xs-1,
-	.bck-row .col-xs-2,
-	.bck-row .col-xs-3,
-	.bck-row .col-xs-4,
-	.bck-row .col-xs-5,
-	.bck-row .col-xs-6,
-	.bck-row .col-xs-7,
-	.bck-row .col-xs-8,
-	.bck-row .col-xs-9,
-	.bck-row .col-xs-10,
-	.bck-row .col-xs-11,
-	.bck-row .col-xs-12 {
-		width: 100%;
-		float: none;
-		padding-bottom: 20px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-
-    .bck-img.right, img[style~="float:right"] {
-        width: 100%;
-    }
-
-    .bck-img.left, img[style~="float:left"] {
-        width: 100%;
-    }
-
-    #actividad .carousel-inner .item-container {
-		padding: 40px 20px 90px;
-	}
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .navbar-content {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.content_type_clase_castilloprimaria2022demo .publisher-navbar .logo-publisher:before {
-		content: none;
-		display: none;
-
-	}
-	#actividad .carousel-inner .item-container {
-		padding-top: 13px;
-	}
-	.js-slide-wrapper > .header .single-pagination {
-		padding-top: 15px;
-		font-size: 2.4rem;
-		width: 60px;
-	}
-	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
-		padding-right: 20px;
-		margin-bottom: 20px;
-	}
-
-}
-
-/*BK-10860*/
-/*
- * Me cargo todos los border que hay por debajo de un ejercicio de cálculo y restauro los necesarios
- *
- */
-div.calculo table.marco,
-div.calculo table.marco * {
-	border:none;
-}
-
-.content hr, .cke_contents hr {
-    border-top: 2px dashed #f9bfad !important;
-}
-
-.content_type_clase_castilloprimaria2022demo .slide_main input {
-    border: 1px solid #ccc !important;
-}
-
-/* TMPUX STYLES */
-.tmpux.content_type_clase_castilloprimaria2022demo.modo_revision .castilloprimaria2022demo-navbar,
-.tmpux.content_type_clase_castilloprimaria2022demo.modo-correccion .castilloprimaria2022demo-navbar,
-.tmpux.content_type_clase_castilloprimaria2022demo.modo-deber .castilloprimaria2022demo-navbar {
-		top: 0;
-		display: block !important;
-	}
-	
-.tmpux.body_clase .content-wrapper {
-	margin-top: 10px;
-}
-
-.body_clase.android.app.is_app.isTablet #actividad .carousel-inner .item-container.tmpux {
-	margin-top: 10px;
-}
-
-body.is_app.tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper,
-body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper,
- body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper, 
- body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria2022demo.content_type_curso_castilloprimaria2022demo .content-wrapper {
-	margin-top: 10px;
- }
+(function (blink) {
+	'use strict';
+
+	var castilloprimaria2022demoStyle = function () {
+			blink.theme.styles.basic.apply(this, arguments);
+		},
+		page = blink.currentPage;
+
+	castilloprimaria2022demoStyle.prototype = {
+		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
+		parent: blink.theme.styles.basic.prototype,
+		bodyClassName: 'content_type_clase_castilloprimaria2022demo',
+		extraPlugins: ['image2'],
+		ckEditorStyles: {
+			name: 'castilloprimaria2022demo',
+			styles: [
+
+				{ name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Título 02', element: 'h3', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Título 03', element: 'h3', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title4'} },
+
+				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
+				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
+
+				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
+				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
+
+				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
+				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } }
+			]
+		},
+
+		init: function (scope) {
+			var that = scope || this;
+			//BK-15873 Utilizamos this.parent declarada al inicio de la clase
+			this.parent.init.call(that);
+			that.addActivityTitle();
+			if(window.esWeb) return;
+			that.addPageNumber();
+			that.formatCarouselindicators();
+			that.addSlideNavigators();
+		},
+
+		removeFinalSlide: function (scope, remove) {
+			var that = scope || this;
+			//BK-15873 Utilizamos this.parent declarada al inicio de la clase
+			var removeFinalSlide = ((typeof remove !== "undefined") ? remove : true);
+			this.parent.removeFinalSlide.call(that, removeFinalSlide);
+		},
+
+		addActivityTitle: function () {
+			if (!blink.courseInfo || !blink.courseInfo.unit) return;
+			$('.libro-left').find('.title').html(function () {
+				return $(this).html() + ' > ' + blink.courseInfo.unit;
+			})
+		},
+
+		addPageNumber: function() {
+			$('.js-slider-item').each(function(i,e) {
+				var idPage = $(e).attr('id');
+				var page = parseInt(idPage.replace("slider-item-", ""))+1;
+				$(e).find('.header').prepend('<div class="single-pagination"><div class="page">'+page+'</div></div>');
+			});
+		},
+
+
+		formatCarouselindicators: function () {
+			var $navbarBottom = $('.navbar-bottom'),
+				$carouselIndicators = $('.slider-indicators').find('li');
+			$navbarBottom.find('li').tooltip('destroy');
+
+			var dropDown = '' +
+					'<div class="dropdown">' +
+						'<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">' +
+							'Índice' +
+							'<span class="caret"></span>' +
+						'</button>' +
+						'<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">';
+
+			var navigatorIndex = 0;
+			for (var index = 0; index < window.secuencia.length; index++) {
+				var slide = eval('t'+index+'_slide'),
+					slideTitle = slide.title;
+
+				if (slide.isConcatenate) continue;
+
+				dropDown += '<li role="presentation"><a role="menuitem">' + (navigatorIndex+1) + '. ' + stripHTML(slideTitle) + '</a></li>';
+				$navbarBottom.find('li').eq(navigatorIndex).html('<span title="'+ stripHTML(slideTitle) +'">'+(navigatorIndex+1)+'</span>');
+				navigatorIndex++;
+
+			};
+
+			dropDown += '' +
+						'</ul>' +
+					'</div>';
+
+			//BK-18572 Ajustar estilo en UX
+			var tmpux = '';
+			blink.hasOwnProperty('checkFromUX') && blink.checkFromUX(function() { tmpux = ' tmpux'});
+
+			$navbarBottom
+				.attr('class', 'publisher-navbar'+tmpux)
+				.wrapInner('<div class="navbar-content"></div>')
+				.find('ol')
+					.before(dropDown)
+					.wrap('<div id="top-navigator"/>')
+					.end()
+				.find('.dropdown').find('li')
+					.on('click', function (event) {
+						$navbarBottom.find('ol').find('li').eq($(this).index()).trigger('click');
+					});
+
+			if (!blink.hasTouch) {
+				$navbarBottom
+					.find('ol').find('span')
+						.tooltip({
+							placement: 'bottom',
+							container: 'body'
+						});
+			}
+		},
+
+		//BK15873 Quitamos la funcion getEditorStyles para que herede de parent
+	};
+
+	castilloprimaria2022demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), castilloprimaria2022demoStyle.prototype);
+
+	blink.theme.styles.castilloprimaria2022demo = castilloprimaria2022demoStyle;
+
+})( blink );
+
+$(document).ready(function () {
+
+    $('.item').find('.header').find('.title')
+		.filter(function () {
+			return $(this).find('.empty').length;
+		}).hideBlink();
+
+    $('.item').find('.header').find('.title')
+		.filter(function () {
+			return !$(this).find('.empty').length;
+		})
+		.each(function () {
+			var $header = $(this).find('h3');
+			$header.length && $header.html($header.html().replace(' ', ''));
+		});
+
+	// BK-8433 cambiamos el logo de las slides por el del dominio
+	var src_logo = $('.content_type_clase_castilloprimaria2022demo').find('.logo_slide').attr('logo_dominio');
+	if (typeof(src_logo) != 'undefined' && src_logo && src_logo != '' && src_logo.indexOf('gif1x1.gif') == -1) {
+		$('.content_type_clase_castilloprimaria2022demo').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
+	}
+});
