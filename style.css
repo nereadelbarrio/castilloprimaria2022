@@ -775,18 +775,72 @@ background: url(images/decoracion_01---copia.png);
     font-size: 25px;
 	}	
 
+/*tooltip*/
+.bck-tooltip {
+	    text-decoration: dotted;
+    border-bottom: 1px dotted #1d549e;
+    color: #1d549e;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.popover-title {
+	margin: 0;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Nunito';
+    line-height: 18px;
+    background-color: #1d549e;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    display: none;
+    max-width: 276px;
+    padding: 0px;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    white-space: normal;
+}
+
+.popover.top>.arrow {
+    left: 50%;
+    margin-left: -11px;
+    border-bottom-width: 0;
+    border-top-color: #999;
+    border-top-color: rgb(0 0 0 / 0%);
+    bottom: -11px;
+}
+
+/*enfasis*/
 	.bck-enfasis,
 	strong {
 		color: #f9bfad;
 		font-weight: bold;
 	}
 
+/*hr*/
 	.content hr,
 	.cke_contents hr {
 		border: 0;
 		border-top: 2px dashed #f9bfad;
 	}
 
+
+/*listas*/
 	.content ol,
 	.cke_contents ol {
 		list-style: none;
