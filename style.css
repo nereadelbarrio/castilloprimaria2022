@@ -237,12 +237,23 @@ CASTILLO PRIMARIA
 		margin-top: -40px;
 		padding-top: 30px;
 		padding-bottom: 10px;
+		z-index: 100;
+    	position: relative;
 	}
 
+	/*.content_type_clase_castilloprimaria2022demo #actividad .content .header .title {
+	margin-top: -40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+	}
+
+		*/
+
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
-    font-family: 'Nunito';
+	font-family: 'Nunito';
     font-size: 30px;
     font-weight: 700;
+    /* z-index: 0; */
     color: #fff;
     display: block;
     padding: 30px 20px 20px 20px;
@@ -255,15 +266,16 @@ CASTILLO PRIMARIA
 }
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
-    background: url(images/decoracion_01c.png);
+background: url(images/decoracion_01c.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
     padding: 111px 224px 0px 216px;
+    width: 78%;
     position: absolute;
     left: -66px;
-    z-index: 1;
-    top: 0px;
+    z-index: -1;
+    top: -3px;
 }
 
 /*
