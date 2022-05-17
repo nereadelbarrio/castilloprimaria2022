@@ -741,7 +741,7 @@ background: url(images/decoracion_01---copia.png);
 
 /*titulo 01*/
 	.bck-title1 {
-		font-size: 20px;
+		font-size: 28px;
 	    padding: 10px 40px 10px 98px;
 	    margin-bottom: 25px;
 	    color: #1d549e;
@@ -752,10 +752,11 @@ background: url(images/decoracion_01---copia.png);
 
 /*titulo 02*/
 	.bck-title2 {
-		font-size: 2.0rem;
-		clear: both;
-		padding: 10px 20px 0px 0;
-		margin-bottom: 20px;
+		font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+    font-family: 'Nunito';
+    font-size: 25px;
 	}
 
 /*titulo 03*/
