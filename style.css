@@ -688,6 +688,7 @@ background: url(images/decoracion_01---copia.png);
 /* Pagination */
 
 .js-slide-wrapper > .header .single-pagination {
+	display: none;
 	position: absolute;
 	left: 0;
 	top: 0;
