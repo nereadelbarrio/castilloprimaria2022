@@ -993,45 +993,39 @@ background: url(images/decoracion_01---copia.png);
 
 
 	/*caja 01*/
-	.bck-box .bck-title1,
-	.bck-box .bck-title2 {
-		border-left: 0;
-		margin-left: 0;
-		padding: 0;
-		margin-bottom: 10px;
-	}
-
 	.bck-box.box-1 {
-	border: 1px solid #1D549E;
-    padding: 20px;
+    border: 1px solid #1D549E;
+    padding: 20px 10px 10px 20px;
     margin-top: 30px;
     border-radius: 25px;
+    margin-bottom: 30px;
 	}
 
 	.bck-box.box-1 > .bck-title {
-    color: #000;
-    font-size: 25px;
     background-color: #fff;
     width: fit-content;
     border-radius: 10px;
     position: relative;
-    margin-top: -20px;
+    margin-top: -25px;
+    margin-left: -10px;
     padding: 5px 5px 0px 5px;
 }
 
-	.bck-box-1 > .bck-title p {
-		color: #000;
-	}
+
+
+.bck-box.box-1 > .bck-title p {
+    color: #000;
+    font-size: 21px;
+}
 
 	.bck-box.box-1 > .bck-content {
-    background-color: rgb(219 228 239);
+	background-color: rgb(219 228 239);
     border-radius: 20px;
     padding: 68px 13px 21px 30px;
     position: relative;
-    margin-top: -62px;
-    margin-left: -22px;
+    margin-top: -56px;
+    margin-left: -31px;
     z-index: -1;
-
 	}	
 
 	.bck-box.box-1 > .bck-content p {
