@@ -895,6 +895,124 @@ background: url(images/decoracion_01---copia.png);
 }
 
 /*listas*/
+
+/*tamaño enunciado listas*/
+
+#actividad .pregunta .texto_curso {
+	font-size: 2.2rem;
+}
+
+#actividad textarea {
+    font-size: 20px;
+}
+
+.texto_curso p:last-of-type {
+    margin-bottom: 5px;
+}
+
+.texto_curso p {
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#actividad .texto_curso {
+    font-size: 22px;
+}
+
+
+/*----------------------LISTAS-----------------------*/
+
+/*Tamaño general*/
+#actividad .texto_curso li, #actividad .workspace ul li li {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+/*Globo corrección*/
+#indice .unit-content .actividades .item .nota.ko {
+    padding-top: 8px;
+}
+
+
+/*alineación izquierda todas*/
+.texto_curso ul, 
+.texto_curso ol, 
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul, 
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
+.cke_contents ul, 
+.cke_contents ol, 
+.popover-content ul, 
+.popover-content ol {
+    margin-bottom: 20px;
+    margin-left: -21px;
+}
+
+#actividad .workspace.multiple-choice .opcion>ol, 
+#actividad .workspace.multiple-choice .opcion>ul {
+margin-left: auto;
+}
+
+
+#actividad .content .cke_contents .bck-ol li:before,
+#actividad .content .texto_curso .bck-ol li:before,
+#actividad .popover-content .bck-ol li:before,
+#actividad .content .workspace ul li .bck-ol li:before {
+	/*content: counter(bck-li-counter);*/
+	position: relative;
+	text-align: left;
+	font-size: 1.9rem;
+	font-family: sans-serif;
+	margin-left: -10px;
+}
+
+/*LISTA ORDENADA 1*/
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1,
+#actividad .content .workspace ul li .bck-ol-1 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+	padding-left: 44px;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .popover-content .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li {
+	counter-increment: bck-li-counter;
+	padding-left: 0px;
+	position: relative;
+	z-index: 0;
+	font-weight: 700;
+	font-size: 2.2rem;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+	margin-left: -13px;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+	content: counter(bck-li-counter) ".";
+	font-family: Conv_Calibre;
+	font-weight: 800;
+	position: absolute;
+	text-align: right;
+	color: #333;
+	font-size: 2.2rem;
+	width: 31px;
+	margin-top: 0px;
+	left: -25px;
+	top: 0px;
+}
+
+/*
 	.content ol,
 	.cke_contents ol {
 		list-style: none;
@@ -919,6 +1037,57 @@ background: url(images/decoracion_01---copia.png);
 		color: #5ebdb2;
 		margin-top: -2px;
 	}
+*/
+
+/*LISTAS DESORDENADAS*/
+.texto_curso ul li {
+	padding-left: 40px;
+}
+
+.texto_curso ul li:before,
+.workspace ul li ul li:before,
+.cke_contents ul li:before,
+.preview ul li:before,
+.classify-item ul li:before,
+#actividad .workspace.multiple-choice .js-item ul li:before,
+#actividad .workspace.matching .box ul li:before,
+#actividad .workspace.ordenar .js-rank-item ul li:before {
+	content: "";
+	height: 6px;
+	width: 6px;
+	background-color: #333;
+	color: #333;
+	border-radius: 50%;
+}
+
+/*lista desordenada por defecto, sin seleccionar estilo para la ul*/
+#actividad .content .texto_curso ul li:before,
+#actividad .content .workspace ul li ul li:before {
+	content: "";
+	height: 9px;
+	width: 9px;
+	background-color: #fff;
+	color: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#actividad .content .texto_curso ul li::before,
+#actividad .content .workspace ul li ul li::before,
+#actividad .content .texto_curso .bck-ul li::before,
+#actividad .content .workspace ul li .bck-ul li::before,
+#actividad .popover-background.shown .popover-content>ul>li::before {
+	content: "";
+	height: 6px;
+	width: 6px;
+	background-color: #333;
+	color: #333;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: .45em;
+	margin-left: 6px;
+}
 
 	.texto_curso ul li,
 	.workspace ul li ul li,
@@ -928,15 +1097,42 @@ background: url(images/decoracion_01---copia.png);
 		margin-bottom: 20px;
 	}
 
-	.texto_curso ul li:before,
-	.workspace ul li ul li:before,
-	.cke_contents ul li:before {
-		background-color: #f9bfad;
-		height: 12px;
-		width: 12px;
-		margin-top: 5px;
-		margin-left: -18px;
-	}
+/*LISTA DESORDENADA 1*/
+#actividad .content .cke_contents .bck-ul-1,
+#actividad .content .texto_curso .bck-ul-1,
+#actividad .content .workspace ul li .bck-ul-1 {
+	list-style-type: none;
+}
+
+#actividad .content .cke_contents .bck-ul-1 li,
+#actividad .content .cke_contents .bck-ul-1 li,
+#actividad .content .texto_curso .bck-ul-1 li,
+#actividad .popover-content .bck-ul-1 li,
+#actividad .content .workspace ul li .bck-ul-1 li {
+	padding-left: 35px;
+	position: relative;
+	list-style: none;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	
+}
+
+#actividad .content .cke_contents .bck-ul-1 li:before,
+#actividad .content .texto_curso ul.bck-ul-1 li:before,
+#actividad .popover-content ul.bck-ul-1 li:before,
+#actividad .content .workspace ul li ul.bck-ul-1 li:before {
+	content: "";
+    height: 6px;
+    width: 6px;
+    background-color: #333;
+    color: #333;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: .45em;
+    margin-left: -2px;
+}
+
+/**/
 
 	.content figure:first-child:last-child,
 	.content .js--row figure,
