@@ -708,16 +708,15 @@ background: url(images/decoracion_01---copia.png);
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/castilloprimaria2022demo_audio.png) 0 0 no-repeat;
-	background-size: contain;
-	width: 36px;
-	height:24px;
-	border-radius: 0;
-	vertical-align: middle;
-
+	background: url(images/icono_audio.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 42px !important;
+    border-radius: 0;
+    vertical-align: middle;
 }
 
-#actividad .player.video {
+/*#actividad .player.video {
 	background: url(images/castilloprimaria2022demo_video.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
@@ -725,7 +724,7 @@ background: url(images/decoracion_01---copia.png);
 	border-radius: 0;
 	vertical-align: middle;
 
-}
+}*/
 
 #actividad .bck-file-attach img {
 	display: none;
@@ -854,7 +853,7 @@ background: url(images/decoracion_01---copia.png);
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    background: url(images/icono_audio.png);
+    background: url(images/icono_pop-up.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
