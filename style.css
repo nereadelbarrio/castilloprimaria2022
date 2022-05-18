@@ -1507,14 +1507,12 @@ width: 40px;
     content: "\f078";
     color: #fff;
     vertical-align: sub;
-        padding-right: 11px;
 }
 
 .fa-chevron-up:before {
     content: "\f077";
     color: #fff;
     vertical-align: sub;
-        padding-right: 11px;
 }
 
 .bck-dropdown-content {
@@ -1537,6 +1535,45 @@ width: 40px;
     color: #fff;
     font-family: 'Nunito';
     padding-left: 31px;
+}
+
+.bck-dropdown-icon>.fa {
+    display: inline-block;
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/*flipbox*/
+body:not(.edit) .bck-flipbox-face.front {
+	    color: #1d549e;
+    background-color: #DBE4EF;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: none;
+}
+
+body:not(.edit) .front .bck-flipbox-section,
+body:not(.edit) .front .bck-flipbox-title {
+	color: #1d549e;
+}
+
+body:not(.edit) .bck-flipbox-face.back {
+    background-color: #1d549e;
+    border: none;
+}
+
+body:not(.edit) .back .bck-flipbox-title, body:not(.edit) .back .bck-flipbox-section {
+    color: #fff;
+
 }
 
 /**/
