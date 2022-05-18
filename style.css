@@ -850,22 +850,9 @@ background: url(images/decoracion_01---copia.png);
 /*pop up*/
 #actividad .info-button {
     display: inline-block;
-    width: 26px;
-    height: 26px;
+    width: 42px;
+    height: 42px;
     margin: 0 5px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    /* background: #fff; */
-    color: #0FB6BF;
-    font-family: 'FontAwesome';
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    border: 2px solid #0FB6BF;
     cursor: pointer;
     background: url(images/icono_audio.png);
     content: "";
@@ -896,6 +883,10 @@ background: url(images/decoracion_01---copia.png);
     position: relative;
     font-family: 'Nunito';
     font-size: 1em;
+}
+
+.fa-info:before {
+    content: "";
 }
 /*listas*/
 	.content ol,
