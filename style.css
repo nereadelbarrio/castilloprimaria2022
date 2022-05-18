@@ -1139,9 +1139,12 @@ margin-top: -20px;
 
 
 .bck-box.box-5 > .bck-title {
-	    color: #1d549e;
+color: #1d549e;
     font-size: 25px;
     font-weight: 700;
+    position: relative;
+    top: -60px;
+    text-align: center;
 }
 
 .bck-box.box-5 > .bck-title p {
@@ -1151,10 +1154,10 @@ margin-top: -20px;
 }
 
 .bck-box.box-5 > .bck-title:before {
-	background-image: url(images/icono_caja05.png);
+background-image: url(images/icono_caja05.png);
     content: " ";
     position: absolute;
-    left: -42px;
+    left: -53px;
     z-index: 100;
     padding: 70px;
     background-repeat: no-repeat;
@@ -1163,10 +1166,11 @@ margin-top: -20px;
 }
 
 .bck-box.box-5 > .bck-title:after {
-	background-image: url(images/icono_caja05b.png);
+background-image: url(images/icono_caja05b.png);
     content: " ";
     position: absolute;
-    right: 42px;
+    right: -51px;
+    top: 0px;
     z-index: 100;
     padding: 70px;
     background-repeat: no-repeat;
