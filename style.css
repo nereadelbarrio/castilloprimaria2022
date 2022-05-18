@@ -1604,21 +1604,24 @@ td,th {
     padding-left: 10px
 }
 
-.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+.cke_contents table:not(.rf-tablegrid) td, 
+.cke_contents table:not(.rf-tablegrid) th, 
+.content table:not(.rf-tablegrid) td, 
+.content table:not(.rf-tablegrid) th {
 	border: 1px solid #1d549e;
 }
 
 /*celdas*/
-.celda-1 {
+.bck-td-2 {
     background: #8CB5D1;
 }
 
 
-.celda-2 {
+.bck-td-4{
     background: #E9EFF5;
 }
 
-.celda-3 {
+.bck-td-4 {
     background: #ffffff;
 }
 
