@@ -408,6 +408,7 @@ background: url(images/decoracion_01---copia.png);
 	}
 
 	.main-navigator {
+		display: none;
 		padding: 30px 0px 50px;
 		width: 100%;
 	}
@@ -1616,8 +1617,7 @@ td,th {
     background: #8CB5D1;
 }
 
-
-.bck-td-4{
+.bck-td-3{
     background: #E9EFF5;
 }
 
