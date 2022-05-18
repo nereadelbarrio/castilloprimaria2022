@@ -978,7 +978,7 @@ background: url(images/decoracion_01---copia.png);
 		background: #dcdcdc;
 	}
 
-	.bck-box {
+	/*.bck-box {
 		margin-bottom: 30px;
 	}
 	.bck-box.center {
@@ -989,7 +989,10 @@ background: url(images/decoracion_01---copia.png);
 	.bck-box .bck-title {
 		font-size: 2.5rem;
 		margin-bottom: 10px;
-	}
+	}*/
+
+
+	/*caja 01*/
 	.bck-box .bck-title1,
 	.bck-box .bck-title2 {
 		border-left: 0;
@@ -999,30 +1002,44 @@ background: url(images/decoracion_01---copia.png);
 	}
 
 	.bck-box.box-1 {
-		border: 3px solid #5ebdb2;
-		background: #ffffff;
-		padding: 40px;
-		position: relative;
-		margin-top: 60px;
-		border-radius: 40px;
+	border: 1px solid #1D549E;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 25px;
 	}
 
-	.bck-box.box-1 hr {
-		border: 0;
-		display: block;
-		border-top: 1px solid #5ebdb2;
+	.bck-box.box-1 > .bck-title {
+    color: #000;
+    font-size: 25px;
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -20px;
+    padding: 5px 5px 0px 5px;
+}
+
+	.bck-box-1 > .bck-title p {
+		color: #000;
 	}
 
-	.bck-box.box-1 .bck-title {
-		color: #f9bfad;
-		font-size: 2.4rem;
-	}
+	.bck-box.box-1 > .bck-content {
+    background-color: rgb(219 228 239);
+    border-radius: 20px;
+    padding: 68px 13px 21px 30px;
+    position: relative;
+    margin-top: -62px;
+    margin-left: -22px;
+    z-index: -1;
 
-	.bck-box.box-1 .bck-title1 {
-		font-size: 3.0rem;
-		margin-left: -40px;
-		padding: 4px 20px 4px 40px;
-	}
+	}	
+
+	.bck-box.box-1 > .bck-content p {
+    color: #000;
+}
+
+
+
 	.bck-box.box-1 .bck-title2 {
 		font-size: 2.0rem;
 		font-weight: 400;
