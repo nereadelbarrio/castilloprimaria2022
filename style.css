@@ -1024,7 +1024,7 @@ background: url(images/decoracion_01---copia.png);
     border-radius: 20px;
     padding: 68px 13px 21px 30px;
     position: relative;
-    margin-top: -56px;
+    margin-top: -63px;
     margin-left: -31px;
     z-index: -1;
 	}	
@@ -1137,8 +1137,21 @@ margin-top: -20px;
     box-shadow: 0px 4px 8px 1px #0003;
 }
 
-.bck-box.box-5:before {
-	background-image: url(icono_caja05a.png);
+
+.bck-box.box-5 > .bck-title {
+	    color: #1d549e;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bck-box.box-5 > .bck-title p {
+	    color: #1d549e;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bck-box.box-5 > .bck-title:before {
+	background-image: url(images/icono_caja05a.png);
     content: " ";
     position: absolute;
     left: -42px;
@@ -1149,11 +1162,11 @@ margin-top: -20px;
     display: inline-block;
 }
 
-.bck-box.box-5:after {
-	background-image: url(icono_caja05b.png);
+.bck-box.box-5 > .bck-title:after {
+	background-image: url(images/icono_caja05b.png);
     content: " ";
     position: absolute;
-    right: : -42px;
+    right: 42px;
     z-index: 100;
     padding: 70px;
     background-repeat: no-repeat;
