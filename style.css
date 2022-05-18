@@ -1281,9 +1281,7 @@ margin-left: auto;
 		margin-bottom: 10px;
 	}
 
-	.bck-td {
-		background: #dcdcdc;
-	}
+
 
 	/*.bck-box {
 		margin-bottom: 30px;
@@ -1586,6 +1584,44 @@ body:not(.edit) .bck-flipbox-face.back p {
     text-align: center;
     font-size: 18px;
 }
+
+/*taBlas*/
+	.bck-td {
+		background: #dcdcdc;
+	}
+
+	/*tablas*/
+
+.bck-table,table {
+    border: 1px dotted #1D549E;
+}
+
+.bck-table td,table td {
+    border-color: #1D549E;
+}
+
+td,th {
+    padding-left: 10px
+}
+
+.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+	border: 1px solid #1d549e;
+}
+
+/*celdas*/
+.celda-1 {
+    background: #8CB5D1;
+}
+
+
+.celda-2 {
+    background: #E9EFF5;
+}
+
+.celda-3 {
+    background: #ffffff;
+}
+
 
 /**/
 
