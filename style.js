@@ -32,6 +32,9 @@
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
+				{ name: 'Celda 02', element: 'td', attributes: { 'class': 'bck-td-2'} },
+				{ name: 'Celda 03', element: 'td', attributes: { 'class': 'bck-td-3'} },
+				{ name: 'Celda 04', element: 'td', attributes: { 'class': 'bck-td-4'} },
 
 				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
