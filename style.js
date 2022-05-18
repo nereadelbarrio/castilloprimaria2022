@@ -20,15 +20,16 @@
 				{ name: 'Título 03', element: 'h3', attributes: { 'class': 'bck-title3'} },
 				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title4'} },
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
-				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
+				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
 
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } }
+				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
+				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
+				{ name: 'Caja 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
+				{ name: 'Caja 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } }
 			]
 		},
 
