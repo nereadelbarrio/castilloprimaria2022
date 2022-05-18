@@ -857,17 +857,18 @@ background: url(images/decoracion_01---copia.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: none;
 }
 
 
 .popover-template .popover-title {
     display: block;
     position: relative;
-    background: #1d549e;
-    padding-left: 46px;
+    background: #4A76B1;
+    text-align: center;
     color: #fff;
     font-family: 'Nunito';
-    /* font-size: 1.7rem; */
+    padding-top: 15px;
     min-height: 35px;
 }
 
@@ -887,6 +888,12 @@ background: url(images/decoracion_01---copia.png);
 .fa-info:before {
     content: "";
 }
+
+.fa-times:before {
+    content: "\f00d";
+    color: #fff;
+}
+
 /*listas*/
 	.content ol,
 	.cke_contents ol {
