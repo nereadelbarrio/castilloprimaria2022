@@ -1485,6 +1485,60 @@ background-image: url(images/icono_caja05b.png);
     display: inline-block;
 }
 
+
+/*desplegables*/
+.bck-dropdown {
+	border-radius: 10px 10px 0 0;
+    background-color: #1d549e;
+}
+
+.bck-dropdown-icon {
+width: 40px;
+    height: 42px;
+    background-color: #4a76b1;
+    display: inline-block;
+    float: right;
+    margin-top: -10px;
+    margin-right: -9px;
+    border-radius: 0 10px 0 0;
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+    color: #fff;
+    vertical-align: sub;
+        padding-right: 11px;
+}
+
+.fa-chevron-up:before {
+    content: "\f077";
+    color: #fff;
+    vertical-align: sub;
+        padding-right: 11px;
+}
+
+.bck-dropdown-content {
+    border-left: 3px dotted #1d549e;
+    border-right: 3px dotted #1d549e;
+    border-bottom: 3px dotted #1d549e;
+    border-radius: 0 0 10px 10px;
+    overflow-y: auto;
+    display: none;
+    max-height: none;
+    padding: 22px 22px 10px 22px;
+    background-color: white;
+}
+
+.bck-dropdown-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #fff;
+    font-family: 'Nunito';
+    padding-left: 31px;
+}
+
 /**/
 
 @media screen and (max-width: 1099px) {
