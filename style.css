@@ -1124,6 +1124,42 @@ margin-top: -20px;
 
 }
 
+/*caja 05*/
+.bck-box.box-5 {
+    border: 0;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-image: url(images/icono_caja05c.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    box-shadow: 0px 4px 8px 1px #0003;
+}
+
+.bck-box.box-5:before {
+	background-image: url(icono_caja05a.png);
+    content: " ";
+    position: absolute;
+    left: -42px;
+    z-index: 100;
+    padding: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.bck-box.box-5:after {
+	background-image: url(icono_caja05b.png);
+    content: " ";
+    position: absolute;
+    right: : -42px;
+    z-index: 100;
+    padding: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
 
 /**/
 
