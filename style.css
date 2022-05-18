@@ -174,7 +174,7 @@ CASTILLO PRIMARIA
 
 	.body_clase .content-wrapper {
 		padding-top: 100px;
-		font-family: 'Raleway', Georgia, serif;
+		font-family: 'Nunito';
 		font-weight: 500;
 		padding-bottom: 0;
 	}
@@ -1573,7 +1573,18 @@ body:not(.edit) .bck-flipbox-face.back {
 
 body:not(.edit) .back .bck-flipbox-title, body:not(.edit) .back .bck-flipbox-section {
     color: #fff;
+}
 
+body:not(.edit) .bck-flipbox-face.front p {
+    color: #1d549e;
+    text-align: center;
+    font-size: 22px;
+}
+
+body:not(.edit) .bck-flipbox-face.back p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
 }
 
 /**/
