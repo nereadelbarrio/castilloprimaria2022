@@ -204,7 +204,7 @@ CASTILLO PRIMARIA
 	}
 
 
-
+/*imagen en navbar sup.*/
 	#actividad .carousel-inner .item-container {
     padding: 0px;
     padding-bottom: 90px;
@@ -213,6 +213,33 @@ CASTILLO PRIMARIA
     background-position-y: top;
     background-repeat: no-repeat;
 	}
+
+/*imagenes*/	
+#actividad .content img {
+    height: auto;
+    -webkit-user-drag: none;
+    border-radius: 10px;
+    border: 12px solid #fff;
+    box-shadow: -1px 2px 12px #00000059;
+}
+
+.zoom_flag_img {
+    position: absolute;
+    top: 22px;
+    right: 23px;
+    vertical-align: top;
+    background-image: url('../../../images/shared/tools.png');
+    -webkit-background-size: 81px auto;
+    -moz-background-size: 81px auto;
+    -o-background-size: 81px auto;
+    background-size: 81px auto;
+    background-position: -6px -549px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 28px;
+    width: 28px;
+    background-color: rgb(75 75 75 / 90%);
+}
 
 	#actividad .carousel-inner .item-container.tmpux {
 		margin-top: 75px;
