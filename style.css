@@ -1960,45 +1960,26 @@ background-color: #90bf55;
     height: 18px;
     width: 18px;
     padding: 0px 3px;
-    -webkkit-transform: translate(80%, 75%);
+    /*-webkkit-transform: translate(80%, 75%);
     -moz-transform: translate(80%, 75%);
-    transform: translate(-9%, -10%);
+    transform: translate(80%, 75%);*/
 }
 
 .multimedia-container .respuesta.drop_ko:after, 
 .multimedia-container .answer.drop_ko span:before {
     content: "\f00d";
-    background-color: rgb(var(--error-color));
+    background-color: #e33939;;
     padding: 0 4px;
-}
-
-.multimedia-container .respuesta.drop_ok:after, 
-.multimedia-container .answer.drop_ok span:before, 
-.multimedia-container .respuesta.drop_ko:after, 
-.multimedia-container .answer.drop_ko span:before {
-    background-image: none;
-    content: "\f00c";
-    font-family: "FontAwesome";
-    color: #ffff;
-    font-size: 16px;
-    background-color: rgb(var(--ok-color));
-    border-radius: 50%;
-    height: 21px;
-    width: 21px;
-    padding: 0px 3px;
-    -webkkit-transform: translate(80%, 75%);
-    -moz-transform: translate(80%, 75%);
-    transform: translate(80%, 75%);
 }
 
 #actividad .multimedia-container .circulo_gris.editar:before, 
 #actividad .multimedia-container .circulo_gris.drop_solucion:before, 
 #actividad .multimedia-container .circulo_gris.respuesta:before {
-    min-height: 12px;
+min-height: 12px;
     color: #fff;
     text-align: center;
-    background: #00000063;
-    margin: -7px 21px -14px 25px;
+    background: #000000b0;
+    margin: -2px 21px -14px 25px;
     padding: 2px 5px;
     z-index: -1;
     display: block;
@@ -2010,6 +1991,7 @@ background-color: #90bf55;
     text-overflow: ellipsis;
     min-width: 100px;
     text-align: center;
+    border-radius: 5px;
 }
 
 #actividad .multimedia-container .circulo_gris.respuesta.drop_ok:before, 
