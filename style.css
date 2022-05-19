@@ -206,11 +206,12 @@ CASTILLO PRIMARIA
 
 
 	#actividad .carousel-inner .item-container {
-		background-image: none;
-		margin: 20px auto 30px;
-		padding: 0px;
-		padding-bottom: 90px;
-		position: relative;
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
+    background-image: url(images/fondo_slide_01.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
 	}
 
 	#actividad .carousel-inner .item-container.tmpux {
