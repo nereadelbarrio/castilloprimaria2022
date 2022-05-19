@@ -1516,9 +1516,9 @@ width: 40px;
 }
 
 .bck-dropdown-content {
-    border-left: 3px dotted #1d549e;
-    border-right: 3px dotted #1d549e;
-    border-bottom: 3px dotted #1d549e;
+    border-left: 2px dotted #1d549e;
+    border-right: 2px dotted #1d549e;
+    border-bottom: 2px dotted #1d549e;
     border-radius: 0 0 10px 10px;
     overflow-y: auto;
     display: none;
