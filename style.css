@@ -581,16 +581,16 @@ background: url(images/decoracion_01---copia.png);
 	}
 
 	#top-navigator.show_left:before, #top-navigator.show_right:after {
-        color: #5ebdb2;
+        color: #1d549e;
         top: 0px;
     }
 
     #top-navigator.show_left:before {
-    	background: linear-gradient(to right, rgba(0, 160, 228, 0.21), transparent);
+    	background: linear-gradient(to left, #1d549e4f, transparent);
     }
 
     #top-navigator.show_right:after {
-    	background: linear-gradient(to left, rgba(0, 160, 228, 0.21), transparent);
+    	background: linear-gradient(to left, #1d549e4f, transparent);
     }
 
 	.content_type_clase_castilloprimaria2022demo .publisher-navbar .navbar-content {
@@ -1725,6 +1725,116 @@ body:not(.edit) .bck-tabcontents .div-contents {
     max-width: 100%;
     color: #676767;
 }
+
+/*botonera*/
+.btn-danger, .btn-danger[disabled] {
+    color: #fff;
+    background-color: #90bf55;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #00000059;
+    border-color: transparent;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn-danger:hover, .btn-danger:focus, 
+.btn-danger:active, .btn-danger.active, 
+.open .dropdown-toggle.btn-danger {
+	    color: #fff;
+    background-color: #90bf55;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #00000059;
+    border-color: transparent;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn-primary {
+	color: #fff;
+    background-color: #1d549e;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #00000059;
+    border-color: transparent;
+    opacity: 1;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn-primary:not([disabled]):hover, 
+.btn-primary:not([disabled]):focus, 
+.btn-primary:not([disabled]):active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+color: #fff;
+    background-color: #1d549e;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #00000059;
+    border-color: transparent;
+    opacity: 1;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn-solution, 
+.btn-solution.disabled, 
+.btn-solution[disabled], 
+.btn-next, 
+.btn-next.disabled, 
+.btn-next[disabled] {
+	color: #fff;
+    background-color: #1eb3c6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #00000059;
+    border-color: transparent;
+    opacity: 1;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn-solution:hover, 
+.btn-solution:focus, 
+.btn-solution:active, 
+.btn-next:hover, 
+.btn-next:focus, 
+.btn-next:active, 
+.open .dropdown-toggle.btn-solution {
+	color: #fff;
+    background-color: #1eb3c6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #00000059;
+    border-color: transparent;
+    opacity: 1;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+/*actividades*/
+/*respuesta multiple*/
+#actividad .workspace.multiple-choice .opcion {
+	border: 3px solid #fbd066;
+	border-radius: 10px;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+	border-color: #f8b100;
+    background-color: #fff;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok {
+	border-color: #90bf55;
+    background-color: #edf5e4;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko {
+    border-color: #e33939;
+    background-color: #f9d7d7;
+}
+
+#actividad .workspace.multiple-choice .opcion.solucion {
+    border-color: #1eb3c6;
+    background-color: #d2f0f4;
+}
+
 /**/
 
 @media screen and (max-width: 1099px) {
