@@ -1727,97 +1727,97 @@ body:not(.edit) .bck-tabcontents .div-contents {
 }
 
 /*botonera*/
-.btn-danger, .btn-danger[disabled] {
+#actividad .btn-danger, #actividad .btn-danger[disabled] {
     color: #fff;
     background-color: #90bf55;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #00000059;
     border-color: transparent;
-    font-size: 1em;
     font-weight: 600;
 }
 
-.btn-danger:hover, .btn-danger:focus, 
-.btn-danger:active, .btn-danger.active, 
-.open .dropdown-toggle.btn-danger {
+#actividad .btn-danger:hover, .btn-danger:focus, 
+#actividad .btn-danger:active, .btn-danger.active, 
+#actividad .open .dropdown-toggle.btn-danger {
 	    color: #fff;
     background-color: #90bf55;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #00000059;
     border-color: transparent;
-    font-size: 1em;
     font-weight: 600;
 }
 
-.btn-primary {
+
+#actividad .btn-primary {
 	color: #fff;
     background-color: #1d549e;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #00000059;
     border-color: transparent;
     opacity: 1;
-    font-size: 1em;
     font-weight: 600;
 }
 
-.btn-primary:not([disabled]):hover, 
-.btn-primary:not([disabled]):focus, 
-.btn-primary:not([disabled]):active, 
-.btn-primary.active, 
-.open .dropdown-toggle.btn-primary {
+#actividad .btn-primary:not([disabled]):hover, 
+#actividad .btn-primary:not([disabled]):focus, 
+#actividad .btn-primary:not([disabled]):active, 
+#actividad .btn-primary.active, 
+#actividad .open .dropdown-toggle.btn-primary {
 color: #fff;
     background-color: #1d549e;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #00000059;
     border-color: transparent;
     opacity: 1;
-    font-size: 1em;
     font-weight: 600;
 }
 
-.btn-primary[disabled], 
-.btn-primary[disabled]:focus {
+#actividad .btn-primary[disabled], 
+#actividad .btn-primary[disabled]:focus {
 	color: #fff;
     background-color: #1d549e;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #00000059;
     border-color: transparent;
     opacity: 1;
-    font-size: 1em;
     font-weight: 600;
 }
 
-.btn-solution, 
-.btn-solution.disabled, 
-.btn-solution[disabled], 
-.btn-next, 
-.btn-next.disabled, 
-.btn-next[disabled] {
+#actividad .btn-solution, 
+#actividad .btn-solution.disabled, 
+#actividad .btn-solution[disabled], 
+#actividad .btn-next, 
+#actividad .btn-next.disabled, 
+#actividad .btn-next[disabled] {
 	color: #fff;
     background-color: #1eb3c6;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #00000059;
     border-color: transparent;
     opacity: 1;
-    font-size: 1em;
     font-weight: 600;
 }
 
-.btn-solution:hover, 
-.btn-solution:focus, 
-.btn-solution:active, 
-.btn-next:hover, 
-.btn-next:focus, 
-.btn-next:active, 
-.open .dropdown-toggle.btn-solution {
+#actividad .btn-solution:hover, 
+#actividad .btn-solution:focus, 
+#actividad .btn-solution:active, 
+#actividad .btn-next:hover, 
+#actividad .btn-next:focus, 
+#actividad .btn-next:active, 
+#actividad .open .dropdown-toggle.btn-solution {
 	color: #fff;
     background-color: #1eb3c6;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #00000059;
     border-color: transparent;
     opacity: 1;
-    font-size: 1em;
     font-weight: 600;
+}
+
+.btn-danger, .btn-danger[disabled] {
+    color: #fff;
+    background-color: #fc4237;
+    border-color: transparent;
 }
 
 #actividad .content .review .attemps span {
@@ -1861,6 +1861,75 @@ color: #fff;
 #actividad .workspace.multiple-choice .opcion.solucion {
     border-color: #1eb3c6;
     background-color: #d2f0f4;
+}
+
+/*rellenar espacios*/
+.content_type_clase_castilloprimaria2022demo .slide_main input {
+	border: 2px solid #fbd066;
+    border-radius: 10px;
+}
+
+.content_type_clase_castilloprimaria2022demo .slide_main input:focus {
+    border-top-color: #3AC62A;
+    border-right-color: #3AC62A;
+    border-bottom-color: #3AC62A;
+    border-left-color: #3AC62A;
+    outline-width: 0px;
+    outline-style: none;
+    box-shadow: none;
+    border: 2px solid #f8b100;
+    border-radius: 10px;
+}
+
+.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
+    border-color: #e33939;
+    background: #f9d7d7;
+}
+
+.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ok {
+    border-color: #90bf55;
+    background: #edf5e4;
+}
+.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
+    border-color: #1eb3c6;
+    background: #d2f0f4;
+}
+
+.popover.multiple-solution {
+    background-color: #b6ecff;
+    border: 2px solid #1eb3c6;
+    border-radius: 10px;
+}
+
+.fillblanks-draggable-wrapper .response {
+    margin: 2px;
+    min-width: 100px;
+    border: 2px solid #fbd066;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content_type_clase_castilloprimaria2022demo .slide_main input[disabled],
+.content_type_clase_castilloprimaria2022demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main input {
+    cursor: not-allowed;
+    background-color: #fef5e0;
+    opacity: 1;
+}
+
+/*drag and drop*/
+#actividad .drag .circulo_gris p {
+    background: url(images/drop_izquierda2.png) 0 0 no-repeat;
+    padding: 0 10px 0 30px;
+    word-wrap: break-word;
+}
+
+#actividad .multimedia-container .circulo_gris.ver:after {
+	background-color: #f8b100;
+	box-shadow: 0 0 5px 1px rgb(0 0 0 / 23%);
 }
 
 /**/
