@@ -1928,8 +1928,11 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
 }
 
 #actividad .multimedia-container .circulo_gris.ver:after {
-	background-color: #f8b100;
-	box-shadow: 0 0 5px 1px rgb(0 0 0 / 23%);
+background-color: #fff;
+    border: 2px solid #f8b100;
+    box-shadow: 0 0 5px 1px rgb(0 0 0 / 23%);
+    height: 18px;
+    width: 18px;
 }
 
 /*.multimedia-container .respuesta.drop_ok:after, 
@@ -1960,20 +1963,18 @@ background-color: #90bf55;
     height: 18px;
     width: 18px;
     padding: 0px 3px;
-    /*-webkkit-transform: translate(80%, 75%);
-    -moz-transform: translate(80%, 75%);
-    transform: translate(80%, 75%);*/
+    -webkkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
 }
 
 .multimedia-container .respuesta.drop_ko:after, 
 .multimedia-container .answer.drop_ko span:before {
-    content: "\f00d";
     background-color: #e33939;;
     padding: 0 4px;
 }
 
-#actividad .multimedia-container .circulo_gris.editar:before, 
-#actividad .multimedia-container .circulo_gris.drop_solucion:before, 
+#actividad .multimedia-container .circulo_gris.editar:before,  
 #actividad .multimedia-container .circulo_gris.respuesta:before {
 min-height: 12px;
     color: #fff;
@@ -1997,6 +1998,12 @@ min-height: 12px;
 #actividad .multimedia-container .circulo_gris.respuesta.drop_ok:before, 
 #actividad .multimedia-container .circulo_gris.respuesta.drop_ko:before {
     text-align: center;
+}
+
+#actividad .multimedia-container .circulo_gris.drop_solucion:before,
+#actividad .multimedia-container .circulo_gris.drop_solucion:after {
+	background-color: #1eb3c6,;
+    padding: 0 4px;
 }
 
 /**/
