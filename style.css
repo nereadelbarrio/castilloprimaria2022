@@ -1837,6 +1837,40 @@ color: #fff;
 }
 
 /*actividades*/
+/*verdadero falso*/
+.workspace.true-false .radio-option input.filter-radio[type=radio]+label.filter-label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+}
+
+.true-false .radio-option label.filter-label:before {
+    content: "";
+    background: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #F8B100;
+    border-radius: 50%;
+    line-height: 22px;
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.filter-label:before {
+    border-color: #f8b100;
+    background-color: #fff;
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.filter-label:after {
+    content: "";
+    background-color: #f8b100;
+    width: 12px;
+    height: 12px;
+    top: 5px;
+    left: 6px;
+    border-radius: 50%;
+}
+
 /*respuesta multiple*/
 #actividad .workspace.multiple-choice .opcion {
 	border: 3px solid #fbd066;
@@ -1844,8 +1878,8 @@ color: #fff;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-	border-color: #f8b100;
-    background-color: #fff;
+	border-color: #1D549E;
+    background-color: #DBE4EF;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
