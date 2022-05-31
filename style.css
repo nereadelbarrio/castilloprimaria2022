@@ -1861,6 +1861,12 @@ color: #fff;
     background-color: #fff;
 }
 
+.checkbox-option input.filter-checkbox[type="checkbox"]:checked+label.filter-label:before, 
+.slides_averages #cont_checkTemas label:before, .slides_averages #cont_checkSelfCorrect label:before, 
+.slides_averages #cont_checkEvaluation label:before, .radio-option input.filter-radio[type="radio"]:checked+label.filter-label:before {
+    background-position: 0 -24px;
+}
+
 .true-false .radio-option input.filter-radio[type=radio]:checked+label.filter-label:after {
     content: "";
     background-color: #f8b100;
@@ -1869,6 +1875,25 @@ color: #fff;
     top: 5px;
     left: 6px;
     border-radius: 50%;
+}
+
+.checkbox-option label.filter-label::after, 
+.slides_averages #cont_checkSelfCorrect label::after, 
+.slides_averages #cont_checkEvaluation label::after, 
+.radio-option label.filter-label::after {
+    content: "\f00c";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 0;
+    color: #ffffff;
+    position: absolute;
+    left: 3px;
+    top: 3px;
 }
 
 /*respuesta multiple*/
