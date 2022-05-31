@@ -1991,12 +1991,12 @@ min-height: 12px;
 
 
 #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
-    background: #1eb3c6;
+    background: #f8b100;
     -webkit-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     -moz-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     border-radius: 50%;
-    border-: 2px solid #1eb3c6;
+    border-: 2px solid #f8b100;
 }
 
 #actividad .multimedia-container .circulo_gris.drop_solucion:before {
