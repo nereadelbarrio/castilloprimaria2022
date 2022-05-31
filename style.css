@@ -1837,7 +1837,7 @@ color: #fff;
 }
 
 /*actividades*/
-/*verdadero falso*/
+/*verdadero falso
 .workspace.true-false .radio-option input.filter-radio[type=radio]+label.filter-label {
     font-size: 16px;
     display: flex;
@@ -1894,6 +1894,91 @@ color: #fff;
     position: absolute;
     left: 3px;
     top: 3px;
+}*/
+
+#actividad .workspace.true-false .tf-option {
+    margin: 10px 10px 0 20px
+}
+
+.workspace.true-false .radio-option input.filter-radio[type=radio]+label.filter-label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 22px
+}
+
+.true-false .radio-option label.filter-label:before {
+    content: "";
+    background: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #F8B100;
+    border-radius: 50%;
+    line-height: 22px
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.filter-label:before {
+    border-color: #f8b100;
+    background-color: #fff
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.filter-label:after {
+    content: "";
+    background-color: #f8b100;
+    width: 12px;
+    height: 12px;
+    top: 5px;
+    left: 6px;
+    border-radius: 50%
+}
+
+#actividad .workspace.test .respuesta_ok,#actividad .workspace.true-false .respuesta_ok {
+    color: var(--TextColor)
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.respuesta_ok.filter-label:before {
+    background-color: RGB(var(--ok-color));
+    border-color: RGB(var(--ok-color))
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.respuesta_ok.filter-label:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 15px;
+    background: none;
+    left: 4px;
+    top: 4px
+}
+
+#actividad .workspace.test .respuesta_ko,#actividad .workspace.true-false .respuesta_ko {
+    color: inherit
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.respuesta_ko.filter-label:before {
+    background-color: RGB(var(--error-color));
+    border-color: RGB(var(--error-color))
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.respuesta_ko.filter-label:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 17px;
+    background: none;
+    left: 5px;
+    top: 3px
+}
+
+#actividad .workspace.true-false .solucion {
+    color: inherit
+}
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.solucion.filter-label:before {
+    background: #047b9c;
+    border-color: #047b9c;
+    opacity: 1
 }
 
 /*respuesta multiple*/
