@@ -1906,7 +1906,7 @@ color: #fff;
     color: #90BF55;
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
-	content: "\f00d";
+	content: "\f00c";
     color: #90BF55;
     font-family: 'FontAwesome';
     left: 93px;
