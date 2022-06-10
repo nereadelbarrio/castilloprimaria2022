@@ -1859,19 +1859,10 @@ color: #fff;
     border-radius: 3px;
 }
 
-/*#actividad .workspace.true-false .respuesta_ok {
-    border-bottom: 0;
-}
-#actividad .workspace.true-false .respuesta_ko {
-    border-bottom: 0;
-}*/
-
-
-
 
 #actividad .workspace.true-false .solucion {
     border-bottom: 0;
-    color: var(--TextColor);
+    color: red;
 }
 /*Damos formatos a los checkbox*/
 .true-false .radio-option label.filter-label::before {
@@ -1893,7 +1884,7 @@ color: #fff;
     border-color: #f8b100;
     background-color: transparent;
 }
-.true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::after {
+/*.true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::after {
     position: absolute;
     content: "";
     background-color: #f8b100;
@@ -1902,6 +1893,12 @@ color: #fff;
     top: 11px;
     left: 6px;
     border-radius: 50%;
+}*/
+
+.true-false .radio-option input.filter-radio[type=radio]:checked+label.filter-label:after {
+
+
+
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
     background-color: #EDF5E4;
