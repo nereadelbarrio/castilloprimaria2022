@@ -1954,9 +1954,11 @@ color: #fff;
 }
 
  .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
-    border-color: #00BDFF;
-    background-color: #00BDFF;
+	border-color: #1EB3C6;
+    content: '\f111';
+    color: #1EB3C6;
 }
+
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
     display: none;
 }
