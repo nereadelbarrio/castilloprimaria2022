@@ -1996,6 +1996,7 @@ color: #fff;
 .content_type_clase_castilloprimaria2022demo .slide_main input {
 	border: 2px solid #fbd066;
     border-radius: 10px;
+    height: 2.2em;
 }
 
 .content_type_clase_castilloprimaria2022demo .slide_main input:focus {
@@ -2041,13 +2042,13 @@ color: #fff;
     cursor: pointer;
 }
 
-.content_type_clase_castilloprimaria2022demo .slide_main input[disabled],
+/*.content_type_clase_castilloprimaria2022demo .slide_main input[disabled],
 .content_type_clase_castilloprimaria2022demo .slide_main input[readonly],
 fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main input {
     cursor: not-allowed;
     background-color: #fef5e0;
     opacity: 1;
-}
+}*/
 
 /*drag and drop*/
 #actividad .drag .circulo_gris p {
@@ -2300,9 +2301,9 @@ div.calculo table.marco * {
     border-top: 2px dashed #f9bfad !important;
 }
 
-.content_type_clase_castilloprimaria2022demo .slide_main input {
+/*.content_type_clase_castilloprimaria2022demo .slide_main input {
     border: 1px solid #ccc !important;
-}
+}*/
 
 /* TMPUX STYLES */
 .tmpux.content_type_clase_castilloprimaria2022demo.modo_revision .castilloprimaria2022demo-navbar,
