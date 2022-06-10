@@ -1843,32 +1843,54 @@ color: #fff;
     font-size: var(--MainText);
 }
 .workspace.true-false .radio-option input.filter-radio[type="radio"]+label.filter-label {
-    font-size: var(--MainText);
+    font-size: 16px;
     display: flex;
     align-items: center;
     line-height: 24px;
     padding-left: 30px;
 }
-#actividad .workspace.true-false .respuesta_ok {
+
+#actividad .workspace.true-false .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, 
+#actividad .workspace.true-false .radio-option input.filter-radio[type="radio"]+label.filter-label, 
+#actividad .workspace.test .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, 
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]+label.filter-label {
+    padding: 5px;
+    padding-left: 32px;
+    border-radius: 3px;
+}
+
+/*#actividad .workspace.true-false .respuesta_ok {
     border-bottom: 0;
 }
 #actividad .workspace.true-false .respuesta_ko {
     border-bottom: 0;
+}*/
+
+.body_clase #actividad .workspace.test .respuesta_ko, 
+.body_clase #actividad .workspace.true-false .respuesta_ko {
+    border: 2px solid red;
+    background-color: #000;
 }
+
+
 #actividad .workspace.true-false .solucion {
     border-bottom: 0;
     color: var(--TextColor);
 }
 /*Damos formatos a los checkbox*/
 .true-false .radio-option label.filter-label::before {
-    content: "";
     background: none;
     display: inline-block;
     width: 24px;
     height: 24px;
-    border: 2px solid #CCCCCC;
-   border-radius: 50%;
+    border: 2px solid #f8b100;
+    border-radius: 50%;
     line-height: 22px;
+    content: '\f111';
+    font-family: 'FontAwesome';
+    color: #f8b100;
+    display: flex;
+    justify-content: center;
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
     position: absolute;
@@ -1881,16 +1903,16 @@ color: #fff;
     background-color: #f8b100;
     width: 12px;
     height: 12px;
-    top: 6px;
+    top: 11px;
     left: 6px;
     border-radius: 50%;
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
-    background-color: #74d320;
-    border-color: #74d320;
+    background-color: #EDF5E4;
+    border-color: #90BF55;
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
-    color: #fff;
+    background: #d3e5bb;
 }
 
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
