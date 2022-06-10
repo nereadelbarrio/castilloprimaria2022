@@ -1857,6 +1857,7 @@ color: #fff;
     padding: 5px;
     padding-left: 32px;
     border-radius: 3px;
+    border: 5px solid transparent;
 }
 
 
@@ -1901,11 +1902,7 @@ color: #fff;
     border-radius: 50%;
 }*/
 
-.true-false .radio-option input.filter-radio[type=radio]:checked+label.filter-label:after {
 
-
-
-}
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
     background-color: #EDF5E4;
     border-color: #90BF55;
@@ -1917,18 +1914,8 @@ color: #fff;
 /*ko*/
 
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
-	background: none;
-    display: inline-block;
-    width: 24px;
-    height: 24px;
     border: 2px solid #E33939;
-    border-radius: 50%;
-    line-height: 22px;
-    content: '\f111';
-    font-family: 'FontAwesome';
     color: #E33939;
-    display: flex;
-    justify-content: center;
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
 	content: "\f00d";
@@ -1944,8 +1931,7 @@ color: #fff;
 #actividad .workspace.test .respuesta_ko, 
 #actividad .workspace.true-false .respuesta_ko {
     background-color: #F9D7D7;
-    border: 5px #f9d7d7 solid;
-    background-color: #F9D7D7;
+    border-color: #f9d7d7;
 }
 
 
