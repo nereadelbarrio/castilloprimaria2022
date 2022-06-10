@@ -1873,7 +1873,7 @@ color: #fff;
     border: 2px solid #f8b100;
     border-radius: 50%;
     line-height: 22px;
-    content: '\f111';
+    /*content: '\f111';*/
     font-family: 'FontAwesome';
     color: #f8b100;
     display: flex;
