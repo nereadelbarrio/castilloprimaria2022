@@ -2180,6 +2180,34 @@ min-height: 12px;
 .fillblankimages-draggable .img-input-container.imgFilled img {
 	box-shadow: none !important;
 }
+
+/*arrastrar imagen a imagen*/
+#actividad .image-over-image .drag_image-over-image li img {
+	box-shadow: none;
+}
+
+/*marcar palabras*/
+#actividad .markword-active {
+    border-radius: 12px !important;
+    padding: 4px !important;
+    border: 2px solid #F8B100 !important;
+}
+
+#actividad .markword-correct {
+    padding: 4px !important;
+    color: #90BF55 !important;
+    background-color: #d8efbe !important;
+    border-radius: 12px !important;
+    border: 2px solid #90BF55 !important;
+}
+
+#actividad .markword-false {
+    padding: 4px !important;
+    color: #E33939 !important;
+    background-color: #ffbfbf !important;
+    border-radius: 12px !important;
+    border: 2px solid #E33939 !important;
+}
 /**/
 
 @media screen and (max-width: 1099px) {
