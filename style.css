@@ -1840,10 +1840,10 @@ color: #fff;
 /*verdadero falso
 /*--- Verdadero y falso -----*/
 .true-false .checkbox-option label.filter-label {
-    font-size: var(--MainText);
+    font-size: 18px;
 }
 .workspace.true-false .radio-option input.filter-radio[type="radio"]+label.filter-label {
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     line-height: 24px;
@@ -1866,11 +1866,7 @@ color: #fff;
     border-bottom: 0;
 }*/
 
-.body_clase #actividad .workspace.test .respuesta_ko, 
-.body_clase #actividad .workspace.true-false .respuesta_ko {
-    border: 2px solid red;
-    background-color: #000;
-}
+
 
 
 #actividad .workspace.true-false .solucion {
@@ -1915,15 +1911,40 @@ color: #fff;
     background: #d3e5bb;
 }
 
+/*ko*/
+
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
-    background-color: #ef0c24;
-    border-color: #ef0c24;
+	background: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #E33939;
+    border-radius: 50%;
+    line-height: 22px;
+    content: '\f111';
+    font-family: 'FontAwesome';
+    color: #E33939;
+    display: flex;
+    justify-content: center;
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
-    content: "\f00d";
-    color: #fff;
-    left: 6px;
+	content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    left: 93px;
+    font-size: 43px;
+    background-color: transparent;
+    top: 4px;
 }
+
+#actividad .workspace.test .respuesta_ko, 
+#actividad .workspace.true-false .respuesta_ko {
+    background-color: #F9D7D7;
+    border: 5px #f9d7d7 solid;
+    background-color: #F9D7D7;
+}
+
+
  .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
     border-color: #00BDFF;
     background-color: #00BDFF;
