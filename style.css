@@ -2147,6 +2147,39 @@ min-height: 12px;
     min-width: 100px;
     border-radius: 4px;
 }
+
+/*arrastrar imagenes*/
+.fillblankimages-draggable-wrapper .response.used p:before {
+	border-top: 1px solid #342826;
+    transform: rotateZ(-45deg);
+}
+
+.fillblankimages-draggable-wrapper .response.used {
+	opacity: .3!important;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container.respuesta_ok {
+    border-color: #90BF55;
+    border: solid 2px #90BF55;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container.respuesta_ko {
+	border: solid 2px #E33939;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container.solucion {
+		border: solid 2px #1EB3C6;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.fillblankimages-draggable .img-input-container.imgFilled img {
+	box-shadow: none !important;
+}
 /**/
 
 @media screen and (max-width: 1099px) {
