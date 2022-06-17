@@ -2225,6 +2225,7 @@ text-align: center;
     height: 35px;
     margin: 2px;
     padding: 0px;
+    border: 2px solid #fbd066;
 }
 
 #actividad .workspace.calculo .cifra input[type=text]:focus,
@@ -2241,6 +2242,66 @@ text-align: center;
 .content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
     border-color: #FF3626 !important;
     background: #FFA49D;
+}
+/*match*/
+#actividad .workspace.matching .opcion {
+	border: 2px solid #F8B100;
+}
+#actividad .workspace.matching .opcion img {
+    max-width: 80%;
+    margin: 0;
+    box-shadow: none;
+}
+
+/*ordenar*/
+#actividad .workspace.ordenar .js-rank-item {
+    border: 3px solid #F8B100;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/*clasificar*/
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 0;
+    padding: 0px;
+    box-shadow: 0 0 0 1px #1d549e, 0 0 0 3px #88a5cc, 0 0 0 5px #88a5cc, 0 0 0 6px #1d549e;
+    outline: dashed 7px #1d549e;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #EDF1F7;
+    display: table;
+    width: 100%;
+    margin: 0px;
+    margin-top: -1px;
+    background-color: #EDF1F7;
+    color: #1D549E;
+    padding: 10px;
+}
+
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    border: 3px solid #F8B100;
+}
+
+#actividad .workspace.clasificar .clasificar_lista li>p {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 40%;
+    transform: translateY(-35%);
 }
 
 /**/
