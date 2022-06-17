@@ -2219,10 +2219,12 @@ min-height: 12px;
 
 #actividad .workspace.calculo .cifra input[type=text], 
 #actividad .workspace.calculo .cifra input[type=tel] {
-    text-align: center;
-    width: 1.6rem;
-    padding: 0;
-    border: 1px solid #FBD066;
+text-align: center;
+    width: 25px;
+    border-radius: 5px;
+    height: 35px;
+    margin: 2px;
+    padding: 0px;
 }
 
 #actividad .workspace.calculo .cifra input[type=text]:focus,
@@ -2230,6 +2232,16 @@ min-height: 12px;
     border: 2px solid #F8B100;
 }
 
+.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ok {
+    border-color: #90bf55;
+    border: 2px solid #90BF55!important;
+    background: #EDF5E4;
+}
+
+.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
+    border-color: #FF3626 !important;
+    background: #FFA49D;
+}
 
 /**/
 
