@@ -2725,6 +2725,11 @@ font-size: 18px;
 	border: 2px solid #BECDE2;
 }
 
+.body_clase:not(.edit):not(.edit) .form-control:focus, .body_clase:not(.edit):not(.edit) .form-control:focus-within, .body_clase:not(.edit):not(.edit)  input[type="text"]:focus {
+    border: 2px solid #F8B100;
+    box-shadow: none;
+}
+
 /**/
 
 @media screen and (max-width: 1099px) {
