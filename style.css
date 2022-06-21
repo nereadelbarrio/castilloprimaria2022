@@ -2434,14 +2434,18 @@ border: 3px solid #E33939;
 #actividad .workspace.syntax .filled:before, 
 #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
     background-color: #f8b100;
+    padding-top: 6px;
+border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ko{
-	border: 3px solid #E33939;
-	background-color: #F9D7D7;
+background-color: #F9D7D7;
 }
 
 .sintaxis_adder .respuesta_ko {
+	border: 3px solid #E33939;
 	background-color: #F9D7D7;
 }
 
@@ -2451,12 +2455,17 @@ border: 3px solid #E33939;
 }
 
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ok {
-    border: 3px solid #90BF55;
-    background-color: #EDF5E4;
+background-color: #EDF5E4;
+padding-top: 6px;
+border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 
 .sintaxis_adder .respuesta_ok {
-	background-color: #EDF5E4;
+	
+	border: 3px solid #90BF55;
+    background-color: #EDF5E4;
 }
 
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ok:before, 
