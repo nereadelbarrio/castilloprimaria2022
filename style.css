@@ -2446,7 +2446,7 @@ background-color: #F9D7D7;
 border: none;
 }
 
-.sintaxis_adder .respuesta_ko {
+#actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
 	border: 3px solid #E33939;
 	background-color: #F9D7D7;
 }
@@ -2464,8 +2464,7 @@ border-bottom: none;
     border-right: none;
 }
 
-.sintaxis_adder .respuesta_ok {
-	
+#actividad .workspace.syntax .sintaxis_adder .respuesta_ok {
 	border: 3px solid #90BF55;
     background-color: #EDF5E4;
 }
