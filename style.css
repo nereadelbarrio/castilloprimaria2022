@@ -2660,7 +2660,70 @@ font-size: 18px;
     display: none;
 }
 
+/*palabras cryuzadas*/
+.slide.crosswords .respuestas .respuesta .caracter {
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    margin-left: 0;
+    text-transform: uppercase;
+    border: 1px solid #F8B100;
+    border-radius: 4px;
+    font-weight: 800;
+    color: #000;
+}
 
+.slide.crosswords-puzzle table.puzzle td input {
+    border:2px solid #F8B100;
+}
+.slide.crosswords .respuestas .respuesta .caracter {
+    background-color: #F8B100;
+}
+.slide.crosswords .respuestas .respuesta.solucion .caracter {
+    background-color: #F8B100;
+}
+.slide.crosswords .respuestas .respuesta.solucion .caracter.solucion {
+    background-color: #F8B100;
+}
+.body_clase #actividad .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter.solucion {
+    background-color: #F8B100;
+}
+
+
+.slide.crosswords .respuestas .respuesta.respuesta_ok .caracter.solucion {
+    background-color: #90BF55;
+    color: #000;
+}
+
+.slide.crosswords .respuestas .respuesta.respuesta_ok .caracter {
+    background-color: #EDF5E4;
+}
+
+.slide.crosswords .respuestas .respuesta.respuesta_ko .caracter.solucion {
+    background-color: #E33939;
+    color: #000;
+}
+
+.slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
+    background-color: #F9D7D7;
+}
+
+.slide.crosswords .respuestas .respuesta.solucion .caracter.solucion {
+    background-color: #1EB3C6;
+    color: #000;
+}
+
+.slide.crosswords .respuestas .respuesta.solucion .caracter {
+    background-color: #D2F0F4;
+}
+
+.slide.crosswords .respuesta .indice {
+	width: 20px;
+    color: #1D549E;
+    font-weight: 800;
+    font-size: 16px;
+}
 
 /**/
 
