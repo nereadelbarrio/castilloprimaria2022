@@ -2423,6 +2423,7 @@ border: 3px solid #E33939;
 #actividad .workspace.syntax .sintaxis_adder .filled {
     border: 3px solid #f8b100;
     color: #000;
+    background-color: #fff;
 }
 
 #actividad .workspace.syntax .bloque.filled {
@@ -2443,6 +2444,7 @@ border-bottom: none;
 
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ko{
 background-color: #F9D7D7;
+border: none;
 }
 
 .sintaxis_adder .respuesta_ko {
@@ -2474,6 +2476,12 @@ border-bottom: none;
     background-color: #90bf55;
 }
 
+
+#actividad .workspace.syntax.solucion .bloque, 
+#actividad .workspace.syntax.solucion .sintaxis_adder select {
+    border-color: #1EB3C6;
+    background-color: #D2F0F4;
+}
 
 /**/
 
