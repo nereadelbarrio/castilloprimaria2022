@@ -2570,6 +2570,9 @@ border: none;
 
 /*aqui*/
 
+.radio-option label.filter-label {
+font-size: 18px;
+}
 
 /*Damos formatos a los checkbox*/
 #actividad .workspace.test .radio-option label.filter-label::before {
