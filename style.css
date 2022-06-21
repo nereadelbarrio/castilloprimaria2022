@@ -2674,30 +2674,24 @@ font-size: 18px;
     color: #000;
 }
 
-.slide.crosswords-puzzle table.puzzle td input {
-    border:2px solid #F8B100;
+.slide.crosswords .respuestas .respuesta .caracter.solucion {
+    background-color: #FEF5E0;
+    color: #000;
+    font-weight: bold;
 }
-.slide.crosswords .respuestas .respuesta .caracter {
-    background-color: #F8B100;
-}
-.slide.crosswords .respuestas .respuesta.solucion .caracter {
-    background-color: #F8B100;
-}
-.slide.crosswords .respuestas .respuesta.solucion .caracter.solucion {
-    background-color: #F8B100;
-}
-.body_clase #actividad .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter.solucion {
-    background-color: #F8B100;
-}
-
 
 .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter.solucion {
     background-color: #90BF55;
     color: #000;
 }
 
+.body_clase #actividad .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter.solucion {
+    background-color: #F8B100;
+}
+
 .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter {
     background-color: #EDF5E4;
+    border: 1px solid #fff;
 }
 
 .slide.crosswords .respuestas .respuesta.respuesta_ko .caracter.solucion {
@@ -2707,6 +2701,7 @@ font-size: 18px;
 
 .slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
     background-color: #F9D7D7;
+    border: 1px solid #fff;
 }
 
 .slide.crosswords .respuestas .respuesta.solucion .caracter.solucion {
@@ -2716,6 +2711,7 @@ font-size: 18px;
 
 .slide.crosswords .respuestas .respuesta.solucion .caracter {
     background-color: #D2F0F4;
+    border: 1px solid #fff;
 }
 
 .slide.crosswords .respuesta .indice {
@@ -2723,6 +2719,10 @@ font-size: 18px;
     color: #1D549E;
     font-weight: 800;
     font-size: 16px;
+}
+
+.slide.crosswords .enunciados {
+	border: 2px solid #BECDE2;
 }
 
 /**/
