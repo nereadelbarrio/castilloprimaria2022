@@ -2515,15 +2515,24 @@ border: none;
 }
 
 #actividad .workspace.chooseblanks .inline-answer a {
-	display: inline-block;
+    display: inline-block;
     vertical-align: middle;
-    border: 3px solid #f8b100;
+    border: 3px solid #FBD066;
     padding: 3px 6px;
     margin: 0 2px;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
-    border-radius: 13px;
+    border-radius: 8px;
     color: #000;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+    background-color: #fff;
+    border: 3px solid #F8B100;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.selected {
+    font-weight: inherit;
 }
 
 #actividad .workspace.chooseblanks .respuesta_ok {
