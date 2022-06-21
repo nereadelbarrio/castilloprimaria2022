@@ -2464,7 +2464,8 @@ border: none;
     background-color: #E33939;
 }
 
-#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ko {
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ko,
+#actividad .workspace.syntax .circulo.respuesta_ko {
  background-color: #E33939 !important;
 }
 
@@ -2486,7 +2487,8 @@ border-bottom: none;
     background-color: #90bf55;
 }
 
-#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ok {
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ok,
+#actividad .workspace.syntax .circulo.respuesta_ok {
 background-color: #90BF55 !important;
 }
 
@@ -2497,8 +2499,9 @@ background-color: #90BF55 !important;
     background-color: #D2F0F4;
 }
 
-#actividad .workspace.syntax .sintaxis_adder .circulo.filled .solucion {
-background-color: #1EB3C6 !important;
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .solucion,
+#actividad .workspace.syntax .circulo .solucion {
+ background-color: #1EB3C6 !important;
 }
 
 /**/
