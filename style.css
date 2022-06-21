@@ -2467,6 +2467,7 @@ border: none;
 #actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ko,
 #actividad .workspace.syntax .circulo.respuesta_ko {
  background-color: #E33939 !important;
+ border: none;
 }
 
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ok {
@@ -2490,6 +2491,7 @@ border-bottom: none;
 #actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ok,
 #actividad .workspace.syntax .circulo.respuesta_ok {
 background-color: #90BF55 !important;
+border: none;
 }
 
 
@@ -2502,6 +2504,7 @@ background-color: #90BF55 !important;
 #actividad .workspace.syntax.solucion .sintaxis_adder .circulo.filled,
 #actividad .workspace.syntax.solucion .circulo {
  background-color: #1EB3C6 !important;
+ border: none;
 }
 
 /**/
