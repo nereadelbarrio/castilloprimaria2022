@@ -2499,8 +2499,8 @@ background-color: #90BF55 !important;
     background-color: #D2F0F4;
 }
 
-#actividad .workspace.syntax .sintaxis_adder .circulo.filled .solucion,
-#actividad .workspace.syntax .circulo .solucion {
+#actividad .workspace.syntax.solucion .sintaxis_adder .circulo.filled,
+#actividad .workspace.syntax.solucion .circulo {
  background-color: #1EB3C6 !important;
 }
 
