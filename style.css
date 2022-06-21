@@ -2449,7 +2449,7 @@ fieldset[disabled] .form-control {
     opacity: 1;
 }
 
-#actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ko{
+#actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ko {
 background-color: #F9D7D7;
 border: none;
 }
@@ -2465,11 +2465,7 @@ border: none;
 }
 
 #actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ko {
- background-color: #E33939;
-}
-
-#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ok {
-background-color: #90BF55;
+ background-color: #E33939 !important;
 }
 
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ok {
@@ -2490,11 +2486,19 @@ border-bottom: none;
     background-color: #90bf55;
 }
 
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ok {
+background-color: #90BF55 !important;
+}
+
 
 #actividad .workspace.syntax.solucion .bloque, 
 #actividad .workspace.syntax.solucion .sintaxis_adder select {
     border-color: #1EB3C6;
     background-color: #D2F0F4;
+}
+
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .solucion {
+background-color: #1EB3C6 !important;
 }
 
 /**/
