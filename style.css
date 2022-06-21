@@ -2313,8 +2313,7 @@ text-align: center;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    border: 2PX SOLID #F8B100;
-        margin-bottom: 5px;
+    margin-bottom: 5px;
     MARGIN-TOP: 10PX;
     justify-content: center;
     align-items: center;
@@ -2323,7 +2322,7 @@ text-align: center;
     width: 78%;
     display: inline-flex;
     text-align: left;
-    border: 2px solid #F8B100;
+    background-color: #fff;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
@@ -2334,7 +2333,7 @@ text-align: center;
     padding: 5px;
     width: 100%;
     text-align: left;
-    border: 1px solid #F8B100;
+    border: 3px solid #F8B100;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
@@ -2345,6 +2344,11 @@ border: 3px solid #E33939;
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
     background-color: #EDF5E4;
     border: 3px solid #90BF55;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
+	border: 3px solid #1EB3C6;
+    background-color: #D2F0F4;
 }
 
 /**/
