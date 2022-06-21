@@ -2436,7 +2436,6 @@ border: 3px solid #E33939;
 #actividad .workspace.syntax .filled:before, 
 #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
     background-color: #f8b100;
-    padding-top: 6px;
 border-bottom: none;
     border-left: none;
     border-right: none;
