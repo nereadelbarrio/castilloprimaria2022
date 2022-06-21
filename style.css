@@ -2441,6 +2441,14 @@ border-bottom: none;
     border-right: none;
 }
 
+.form-control[disabled], 
+.form-control[readonly], 
+fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #fff;
+    opacity: 1;
+}
+
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ko{
 background-color: #F9D7D7;
 border: none;
