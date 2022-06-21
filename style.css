@@ -1198,7 +1198,7 @@ margin-left: auto;
 }
 
 #actividad .content .texto_curso ul li::before,
-#actividad .content .workspace ul li ul li::before,
+/*#actividad .content .workspace ul li ul li::before,*/
 #actividad .content .texto_curso .bck-ul li::before,
 #actividad .content .workspace ul li .bck-ul li::before,
 #actividad .popover-background.shown .popover-content>ul>li::before {
@@ -1837,8 +1837,7 @@ color: #fff;
 }
 
 /*actividades*/
-/*verdadero falso
-/*--- Verdadero y falso -----*/
+/*verdadero falso*/
 .true-false .checkbox-option label.filter-label {
     font-size: 18px;
 }
@@ -1859,7 +1858,7 @@ color: #fff;
     border-radius: 3px;
     border: 5px solid transparent;
     border-radius: 7px;
-    color: #676767;
+    color: #000;
 }
 
 
@@ -1889,17 +1888,6 @@ color: #fff;
     content: '\f111';
 }
 
-
-/*.true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::after {
-    position: absolute;
-    content: "";
-    background-color: #f8b100;
-    width: 12px;
-    height: 12px;
-    top: 11px;
-    left: 6px;
-    border-radius: 50%;
-}*/
 
 /*ok*/
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
@@ -2577,6 +2565,99 @@ border: none;
         border-radius: 8px;
     padding: 3px 10px;
 }
+
+/*test*/
+
+/*aqui*/
+
+
+/*Damos formatos a los checkbox*/
+#actividad .workspace.test .radio-option label.filter-label::before {
+    background: none;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+    border: 2px solid #f8b100;
+    border-radius: 50%;
+    line-height: 22px;
+    font-family: 'FontAwesome';
+    color: #f8b100;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+    position: absolute;
+    border-color: #f8b100;
+    background-color: transparent;
+    content: '\f111';
+}
+
+
+/*ok*/
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+    border: 2px solid #90BF55;
+    color: #90BF55;
+}
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
+	content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    left: 93px;
+    font-size: 43px;
+    background-color: transparent;
+    top: 4px;
+        position: absolute;
+}
+
+#actividad .workspace.test .respuesta_ok {
+    background-color: #EDF5E4;
+    border-color: #EDF5E4;
+}
+
+
+/*ko*/
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+    border: 2px solid #E33939;
+    color: #E33939;
+}
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+	content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    left: 93px;
+    font-size: 43px;
+    background-color: transparent;
+    top: 4px;
+        position: absolute;
+}
+
+#actividad .workspace.test .respuesta_ko {
+    background-color: #F9D7D7;
+    border-color: #f9d7d7;
+}
+
+/*solucion*/
+#actividad .workspace.test .solucion {
+    border: transparent;
+    background-color: #D2F0F4;
+}
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+    content: '\f111';
+    color: #1EB3C6;
+}
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
+    display: none;
+}
+
+
 
 /**/
 
