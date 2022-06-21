@@ -2456,6 +2456,14 @@ border: none;
     background-color: #E33939;
 }
 
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ko {
+ background-color: #E33939;
+}
+
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ok {
+background-color: #90BF55;
+}
+
 #actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ok {
 background-color: #EDF5E4;
 padding-top: 6px;
