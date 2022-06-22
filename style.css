@@ -2965,6 +2965,82 @@ FONT-FAMILY: 'Nunito';
     border: 3px solid #11B6C1 !important;
 }
 
+/*************COURSETAG***********/
+/*coursetag_lenguajes_castillo*/
+/*coursetag_pansamiento_cientifico_castillo*/
+/*título slide*/
+
+.coursetag_pansamiento_cientifico_castillo .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
+    background-color: #E66638;
+}
+
+/*imagen en navbar sup.*/
+	.coursetag_pansamiento_cientifico_castillo #actividad .carousel-inner .item-container {
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
+    background-image: url(images/fondo_slide_01_pensamiento_cientifico.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+	}
+
+	.coursetag_pansamiento_cientifico_castillo .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
+background: url(images/decoracion_01c_pensamiento_cientifico.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 125px 171px 2px 400px;
+    /* width: 133%; */
+    position: absolute;
+    left: -66px;
+    z-index: -1;
+    top: -3px;
+}
+
+/*titulo 01*/
+	.coursetag_pansamiento_cientifico_castillo .bck-title1 {
+	    color: #E66638;
+	}
+
+/*titulo 03*/
+	.coursetag_pansamiento_cientifico_castillo .bck-title3 {
+color: #E66638;
+	}
+
+/*titulo 04*/
+	.coursetag_pansamiento_cientifico_castillo .bck-title4 {
+color: #E66638;
+	}	
+
+/*tooltip*/
+.coursetag_pansamiento_cientifico_castillo .bck-tooltip {
+	    text-decoration: dotted;
+    border-bottom: 1px dotted #1d549e;
+    color: #1d549e;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.coursetag_pansamiento_cientifico_castillo .popover-title {
+    background-color: #E66638;
+}
+
+
+/**subrayado*/
+.coursetag_pansamiento_cientifico_castillo .bck-underline {
+    color: #E66638;
+}
+
+/*hr*/
+	.coursetag_pansamiento_cientifico_castillo .content hr,
+	.coursetag_pansamiento_cientifico_castillo .cke_contents hr {
+		border-top: 2px dashed #E66638;
+	}
+
+
+/*coursetag_naturaleza_castillo*/
+
+
 /**/
 
 @media screen and (max-width: 1099px) {
