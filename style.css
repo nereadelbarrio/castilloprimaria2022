@@ -3230,6 +3230,21 @@ body:not(.edit).coursetag_pansamiento_cientifico_castillo .bck-tabcontents .div-
     vertical-align: middle;
 }
 
+
+/*pop up*/
+.coursetag_pansamiento_cientifico_castillo #actividad .info-button {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin: 0 5px;
+    cursor: pointer;
+    background: url(images/icono_audio_pensamiento_cientifico.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: none;
+}
+
 /*coursetag_naturaleza_castillo*/
 
 
