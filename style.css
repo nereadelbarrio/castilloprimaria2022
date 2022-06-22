@@ -2755,7 +2755,7 @@ font-size: 18px;
 }
 
 .rf-wordcontainer {
-	color: #000;
+	color: #676767;
     font-size: 18px;
     float: left;
     padding: 10px;
@@ -2764,7 +2764,7 @@ font-size: 18px;
     border: 2px solid;
     border-color: transparent;
     line-height: 2.1rem;
-
+FONT-FAMILY: 'Nunito';
 }
 
 .rf-tablestyle {
@@ -2828,6 +2828,7 @@ font-size: 18px;
 /*Posición relativa para que no se vaya por ahí el before*/
 .rf-wordcontainer.no-queries .rf-foundword {
     position: relative;
+    color: red;
 }
 /*Padding para que no pise al icono*/
 .rf-wordcontainer.no-queries .rf-foundword .query {
