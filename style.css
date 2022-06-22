@@ -2970,7 +2970,7 @@ FONT-FAMILY: 'Nunito';
 /*coursetag_pansamiento_cientifico_castillo*/
 /*título slide*/
 
-.coursetag_pansamiento_cientifico_castillo .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
+ .content_type_clase_castilloprimaria2022demo.coursetag_pansamiento_cientifico_castillo #actividad .content .header .title h3 {
     background-color: #E66638;
 }
 
@@ -2984,7 +2984,7 @@ FONT-FAMILY: 'Nunito';
     background-repeat: no-repeat;
 	}
 
-	.coursetag_pansamiento_cientifico_castillo .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
+.content_type_clase_castilloprimaria2022demo.coursetag_pansamiento_cientifico_castillo #actividad .content .header .title h3:before {
 background: url(images/decoracion_01c_pensamiento_cientifico.png);
     content: "";
     background-size: contain;
@@ -3015,8 +3015,8 @@ color: #E66638;
 /*tooltip*/
 .coursetag_pansamiento_cientifico_castillo .bck-tooltip {
 	    text-decoration: dotted;
-    border-bottom: 1px dotted #1d549e;
-    color: #1d549e;
+    border-bottom: 1px dotted #E66638;
+    color: #E66638;
     font-weight: 700;
     cursor: pointer;
 }
@@ -3037,6 +3037,198 @@ color: #E66638;
 		border-top: 2px dashed #E66638;
 	}
 
+/*cajas*/
+/*caja 01*/
+	.coursetag_pansamiento_cientifico_castillo .bck-box.box-1 {
+    border: 1px solid #E66638;
+	}
+
+
+
+	.coursetag_pansamiento_cientifico_castillo .bck-box.box-1 > .bck-content {
+	background-color: #FAE0D7;
+	}	
+
+
+/*caja 02*/
+	.coursetag_pansamiento_cientifico_castillo .bck-box.box-2 {
+    background-color: #E66638;
+}
+
+
+/*caja 03*/
+.coursetag_pansamiento_cientifico_castillo .bck-box.box-3 {
+    border: 5px solid #773DBD;
+}
+
+/*caja 04*/
+.coursetag_pansamiento_cientifico_castillo .bck-box.box-4 {
+    box-shadow: 0 0 0 1px #E66638, 0 0 0 3px #FAE0D7, 0 0 0 5px #FAE0D7, 0 0 0 6px #E66638;
+    outline: dashed 7px #E66638;
+}
+.coursetag_pansamiento_cientifico_castillo .bck-box.box-4 > .bck-title p {
+	    color: #E66638;
+}
+
+
+/*caja 05*/
+
+.coursetag_pansamiento_cientifico_castillo .bck-box.box-5 > .bck-title p {
+	    color: #E66638;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*LISTA ORDENADA 1*/
+
+.coursetag_pansamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-1 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-1 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .popover-content .bck-ol-1 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-1 li:before {
+    color: #E66638;
+}
+
+
+
+/*LISTA ORDENADA 2*/
+.coursetag_pansamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-2 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-2 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .popover-content .bck-ol-2 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-2 li:before {
+    color: #773DBD;
+}
+
+
+/*LISTA ORDENADA 3*/
+
+.coursetag_pansamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-3 li,
+.coursetag_pansamiento_cientifico_castillo #actividad .popover-content .bck-ol-3 li,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-3 li {
+     color: #E66638;
+}
+
+.coursetag_pansamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-3 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .popover-content .bck-ol-3 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #E66638;
+}
+
+/*lista desordenada 02*/
+.coursetag_pansamiento_cientifico_castillo #actividad .content .cke_contents .bck-ul-2 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .texto_curso ul.bck-ul-2 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .popover-content ul.bck-ul-2 li:before,
+.coursetag_pansamiento_cientifico_castillo #actividad .content .workspace ul li ul.bck-ul-2 li:before {
+    background-color: #773DBD;
+}
+
+/*desplegables*/
+
+.coursetag_pansamiento_cientifico_castillo .bck-dropdown-icon {
+    background-color: #EB8560;
+}
+
+.coursetag_pansamiento_cientifico_castillo .bck-dropdown-content {
+    border-left: 2px dotted #E66638;
+    border-right: 2px dotted #E66638;
+    border-bottom: 2px dotted #E66638;
+}
+
+.coursetag_pansamiento_cientifico_castillo .bck-dropdown-button {
+    background-color: #E66638;
+}
+
+
+/*flipbox*/
+body:not(.edit).coursetag_pansamiento_cientifico_castillo .bck-flipbox-face.front {
+	    color: #E66638;
+    background-color: #FAE0D7;
+}
+
+ body:not(.edit).coursetag_pansamiento_cientifico_castillo .front .bck-flipbox-section,
+body:not(.edit).coursetag_pansamiento_cientifico_castillo .front .bck-flipbox-title {
+	color: #E66638;
+}
+
+body:not(.edit).coursetag_pansamiento_cientifico_castillo .bck-flipbox-face.back {
+    background-color: #E66638;
+}
+
+
+
+body:not(.edit).coursetag_pansamiento_cientifico_castillo .bck-flipbox-face.front p {
+    color: #E66638;
+    text-align: center;
+    font-size: 22px;
+}
+
+/*tablas*/
+.coursetag_pansamiento_cientifico_castillo .bck-table,.coursetag_pansamiento_cientifico_castillo table {
+    border: 1px dotted #E66638;
+}
+
+.coursetag_pansamiento_cientifico_castillo .bck-table td,.coursetag_pansamiento_cientifico_castillo table td {
+    border-color: #E66638;
+}
+
+.coursetag_pansamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) td, 
+.coursetag_pansamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) th, 
+.coursetag_pansamiento_cientifico_castillo .content table:not(.rf-tablegrid) td, 
+.coursetag_pansamiento_cientifico_castillo .content table:not(.rf-tablegrid) th {
+	border: 1px solid #E66638;
+}
+
+/*celdas*/
+.coursetag_pansamiento_cientifico_castillo .bck-td-2 {
+    background: #EB8560;
+}
+
+.coursetag_pansamiento_cientifico_castillo .bck-td-3 {
+    background: #FCECE7;
+}
+
+/*tabs*/
+
+.coursetag_pansamiento_cientifico_castillo .bck-tabtitles {
+    background-color: #FCECE7;
+    color: #E66638;
+}
+
+.coursetag_pansamiento_cientifico_castillo .bck-tabtitles:hover {
+    background-color: #E66638;
+	color:#fff
+}
+
+body:not(.edit).coursetag_pansamiento_cientifico_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #E66638;
+}
+
+body:not(.edit).coursetag_pansamiento_cientifico_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #E66638;
+}
+
+/*textarea*/
+.coursetag_pansamiento_cientifico_castillo .form-control {
+	border: 2px solid #ad8bd7;
+}
+
+.body_clase:not(.edit):not(.edit).coursetag_pansamiento_cientifico_castillo .form-control:focus, 
+.body_clase:not(.edit):not(.edit).coursetag_pansamiento_cientifico_castillo .form-control:focus-within, 
+.body_clase:not(.edit):not(.edit).coursetag_pansamiento_cientifico_castillo input[type="text"]:focus {
+	border: 2px solid #773dbd;
+}
+
+/*audio*/
+.coursetag_pansamiento_cientifico_castillo #actividad .player.audio {
+	background: url(images/icono_audio_pensamiento_cientifico.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 42px !important;
+    border-radius: 0;
+    vertical-align: middle;
+}
 
 /*coursetag_naturaleza_castillo*/
 
