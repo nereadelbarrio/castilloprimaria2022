@@ -2926,8 +2926,9 @@ FONT-FAMILY: 'Nunito';
     height: 140px;
     margin: 10px;
     border-radius: 10px;
-    border: 2px solid #FBD066;
+    border: none;
     background: url('images/fondo_memorys.png') center center / 50px auto no-repeat;
+    background-size: cover;
     transition: all .5s ease;
 }
 
