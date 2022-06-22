@@ -2571,9 +2571,6 @@ border: none;
 }
 
 /*test*/
-
-/*aqui*/
-
 .radio-option label.filter-label {
 font-size: 18px;
 }
@@ -2858,6 +2855,37 @@ FONT-FAMILY: 'Nunito';
     font-size: 38px;
     background-color: transparent;
     position: absolute;
+}
+
+/*crucigrama*/
+#actividad .slide.crosswords-puzzle table.puzzle td {
+    padding: 0px;
+    border: 0;
+}
+
+#actividad .slide.crosswords-puzzle table.puzzle td.hasEntry {
+    border: 1px solid transparent;
+    padding: 0px;
+}
+
+.slide.crosswords-puzzle table.puzzle td span.ta-mask.visible {
+    border-color: #F8B100;
+    border: 2px solid  #F8B100;
+    border-radius:5px;
+}
+
+.slide.crosswords-puzzle table.puzzle td input {
+	width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #fbd066;
+    border-radius: 5px;
+    height: 2.2em;
+    font-family: 'Nunito';
 }
 
 /**/
