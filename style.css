@@ -3483,12 +3483,12 @@ min-height: 12px;
 
 
 .coursetag_pansamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
-    background: #f8b100;
+    background: #773dbd;
     -webkit-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     -moz-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     border-radius: 50%;
-    border-: 2px solid #f8b100;
+    border: 2px solid #773dbd;
 }
 
 .coursetag_pansamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.drop_solucion:before {
