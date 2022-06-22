@@ -878,10 +878,8 @@ background: url(images/decoracion_01---copia.png);
 }
 
 /*enfasis*/
-	.bck-enfasis,
 	strong {
-		color: #f9bfad;
-		font-weight: bold;
+		font-weight: 800;
 	}
 
 
@@ -2725,9 +2723,88 @@ font-size: 18px;
 	border: 2px solid #BECDE2;
 }
 
-.body_clase:not(.edit):not(.edit) .form-control:focus, .body_clase:not(.edit):not(.edit) .form-control:focus-within, .body_clase:not(.edit):not(.edit)  input[type="text"]:focus {
+.body_clase:not(.edit):not(.edit) .form-control:focus, 
+.body_clase:not(.edit):not(.edit) .form-control:focus-within, 
+.body_clase:not(.edit):not(.edit)  input[type="text"]:focus {
     border: 2px solid #F8B100;
     box-shadow: none;
+}
+
+/*sopa de letras*/
+.rf-tgrid td {
+	padding: 7px;
+}
+
+.rf-tgrid {
+	height: 26px;
+    width: 26px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #000;
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.rf-wordcontainer {
+	color: #000;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    cursor: default;
+    max-width: 450px;
+    border: 2px solid;
+    border-color: transparent;
+    line-height: 2.1rem;
+
+}
+
+.rf-tablestyle {
+	border-color: #BECDE2;
+}
+
+.rf-searchgamecontainer {
+	width: 40%;
+}
+
+.slide.wordsearch .rf-tgrid.rf-selected.selected-vertical {
+    border-right-color: #EDF5E4;
+    background-color: #EDF5E4;
+}
+
+.rf-searchgamecontainer .rf-mask {
+    background-color: rgb(255 255 255 / 20%);
+    position: absolute;
+}
+
+
+
+.slide.wordsearch .rf-tgrid.selected-vertical.solucion {
+    border-right-color: #D2F0F4 !important;
+    background-color: #D2F0F4 !important;
+}
+
+.slide.wordsearch .rf-tgrid.rf-selected.selected-vertical {
+    border-right-color: #EDF5E4;
+    background-color: #EDF5E4;
+}
+
+/*Posición relativa para que no se vaya por ahí el before*/
+.rf-wordcontainer.no-queries .rf-foundword {
+    position: relative;
+}
+/*Padding para que no pise al icono*/
+.rf-wordcontainer.no-queries .rf-foundword .query {
+    padding-right: 30px;
+}
+/*Aquí va el check*/
+.rf-wordcontainer.no-queries .rf-foundword .query:after {
+    content: "";
+    background: red;
+    position: absolute;
+    padding: 10px;
+    right: 0;
 }
 
 /**/
