@@ -1536,8 +1536,8 @@ background-image: url(images/icono_caja05b.png);
 
 /*desplegables*/
 .bck-dropdown {
-	border-radius: 10px 10px 0 0;
-    background-color: #1d549e;
+    border-radius: 10px 10px 0 0;
+    background-color: transparent;
 }
 
 .bck-dropdown-icon {
@@ -1569,10 +1569,16 @@ width: 40px;
     border-bottom: 2px dotted #1d549e;
     border-radius: 0 0 10px 10px;
     overflow-y: auto;
-    display: none;
+    display: inline-block;
     max-height: none;
     padding: 22px 22px 10px 22px;
     background-color: white;
+}
+
+.bck-dropdown-button {
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #1d549e;
 }
 
 .bck-dropdown-titulo {
