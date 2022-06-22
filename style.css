@@ -2888,6 +2888,79 @@ FONT-FAMILY: 'Nunito';
     font-family: 'Nunito';
 }
 
+.slide.crosswords-puzzle table.puzzle input.fail {
+    border-color: #F9D7D7;
+    background-color: #F9D7D7;
+}
+
+.slide.crosswords-puzzle table.puzzle input.done {
+    background-color: #EDF5E4;
+    border-color: #EDF5E4;
+}
+
+.slide.crosswords-puzzle table.puzzle input.solution {
+    background-color: #D2F0F4;
+    border-color: #D2F0F4
+}
+
+.slide.crosswords-puzzle .enunciados {
+    border: 2px solid #A5BBD8;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: inline-block;
+    width: 350px;
+    padding: 1rem 3rem;
+    line-height: 2.1rem;
+}
+
+
+/*memory*/
+#actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #FBD066;
+    background: url('images/fondo_memorys.png') center center / 50px auto no-repeat;
+    transition: all .5s ease;
+}
+
+
+#actividad .workspace.memory .opcion img {
+    max-height: 132px;
+    margin: 0 !important;
+    box-shadow: none;
+}
+
+#actividad .workspace.memory .back {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #f8b100;
+    overflow: hidden;
+    box-shadow: -1px 2px 12px #00000059;
+    
+}
+
+#actividad .workspace.memory .still .back {
+    border-color: #90BF55;
+}
+
+
+#actividad .workspace.memory .on.ko .back {
+    border-color: #E33939
+}
+
+#actividad .workspace.memory .still.solucion .back {
+    border: 3px solid #11B6C1 !important;
+}
+
 /**/
 
 @media screen and (max-width: 1099px) {
