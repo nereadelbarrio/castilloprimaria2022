@@ -2914,10 +2914,9 @@ FONT-FAMILY: 'Nunito';
     line-height: 2.1rem;
 }
 
-#actividad .crosswords-puzzle textarea {
-    font-size: 15px;
+.slide.crosswords-puzzle .ta-table-cw.down {
+    padding-left: 0;
 }
-
 
 /*memory*/
 #actividad .workspace.memory .front {
