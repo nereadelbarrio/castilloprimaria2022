@@ -2968,6 +2968,29 @@ FONT-FAMILY: 'Nunito';
 /*************COURSETAG***********/
 /*coursetag_lenguajes_castillo*/
 /*coursetag_pansamiento_cientifico_castillo*/
+/*navbar*/
+	.coursetag_pansamiento_cientifico_castillo .slider-indicators li,
+	.coursetag_pansamiento_cientifico_castillo.edit .slider-indicators li {
+		background-color: #E66638;
+	}
+
+	.coursetag_pansamiento_cientifico_castillo.edit .slider-indicators .concat.active {
+		color: #E66638;
+	}
+
+.coursetag_pansamiento_cientifico_castillo.content_type_clase_castilloprimaria2022demo .slider-indicators li.active {
+    opacity: 1;
+    background: #E66638;
+}
+
+
+.coursetag_pansamiento_cientifico_castillo .dropdown-menu>li>a:hover,
+.coursetag_pansamiento_cientifico_castillo .dropdown-menu>li>a:focus {
+    color: #E66638 !important;
+}
+
+
+
 /*título slide*/
 
  .content_type_clase_castilloprimaria2022demo.coursetag_pansamiento_cientifico_castillo #actividad .content .header .title h3 {
