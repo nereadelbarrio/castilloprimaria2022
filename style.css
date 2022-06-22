@@ -2914,6 +2914,10 @@ FONT-FAMILY: 'Nunito';
     line-height: 2.1rem;
 }
 
+#actividad .crosswords-puzzle textarea {
+    font-size: 15px;
+}
+
 
 /*memory*/
 #actividad .workspace.memory .front {
