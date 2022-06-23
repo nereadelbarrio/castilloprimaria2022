@@ -3045,10 +3045,10 @@ FONT-FAMILY: 'Nunito';
 .coursetag_pensamiento_cientifico_castillo #top-navigator.show_left:before, 
 .coursetag_pensamiento_cientifico_castillo #top-navigator.show_right:after {
     color: #E66638;
+    background: linear-gradient(to left, #a13cc352, transparent);
 }
 
 /*título slide*/
-
  .content_type_clase_castilloprimaria2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3 {
     background-color: #E66638;
 }
@@ -3072,7 +3072,7 @@ FONT-FAMILY: 'Nunito';
     position: absolute;
     left: -107px;
     z-index: -1;
-    top: 19px;
+    top: -4px;
 }
 
 
