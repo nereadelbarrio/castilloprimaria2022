@@ -364,7 +364,7 @@ content: '';
 		color: #555;
 		background-color: #fff;
 		background-image: none;
-		border: 1px solid #ccc;
+		border: 3px solid #ccc;
 		border-radius: 4px;
 		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
 		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -1864,14 +1864,14 @@ color: #fff;
     display: inline-block;
     width: 26px;
     height: 26px;
-    border: 2px solid #f8b100;
+    border: 3px solid #f8b100;
     border-radius: 50%;
 	color: #f8b100;
 }
 
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
 position: absolute;
-    border-color: #773DBD;
+    border-color: #f8b100;
     background-color: transparent;
     content: '';
     background-image: linear-gradient(180deg, #f8b100 0%, #f8b100 100%);
@@ -1979,7 +1979,7 @@ position: absolute;
 
 /*rellenar espacios*/
 .content_type_clase_castilloprimaria2022demo .slide_main input {
-	border: 2px solid #fbd066;
+	border: 3px solid #fbd066;
     border-radius: 10px;
     height: 2.2em;
 }
@@ -1992,7 +1992,7 @@ position: absolute;
     outline-width: 0px;
     outline-style: none;
     box-shadow: none;
-    border: 2px solid #f8b100;
+    border: 3px solid #f8b100;
     border-radius: 10px;
 }
 
@@ -2240,7 +2240,7 @@ text-align: center;
 
 .content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ok {
     border-color: #90bf55;
-    border: 2px solid #90BF55!important;
+    border: 3px solid #90BF55!important;
     background: #EDF5E4;
 }
 
@@ -2250,7 +2250,7 @@ text-align: center;
 }
 /*match*/
 #actividad .workspace.matching .opcion {
-	border: 2px solid #F8B100;
+	border: 3px solid #F8B100;
 }
 #actividad .workspace.matching .opcion img {
     max-width: 80%;
@@ -3517,11 +3517,11 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 
 /*rellenar espacios*/
  .coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria2022demo .slide_main input {
-	border: 2px solid #AD8BD7;
+	border: 3px solid #AD8BD7;
 }
 
  .coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response {
-    border: 2px solid #AD8BD7;
+    border: 3px solid #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
@@ -3876,6 +3876,8 @@ border-bottom: none;
 	}
 }
 
+
+/*querys*/
 @media screen and (max-width: 992px) {
 	#actividad .class_slide {
 		padding-right: 30px;
