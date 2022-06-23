@@ -2803,7 +2803,7 @@ font-size: 18px;
 
 .rf-wordcontainer {
 	color: #676767;
-    font-size: 18px;
+    font-size: 16px;
     float: left;
     padding: 10px;
     cursor: default;
@@ -2842,6 +2842,7 @@ FONT-FAMILY: 'Nunito';
 .rf-wordcontainer li .rf-ptrue .span.query {
     font-family: 'Nunito';
     color: #676767;
+    font-size: 16px
 }
 
 .rf-searchgamecontainer .rf-mask {
@@ -2895,6 +2896,7 @@ FONT-FAMILY: 'Nunito';
     text-decoration: none;
     color: #676767;
     font-style: normal;
+    font-size: 16px;
 }
 
 .rf-foundword:after {
