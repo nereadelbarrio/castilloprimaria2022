@@ -2599,6 +2599,19 @@ border: none;
 font-size: 18px;
 }
 
+#actividad .workspace.test .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, 
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]+label.filter-label {
+	padding: 5px;
+    padding-left: 32px;
+    border-radius: 3px;
+    border: 5px solid transparent;
+    border-radius: 7px;
+    color: #000;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+}
+
 /*Damos formatos a los checkbox
 #actividad .workspace.test .radio-option label.filter-label::before {
     position: absolute;
@@ -2644,14 +2657,12 @@ font-size: 18px;
     background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
 }
 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
-	content: "\f00c";
-    color: #90BF55;
     font-family: 'FontAwesome';
-    left: 93px;
+    margin-left: 6px;
     font-size: 43px;
     background-color: transparent;
-    top: 4px;
-        position: absolute;
+    top: 0px;
+    position: relative;
 }
 
 #actividad .workspace.test .respuesta_ok {
@@ -2666,7 +2677,7 @@ font-size: 18px;
     border: 2px solid #E33939;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
 }
-#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+/*#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
 	content: "\f00d";
     color: #E33939;
     font-family: 'FontAwesome';
@@ -2675,6 +2686,17 @@ font-size: 18px;
     background-color: transparent;
     top: 4px;
         position: absolute;
+}*/
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+    content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: 0px;
+    position: relative;
 }
 
 #actividad .workspace.test .respuesta_ko {
@@ -3785,6 +3807,20 @@ border-bottom: none;
     background-image: linear-gradient(180deg, #773DBD 0%, #773DBD 100%);
 }
 
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+	border: 2px solid #E33939;
+    background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+	border: 2px solid #90BF55;
+    background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+    background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
+}
 
 /*coursetag_naturaleza_castillo*/
 
