@@ -3543,6 +3543,10 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
     word-wrap: break-word;
 }
 
+.coursetag_pensamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver:after {
+    border: 2px solid #773DBD;
+}
+
 .coursetag_pensamiento_cientifico_castillo .multimedia-container .respuesta.drop_ok:after, 
 .coursetag_pensamiento_cientifico_castillo .multimedia-container .answer.drop_ok span:before {
 background-color: #90bf55;
@@ -3624,7 +3628,7 @@ background-color: #90bf55;
 
 /*ordenar*/
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .js-rank-item {
-    border: 3px solid #F8B100;
+    border: 3px solid #773DBD;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
