@@ -3491,103 +3491,32 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
     opacity: 1;
 }*/
 
-/*drag and drop
-#actividad .drag .circulo_gris p {
+/*drag and drop*/
+.coursetag_pensamiento_cientifico_castillo #actividad .drag .circulo_gris p {
     background: url(images/drop_izquierda2_pensamiento_cientifico.png) 0 0 no-repeat;
     padding: 0 10px 0 30px;
     word-wrap: break-word;
 }
 
-#actividad .multimedia-container .circulo_gris.ver:after {
-background-color: #fff;
-    border: 2px solid #773DBD;
-    box-shadow: 0 0 5px 1px rgb(0 0 0 / 23%);
-    height: 18px;
-    width: 18px;
-}
-
-
-.multimedia-container .respuesta.drop_ok:after, 
-.multimedia-container .answer.drop_ok span:before {
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .respuesta.drop_ok:after, 
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .answer.drop_ok span:before {
 background-color: #90bf55;
 }
 
-.multimedia-container .respuesta.drop_ok:after, 
-.multimedia-container .answer.drop_ok span:before, 
-.multimedia-container .respuesta.drop_ko:after, 
-.multimedia-container .answer.drop_ko span:before {
-    background-image: none;
-    color: #ffff;
-    font-size: 16px;
-    border-radius: 50%;
-    height: 18px;
-    width: 18px;
-    padding: 0px 3px;
-    -webkkit-transform: translate(-12%, -5%);
-    -moz-transform: translate(-12%, -5%);
-    transform: translate(-12%, -5%);
-}
 
-.multimedia-container .respuesta.drop_ko:after, 
-.multimedia-container .answer.drop_ko span:before {
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .respuesta.drop_ko:after, 
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .answer.drop_ko span:before {
     background-color: #e33939;;
     padding: 0 4px;
 }
 
-#actividad .multimedia-container .circulo_gris.editar:before,  
-#actividad .multimedia-container .circulo_gris.respuesta:before {
-min-height: 12px;
-    color: #fff;
-    text-align: center;
-    background: #000000b0;
-    margin: -2px 21px -14px 25px;
-    padding: 2px 5px;
-    z-index: -1;
-    display: block;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    min-width: 100px;
-    text-align: center;
-    border-radius: 5px;
+
+
+.coursetag_pensamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
+    background: #e66638;
+    border: 2px solid #e66638;
 }
 
-#actividad .multimedia-container .circulo_gris.respuesta.drop_ok:before, 
-#actividad .multimedia-container .circulo_gris.respuesta.drop_ko:before {
-    text-align: center;
-}
-
-
-#actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
-    background: #773dbd;
-    -webkit-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
-    box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
-    border-radius: 50%;
-    border: 2px solid #773dbd;
-}
-
-#actividad .multimedia-container .circulo_gris.drop_solucion:before {
-	min-height: 12px;
-    color: #fff;
-    text-align: center;
-    background: rgba(0,0,0,0.7);
-    margin: 7px 21px -14px 32px;
-    padding: 2px 5px;
-    z-index: -1;
-    display: block;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    min-width: 100px;
-    border-radius: 4px;
-}*/
 
 /*arrastrar imagenes*/
 
