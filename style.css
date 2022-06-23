@@ -334,6 +334,20 @@ background: url(images/decoracion_01---copia.png);
     top: 20px;
 }*/
 
+.content_type_clase_castilloprimaria2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:after {
+    content: '';
+    padding: 10px;
+    background-image: url(images/decoracion_01dcha_pensamiento_cientifico.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 37px;
+    position: absolute;
+    left: 14px;
+    z-index: 10;
+    top: 20px;
+}
+
+
 	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.2rem;
