@@ -2141,6 +2141,10 @@ min-height: 12px;
 }
 
 /*arrastrar imagenes*/
+.fillblankimages-draggable-wrapper .response {
+	border: 3px solid #fff;
+}
+
 .fillblankimages-draggable-wrapper .response.used p:before {
 	border-top: 1px solid #342826;
     transform: rotateZ(-45deg);
@@ -2148,6 +2152,14 @@ min-height: 12px;
 
 .fillblankimages-draggable-wrapper .response.used {
 	opacity: .3!important;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container {
+    border: 2px dashed;
+    border-color: #CCC;
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
 }
 
 .slide_main .fillblankimages-draggable .img-input-container.respuesta_ok {
