@@ -295,56 +295,29 @@ body {
 }
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
-background: url(images/decoracion_01---copia.png);
+	background: url(images/decoracion_01izda_lenguaje.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 125px 171px 2px 400px;
-    /* width: 133%; */
+    padding: 63px;
     position: absolute;
-    left: -66px;
+    left: -107px;
     z-index: -1;
-    top: -3px;
+    top: 19px;
 }
 
-/*
-.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
-	background: url(images/decoracion_01b.png);
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 72px;
-    position: absolute;
-    right: 0px;
-    z-index: 100;
-    top: -127px;
-    width: 30px;
-    margin-right: 21px;
-}
-
-.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:after {
-	background: url(images/decoracion_01a.png);
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 37px;
-    position: absolute;
-    left: 14px;
-    z-index: 10;
-    top: 20px;
-}*/
 
 .content_type_clase_castilloprimaria2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:after {
-    content: '';
+content: '';
     padding: 10px;
-    background-image: url(images/decoracion_01dcha_pensamiento_cientifico.png);
+    background-image: url(images/decoracion_01dcha_lenguaje.png);
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 37px;
+    padding: 82px;
     position: absolute;
-    left: 14px;
+    right: -163px;
     z-index: 10;
-    top: 20px;
+    top: -13px;
 }
 
 
@@ -769,6 +742,11 @@ background: url(images/decoracion_01---copia.png);
 	font-weight: bold;
 	text-align: center;
 	border-radius: 0 0 120px 0;
+}
+
+/*budget nota*/
+.revision-budget {
+	margin-top: 0px;
 }
 
 /* Iconos */
@@ -3087,17 +3065,49 @@ FONT-FAMILY: 'Nunito';
 	}
 
 .content_type_clase_castilloprimaria2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:before {
-background: url(images/decoracion_01c_pensamiento_cientifico.png);
+	background: url(images/decoracion_01izda_pensamiento_cientifico.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 125px 171px 2px 400px;
-    /* width: 133%; */
+    padding: 63px;
     position: absolute;
-    left: -66px;
+    left: -107px;
     z-index: -1;
-    top: -3px;
+    top: 19px;
 }
+
+
+.content_type_clase_castilloprimaria2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:after {
+content: '';
+    padding: 10px;
+    background-image: url(images/decoracion_01dcha_pensamiento_cientifico.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 82px;
+    position: absolute;
+    right: -163px;
+    z-index: 10;
+    top: -13px;
+}
+
+/*botonera*/
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary {
+    background-color: #e66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):hover, 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):focus, 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):active, 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary.active, 
+.coursetag_pensamiento_cientifico_castillo #actividad .open .dropdown-toggle.btn-primary {
+    background-color: #e66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary[disabled], 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary[disabled]:focus {
+    background-color: #d2d2d2;
+}
+
 
 /*titulo 01*/
 	.coursetag_pensamiento_cientifico_castillo .bck-title1 {
