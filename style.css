@@ -1923,13 +1923,13 @@ color: #fff;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
-	content: "\f00d";
+    content: "\f00d";
     color: #E33939;
     font-family: 'FontAwesome';
-    margin-left: 3px;
+    margin-left: 6px;
     font-size: 43px;
     background-color: transparent;
-    top: -3px;
+    top: -1px;
     position: relative;
 }
 
@@ -3434,14 +3434,14 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
 }
 .coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
-	content: "\f00d";
+    content: "\f00d";
     color: #E33939;
     font-family: 'FontAwesome';
-    left: 93px;
+    margin-left: 6px;
     font-size: 43px;
     background-color: transparent;
-    top: 4px;
-        position: absolute;
+    top: -1px;
+    position: relative;
 }
 
 /*solucion*/
