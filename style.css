@@ -1902,11 +1902,11 @@ color: #fff;
 	content: "\f00c";
     color: #90BF55;
     font-family: 'FontAwesome';
-    left: 93px;
+    margin-left: 3px;
     font-size: 43px;
     background-color: transparent;
-    top: 4px;
-        position: absolute;
+    top: -3px;
+    position: relative;
 }
 
 #actividad .workspace.test .respuesta_ok, 
@@ -2983,6 +2983,10 @@ FONT-FAMILY: 'Nunito';
     background: #E66638;
 }
 
+.coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria2022demo .publisher-navbar .slider-indicators li:hover {
+    background: #E66638;
+}
+
 
 .coursetag_pensamiento_cientifico_castillo .dropdown-menu>li>a:hover,
 .coursetag_pensamiento_cientifico_castillo .dropdown-menu>li>a:focus {
@@ -3412,7 +3416,7 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
     opacity: 1;
 }*/
 
-/*drag and drop*/
+/*drag and drop
 #actividad .drag .circulo_gris p {
     background: url(images/drop_izquierda2_pensamiento_cientifico.png) 0 0 no-repeat;
     padding: 0 10px 0 30px;
@@ -3508,7 +3512,7 @@ min-height: 12px;
     text-overflow: ellipsis;
     min-width: 100px;
     border-radius: 4px;
-}
+}*/
 
 /*arrastrar imagenes*/
 .fillblankimages-draggable-wrapper .response.used p:before {
