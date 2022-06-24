@@ -3402,6 +3402,10 @@ background-color: #E66638;
     border: 1px solid #fff;
 }
 
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuesta .indice {
+	color: #E66638;
+}
+
 /*sopa de letras*/
 
 .coursetag_pensamiento_cientifico_castillo .rf-tablestyle {
@@ -3911,7 +3915,7 @@ border-bottom: none;
 .coursetag_naturaleza_castillo #top-navigator.show_left:before, 
 .coursetag_naturaleza_castillo #top-navigator.show_right:after {
     color: #85B04C;
-    background: linear-gradient(to left, #a13cc352, transparent);
+    background: linear-gradient(to left, #85b04c42, transparent);
 }
 
 /*título slide*/
@@ -3957,7 +3961,7 @@ content: '';
 
 /*botonera*/
 .coursetag_naturaleza_castillo #actividad .btn-primary {
-    background-color: #E66638;
+    background-color: #85B04C;
 }
 
 .coursetag_naturaleza_castillo #actividad .btn-primary:not([disabled]):hover, 
@@ -3965,7 +3969,7 @@ content: '';
 .coursetag_naturaleza_castillo #actividad .btn-primary:not([disabled]):active, 
 .coursetag_naturaleza_castillo #actividad .btn-primary.active, 
 .coursetag_naturaleza_castillo #actividad .open .dropdown-toggle.btn-primary {
-    background-color: #E66638;
+    background-color: #85B04C;
 }
 
 .coursetag_naturaleza_castillo #actividad .btn-primary[disabled], 
@@ -4017,13 +4021,13 @@ color: #85B04C;
 /*cajas*/
 /*caja 01*/
 	.coursetag_naturaleza_castillo .bck-box.box-1 {
-    border: 1px solid #85B04C;
+    border: 1px solid #9DC070;
 	}
 
 
 
 	.coursetag_naturaleza_castillo .bck-box.box-1 > .bck-content {
-	background-color: #FAE0D7;
+	background-color: #E7EFDB;
 	}	
 
 
@@ -4040,11 +4044,11 @@ color: #85B04C;
 
 /*caja 04*/
 .coursetag_naturaleza_castillo .bck-box.box-4 {
-    box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #FAE0D7, 0 0 0 5px #FAE0D7, 0 0 0 6px #85B04C;
+    box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #E7EFDB, 0 0 0 5px #E7EFDB, 0 0 0 6px #85B04C;
     outline: dashed 7px #85B04C;
 }
 .coursetag_naturaleza_castillo .bck-box.box-4 > .bck-title p {
-	    color: #85B04C;
+        color: #85B04C;
 }
 
 
@@ -4120,7 +4124,7 @@ color: #85B04C;
 /*flipbox*/
 body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front {
 	    color: #85B04C;
-    background-color: #FAE0D7;
+    background-color: #E7EFDB;
 }
 
  body:not(.edit).coursetag_naturaleza_castillo .front .bck-flipbox-section,
@@ -4158,11 +4162,11 @@ body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front p {
 
 /*celdas*/
 .coursetag_naturaleza_castillo .bck-td-2 {
-    background: #EB8560;
+    background: #9DC070;
 }
 
 .coursetag_naturaleza_castillo .bck-td-3 {
-    background: #FCECE7;
+    background: #F5F9F1;
 }
 
 /*tabs*/
@@ -4185,7 +4189,7 @@ body:not(.edit).coursetag_naturaleza_castillo .bck-tabcontents .div-contents {
     border-top: 1px solid #85B04C;
 }
 /**/
-/*tabs*/
+/*tabs
 .coursetag_pensamiento_cientifico_castillo .bck-tabtitles {
     background-color: #F5F9F1;
     color: #fff;
@@ -4236,18 +4240,18 @@ background-color: #85B04C;
 
 /*textarea*/
 .coursetag_naturaleza_castillo .form-control {
-	border: 2px solid #ad8bd7;
+	border: 2px solid #E66638;
 }
 
 .body_clase:not(.edit):not(.edit).coursetag_naturaleza_castillo .form-control:focus, 
 .body_clase:not(.edit):not(.edit).coursetag_naturaleza_castillo .form-control:focus-within, 
 .body_clase:not(.edit):not(.edit).coursetag_naturaleza_castillo input[type="text"]:focus {
-	border: 2px solid #773dbd;
+	border: 2px solid #E66638;
 }
 
 /*audio*/
 .coursetag_naturaleza_castillo #actividad .player.audio {
-	background: url(images/icono_audio_pensamiento_cientifico.png) 0 0 no-repeat;
+	background: url(images/icono_audio_naturaleza.png) 0 0 no-repeat;
     background-size: contain;
     width: 42px;
     height: 42px !important;
@@ -4263,7 +4267,7 @@ background-color: #85B04C;
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    background: url(images/icono_pop-up_pensamiento.png);
+    background: url(images/icono_pop-up_naturaleza.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
@@ -4273,15 +4277,15 @@ background-color: #85B04C;
 /*actividades*/
 /*palabras cruzadas*/
 .coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta .caracter {
-	border: 1px solid #AD8BD7;
+	border: 1px solid #F0A388;
 }
 
 .coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta .caracter.solucion {
-    background-color: #E4D8F2;
+    background-color: #FAE0D7;
 }
 
 .coursetag_naturaleza_castillo .slide.crosswords .enunciados {
-    border: 2px solid #F5C2AF;
+    border: 2px solid #CEDFB7;
 } 
 
 .coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
@@ -4299,31 +4303,32 @@ background-color: #85B04C;
     border: 1px solid #fff;
 }
 
+.coursetag_naturaleza_castillo .slide.crosswords .respuesta .indice {
+    color: #85B04C;
+}
+
 /*sopa de letras*/
 
 .coursetag_naturaleza_castillo .rf-tablestyle {
-	border-color: #F5C2AF;
+	border-color: #CEDFB7;
 }
 
 .coursetag_naturaleza_castillo .rf-wordcontainer li .index {
-    margin-right: 5px;
     color: #85B04C;
-    font-weight: 900;
-    font-family: 'Nunito';
 }
 
 /*crucigrama*/
 .coursetag_naturaleza_castillo .slide.crosswords-puzzle table.puzzle td span.ta-mask.visible {
-    border-color: #773DBD;
-    border: 2px solid  #773DBD;
+    border-color: #E66638;
+    border: 2px solid  #E66638;
 }
 
 .coursetag_naturaleza_castillo .slide.crosswords-puzzle table.puzzle td input {
-    border: 2px solid #AD8BD7;
+    border: 2px solid #F0A388;
 }
 
 .coursetag_naturaleza_castillo .slide.crosswords-puzzle .enunciados {
-    border: 2px solid #F5C2AF;
+    border: 2px solid #CEDFB7;
 }
 
 /*memory*/
@@ -4334,14 +4339,14 @@ background-color: #85B04C;
     margin: 10px;
     border-radius: 10px;
     border: none;
-    background: url('images/fondo_memorys_pensamiento_cientifico.png') center center / 50px auto no-repeat;
+    background: url('images/fondo_memorys_naturaleza.png') center center / 50px auto no-repeat;
     background-size: cover;
     transition: all .5s ease;
 }
 
 
 .coursetag_naturaleza_castillo #actividad .workspace.memory .back {
-    border: 2px solid #773DBD;
+    border: 2px solid #E66638;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.memory .still .back {
@@ -4350,12 +4355,27 @@ background-color: #85B04C;
 
 /*respuesta multiple*/
 .coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion {
-	border: 3px solid #AD8BD7;
+	border: 3px solid #F0A388;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #773DBD;
-    background-color: #E4D8F2;
+    border-color: #E66638;
+    background-color: #FAE0D7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok {
+    border-color: #90bf55;
+    background-color: #edf5e4;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko {
+    border-color: #e33939;
+    background-color: #f9d7d7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.solucion {
+    border-color: #1eb3c6;
+    background-color: #d2f0f4;
 }
 
 /*verdadero falso*/
@@ -4365,17 +4385,17 @@ background-color: #85B04C;
     display: inline-block;
     width: 26px;
     height: 26px;
-    border: 2px solid #773DBD;
+    border: 2px solid #E66638;
     border-radius: 50%;
-	color: #773DBD;
+	color: #E66638;
 }
 
 .coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
     position: absolute;
-    border-color: #773DBD;
+    border-color: #E66638;
     background-color: transparent;
     content: '';
-    background-image: linear-gradient(180deg, #773DBD 0%, #773DBD 100%);
+    background-image: linear-gradient(180deg, #E66638 0%, #E66638 100%);
     background-size: 26px 21px;
     background-position: center;
     background-repeat: no-repeat;
@@ -4430,11 +4450,11 @@ background-color: #85B04C;
 
 /*rellenar espacios*/
  .coursetag_naturaleza_castillo.content_type_clase_castilloprimaria2022demo .slide_main input {
-	border: 2px solid #AD8BD7;
+	border: 2px solid #F0A388;
 }
 
  .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response {
-    border: 2px solid #AD8BD7;
+    border: 2px solid #F0A388;
 }
 
 .coursetag_naturaleza_castillo.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
@@ -4452,13 +4472,13 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
 
 /*drag and drop*/
 .coursetag_naturaleza_castillo #actividad .drag .circulo_gris p {
-    background: url(images/drop_izquierda2_pensamiento_cientifico.png) 0 0 no-repeat;
+    background: url(images/drop_izquierda2_naturaleza.png) 0 0 no-repeat;
     padding: 0 10px 0 30px;
     word-wrap: break-word;
 }
 
 .coursetag_naturaleza_castillo #actividad .multimedia-container .circulo_gris.ver:after {
-    border: 2px solid #773DBD;
+    border: 2px solid #E66638;
 }
 
 .coursetag_naturaleza_castillo .multimedia-container .respuesta.drop_ok:after, 
@@ -4485,14 +4505,14 @@ background-color: #90bf55;
 
 /*marcar palabras*/
 .coursetag_naturaleza_castillo #actividad .markword-active {
-    border: 2px solid #773DBD !important;
+    border: 2px solid #E66638 !important;
 }
 
 /*marcar palabras*/
 .coursetag_naturaleza_castillo #actividad .markword-active {
     border-radius: 12px !important;
     padding: 4px !important;
-    border: 2px solid #F8B100 !important;
+    border: 2px solid #E66638 !important;
 }
 
 .coursetag_naturaleza_castillo #actividad .markword-correct {
@@ -4527,22 +4547,22 @@ background-color: #90bf55;
 
 .coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=text], 
 .coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=tel] {
-    border: 2px solid #AD8BD7;
+    border: 2px solid #F0A388;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=text]:focus,
 .coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=tel]:focus {
-    border: 2px solid #773DBD;
+    border: 2px solid #E66638;
 }
 
 /*match*/
 .coursetag_naturaleza_castillo #actividad .workspace.matching .opcion {
-	border: 2px solid #773DBD;
+	border: 2px solid #E66638;
 }
 
 /*ordenar*/
 .coursetag_naturaleza_castillo #actividad .workspace.ordenar .js-rank-item {
-    border: 3px solid #773DBD;
+    border: 3px solid #E66638;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -4554,7 +4574,7 @@ background-color: #90bf55;
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     border: 0;
     padding: 0px;
-    box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #fae0d7, 0 0 0 5px #fae0d7, 0 0 0 6px #85B04C;
+    box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #CEDFB7, 0 0 0 5px #CEDFB7, 0 0 0 6px #85B04C;
     outline: dashed 7px #85B04C;
     background-color: #fff;
     margin-bottom: 40px;
@@ -4565,22 +4585,22 @@ background-color: #90bf55;
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
 text-align: center;
     font-weight: bold;
-    border-bottom: 1px solid #FDF3EF;
+    border-bottom: 1px solid #F5F9F1;
     display: table;
     width: 100%;
     margin: 0px;
     margin-top: -1px;
-    background-color: #FDF3EF;
+    background-color: #F5F9F1;
     color: #85B04C;
     padding: 10px;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 3px solid #AD8BD7;
+    border: 3px solid #9DC070;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
-    border: 3px solid #AD8BD7;
+    border: 3px solid #9DC070;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
@@ -4602,9 +4622,9 @@ border: 3px solid #E33939;
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .bloque, 
 .coursetag_naturaleza_castillo #actividad .slide-syntax .sintaxis_frase .bloque {
 	position: relative;
-    border-bottom: 2px #AD8BD7 solid;
-    border-left: 2px #AD8BD7 solid;
-    border-right: 2px #AD8BD7 solid;
+    border-bottom: 2px #9DC070 solid;
+    border-left: 2px #9DC070 solid;
+    border-right: 2px #9DC070 solid;
 }
 
 .coursetag_naturaleza_castillo .form-control {
@@ -4617,7 +4637,7 @@ border: 3px solid #E33939;
     color: #000;
     background-color: #fff;
     background-image: none;
-    border: 2px solid #773DBD;
+    border: 2px solid #85B04C;
     border-radius: 8px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -4627,10 +4647,10 @@ border: 3px solid #E33939;
 
 .coursetag_naturaleza_castillo .form-control:focus, 
 .coursetag_naturaleza_castillo .form-control:focus-within {
-    border-top-color: #773DBD;
-    border-right-color: #773DBD;
-    border-bottom-color: #773DBD;
-    border-left-color: #773DBD;
+    border-top-color: #85B04C;
+    border-right-color: #85B04C;
+    border-bottom-color: #85B04C;
+    border-left-color: #85B04C;
     border-width: 2px;
     outline-width: 0;
     outline-style: none;
@@ -4638,21 +4658,21 @@ border: 3px solid #E33939;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .filled {
-    border: 3px solid #773DBD;
+    border: 3px solid #85B04C;
     color: #000;
     background-color: #fff;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .bloque.filled {
-    border-bottom: 2px #773DBD dashed;
-    border-left: 2px #773DBD dashed;
-    border-right: 2px #773DBD dashed;
+    border-bottom: 2px #85B04C dashed;
+    border-left: 2px #85B04C dashed;
+    border-right: 2px #85B04C dashed;
     border-radius: 3px;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .filled:before, 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
-    background-color: #773DBD;
+    background-color: #85B04C;
 border-bottom: none;
     border-left: none;
     border-right: none;
@@ -4677,16 +4697,16 @@ border-bottom: none;
 /*señalar respuesta*/
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks select {
     border: 0;
-    border-bottom: 3px solid #773DBD;
+    border-bottom: 3px solid #85B04C;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a {
-    border: 3px solid #AD8BD7;
+    border: 3px solid #9DC070;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border: 3px solid #773DBD;
+    border: 3px solid #85B04C;
 }
 
 
@@ -4738,14 +4758,14 @@ border-bottom: none;
 
 /*test*/
 .coursetag_naturaleza_castillo #actividad .workspace.test .radio-option label.filter-label::before {
-    border: 2px solid #773DBD;
-    color: #773DBD;
+    border: 2px solid #85B04C;
+    color: #85B04C;
 }
 
 
 .coursetag_naturaleza_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
-    border-color: #773DBD;
-    background-image: linear-gradient(180deg, #773DBD 0%, #773DBD 100%);
+    border-color: #85B04C;
+    background-image: linear-gradient(180deg, #85B04C 0%, #85B04C 100%);
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
@@ -4758,10 +4778,11 @@ border-bottom: none;
     background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
 }
 
-.coursetag_naturaleza_castillo #actividad #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+.coursetag_naturaleza_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
 	border-color: #1EB3C6;
     background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
 }
+
 
 
 
