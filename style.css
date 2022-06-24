@@ -3352,7 +3352,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    background: url(images/icono_audio_pensamiento_cientifico.png);
+    background: url(images/icono_pop-up_pensamiento.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
