@@ -302,7 +302,7 @@ body {
     position: absolute;
     left: -107px;
     z-index: -1;
-    top: 19px;
+    margin-top: -30px;
 }
 
 
@@ -3921,6 +3921,7 @@ border-bottom: none;
 /*título slide*/
  .content_type_clase_castilloprimaria2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3 {
     background-color: #85B04C;
+    margin-left: 17px;
 }
 
 /*imagen en navbar sup.*/
