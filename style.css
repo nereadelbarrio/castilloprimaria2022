@@ -1720,6 +1720,11 @@ body:not(.edit) .bck-tabcontents .div-contents {
     color: #676767;
 }
 
+.body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles.active {
+	background-color: #E66638;
+	color: #fff
+}
+
 /*botonera*/
 #actividad .btn-danger, #actividad .btn-danger[disabled] {
     color: #fff;
