@@ -3083,7 +3083,6 @@ FONT-FAMILY: 'Nunito';
     position: absolute;
     left: -107px;
     z-index: -1;
-    top: -4px;
 }
 
 
@@ -3606,10 +3605,6 @@ background-color: #90bf55;
 
 /*arrastrar imagenes*/
 
-/*marcar palabras*/
-.coursetag_pensamiento_cientifico_castillo #actividad .markword-active {
-    border: 2px solid #773DBD !important;
-}
 
 /*marcar palabras*/
 .coursetag_pensamiento_cientifico_castillo #actividad .markword-active {
