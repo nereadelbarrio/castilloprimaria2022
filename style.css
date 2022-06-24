@@ -3031,6 +3031,7 @@ FONT-FAMILY: 'Nunito';
 	.coursetag_pensamiento_cientifico_castillo .slider-indicators li,
 	.coursetag_pensamiento_cientifico_castillo.edit .slider-indicators li {
 		background-color: #E66638;
+		opacity: 0.5;
 	}
 
 	.coursetag_pensamiento_cientifico_castillo.edit .slider-indicators .concat.active {
@@ -3891,6 +3892,7 @@ border-bottom: none;
 	.coursetag_naturaleza_castillo .slider-indicators li,
 	.coursetag_naturaleza_castillo.edit .slider-indicators li {
 		background-color: #85B04C;
+		opacity: 0.5;
 	}
 
 	.coursetag_naturaleza_castillo.edit .slider-indicators .concat.active {
