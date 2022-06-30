@@ -210,6 +210,11 @@ body {
 		-webkit-transform-style: flat;
 	}
 
+/*fondo slide*/
+#swipeview-slider>div {
+	background-color: #E9EFF5;
+}
+
 
 /*imagen en navbar sup.*/
 	#actividad .carousel-inner .item-container {
@@ -789,13 +794,13 @@ content: '';
 	    margin-bottom: 25px;
 	    color: #1d549e;
 	    margin-left: -98px;
-	    font-weight: 900;
+	    font-weight: 700;
 	    font-family: 'Nunito';
 	}
 
 /*titulo 02*/
 	.bck-title2 {
-		font-weight: 700;
+		font-weight: 600;
     color: #000;
     font-size: 2rem;
     font-family: 'Nunito';
@@ -804,7 +809,7 @@ content: '';
 
 /*titulo 03*/
 	.bck-title3 {
-	font-weight: 700;
+	font-weight: 600;
     color: #1d549e;
     font-family: 'Nunito';
     font-size: 25px;
@@ -812,7 +817,7 @@ content: '';
 
 /*titulo 04*/
 	.bck-title4 {
-	font-weight: 900;
+	font-weight: 700;
     color: #1d549e;
     font-family: 'Nunito';
     font-size: 25px;
@@ -3027,6 +3032,11 @@ FONT-FAMILY: 'Nunito';
 /*************COURSETAG***********/
 /*coursetag_lenguajes_castillo*/
 /*coursetag_pensamiento_cientifico_castillo*/
+/*fondo slide*/
+.coursetag_pensamiento_cientifico_castillo #swipeview-slider>div {
+	background-color: #FCECE7;
+}
+
 /*navbar*/
 	.coursetag_pensamiento_cientifico_castillo .slider-indicators li,
 	.coursetag_pensamiento_cientifico_castillo.edit .slider-indicators li {
@@ -3883,6 +3893,11 @@ border-bottom: none;
 
 /*coursetag_naturaleza_castillo*/
 /*coursetag_naturaleza_castillo*/
+/*fondo slide*/
+.coursetag_naturaleza_castillo #swipeview-slider>div {
+	background-color: #F5F9F1;
+}
+
 /*navbar*/
 	.coursetag_naturaleza_castillo .slider-indicators li,
 	.coursetag_naturaleza_castillo.edit .slider-indicators li {
