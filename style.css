@@ -285,6 +285,14 @@ body {
     border: 2px solid #fff;
     border-radius: 4px;
 }
+ 
+.fillblankimages-draggable .img-input-container.imgFilled img {
+    max-width: 100%;
+    width: auto !important;
+    padding: 0;
+    max-height: 120px;
+}
+
 
 /*título slide*/
 
@@ -2038,7 +2046,7 @@ position: absolute;
     max-width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5px 90px;
+    padding: 5px 50px;
 }
 
 #actividad .workspace.multiple-choice .opcion p {
@@ -2046,6 +2054,49 @@ position: absolute;
     margin: 0;
     text-align: left;
 }
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok {
+	background-image: none;
+}
+
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko {
+	background-image: none;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
+#actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
+    font-family: FontAwesome;
+    font-size: 27px;
+    margin: 0 10px 0 0;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko:after {
+content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -1px;
+    position: relative;
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
+   content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    margin-left: 3px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -3px;
+    position: relative;
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+
 
 /*rellenar espacios*/
 .content_type_clase_castilloprimaria2022demo .slide_main input {
@@ -2109,6 +2160,7 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
 #actividad .drag .circulo_gris p {
     background: url(images/drop_izquierda2.png) 0 0 no-repeat;
     padding: 0 10px 0 30px;
+    font-weight: bold;
     word-wrap: break-word;
 }
 
@@ -2223,6 +2275,7 @@ min-height: 12px;
     height: 180px;
     width: 180px;
     border-radius: 10px;
+    max-height: 120px;
 }
 
 .slide_main .fillblankimages-draggable .img-input-container.respuesta_ok {
@@ -2246,6 +2299,7 @@ min-height: 12px;
 
 .fillblankimages-draggable .img-input-container.imgFilled img {
 	box-shadow: none !important;
+
 }
 
 /*arrastrar imagen a imagen*/
@@ -2290,6 +2344,7 @@ min-height: 12px;
     width: 18px;
     padding: 0;
     font-weight: 700;
+    color: #000;
 }
 
 #actividad .workspace.calculo .cifra input[type=text], 
@@ -2297,9 +2352,10 @@ min-height: 12px;
 text-align: center;
     width: 25px;
     border-radius: 5px;
-    height: 35px;
+    height: 40px;
     margin: 2px;
     padding: 0px;
+    color: #000;
     border: 2px solid #fbd066;
 }
 
@@ -3648,6 +3704,7 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
     background: url(images/drop_izquierda2_pensamiento_cientifico.png) 0 0 no-repeat;
     padding: 0 10px 0 30px;
     word-wrap: break-word;
+    font-weight: bold;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver:after {
@@ -4548,6 +4605,7 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
 .coursetag_naturaleza_castillo #actividad .drag .circulo_gris p {
     background: url(images/drop_izquierda2_naturaleza.png) 0 0 no-repeat;
     padding: 0 10px 0 30px;
+    font-weight: bold;
     word-wrap: break-word;
 }
 
