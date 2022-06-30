@@ -828,7 +828,7 @@ content: '';
 	    text-decoration: dotted;
     border-bottom: 1px dotted #1d549e;
     color: #1d549e;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -1033,6 +1033,7 @@ margin-left: auto;
     font-weight: 800;
     font-size: 16px;
     font-family: 'Nunito';
+        color: #000;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
@@ -1046,16 +1047,16 @@ margin-left: auto;
 #actividad .content .texto_curso .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
-	content: counter(bck-li-counter) ".";
+content: counter(bck-li-counter) ".";
     font-family: 'Nunito';
     font-weight: 800;
     position: absolute;
     text-align: right;
     color: #1d549e;
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 0px;
     left: -25px;
-    top: -2px;
+    top: 0px;
 }
 
 
@@ -1094,16 +1095,16 @@ margin-left: auto;
 #actividad .content .texto_curso .bck-ol-2 li:before,
 #actividad .popover-content .bck-ol-2 li:before,
 #actividad .content .workspace ul li .bck-ol-2 li:before {
-	content: counter(bck-li-counter, lower-alpha)')';
+content: counter(bck-li-counter, lower-alpha)')';
     font-family: 'Nunito';
     font-weight: 700;
     position: absolute;
     text-align: right;
     color: #f8b100;
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 0px;
     left: -25px;
-    top: -2px;
+    top: -1px;
 }
 
 
@@ -1142,16 +1143,16 @@ margin-left: auto;
 #actividad .content .texto_curso .bck-ol-3 li:before,
 #actividad .popover-content .bck-ol-3 li:before,
 #actividad .content .workspace ul li .bck-ol-3 li:before {
-	content: counter(bck-li-counter) ".";
+content: counter(bck-li-counter) ".";
     font-family: 'Nunito';
     font-weight: 800;
     position: absolute;
     text-align: right;
     color: #1d549e;
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 0px;
     left: -25px;
-    top: -2px;
+    top: 0px;
 }
 
 
@@ -1421,7 +1422,7 @@ margin-top: -20px;
 .bck-box.box-3 {
     border: 0;
     padding: 20px;
-    border: 5px solid #f8b100;
+    border: 3px solid #f8b100;
     background-color: #fff;
     margin-bottom: 40px;
     border-radius: 20px;
@@ -1508,21 +1509,22 @@ background-image: url(images/icono_caja05.png);
     content: " ";
     position: absolute;
     left: -53px;
+    top: 22px;
     z-index: 100;
-    padding: 70px;
+    padding: 38px;
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
 }
 
 .bck-box.box-5 > .bck-title:after {
-background-image: url(images/icono_caja05b.png);
+    background-image: url(images/icono_caja05b.png);
     content: " ";
     position: absolute;
     right: -51px;
-    top: 0px;
+    top: 23px;
     z-index: 100;
-    padding: 70px;
+    padding: 40px;
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -3184,6 +3186,7 @@ color: #E66638;
 /*caja 02*/
 	.coursetag_pensamiento_cientifico_castillo .bck-box.box-2 {
     background-color: #E66638;
+    box-shadow: 0px 4px 8px 1px #f3dfd8;
 }
 
 
