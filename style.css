@@ -232,7 +232,7 @@ body {
     -webkit-user-drag: none;
     border-radius: 10px;
     border: 12px solid #fff;
-    box-shadow: -1px 2px 12px #00000059;
+    box-shadow: -1px 2px 12px #d9d9d9a8;
 }
 
 .zoom_flag_img {
@@ -271,6 +271,20 @@ body {
 	.content_type_clase_castilloprimaria2022demo #actividad .content .header {
 		border: none;
 	}
+
+
+	#actividad .img-thumbs .slick-slide.slick-current img {
+    opacity: 1;
+    transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    box-shadow: 0 0 2px 2px #d1d1d1;
+    z-index: 101;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
 
 /*título slide*/
 
@@ -950,6 +964,7 @@ content: '';
 
 #actividad textarea {
     font-size: 20px;
+    border-radius: 10px;
 }
 
 .texto_curso p:last-of-type {
@@ -965,6 +980,9 @@ content: '';
     font-size: 22px;
 }
 
+.html-book .js-rich-group {
+	border-radius: 11px;
+}
 
 /*----------------------LISTAS-----------------------*/
 
@@ -1610,16 +1628,21 @@ body:not(.edit) .bck-flipbox-face.front {
     left: 0;
     z-index: 1;
     border: none;
+        border-radius: 10px;
+        box-shadow: 0px 10px 9px -8px #d0d0d0;
 }
 
 body:not(.edit) .front .bck-flipbox-section,
 body:not(.edit) .front .bck-flipbox-title {
 	color: #1d549e;
+
 }
 
 body:not(.edit) .bck-flipbox-face.back {
     background-color: #1d549e;
     border: none;
+        border-radius: 10px;
+        box-shadow: 0px 10px 9px -8px #d0d0d0;
 }
 
 body:not(.edit) .back .bck-flipbox-title, body:not(.edit) .back .bck-flipbox-section {
@@ -1639,6 +1662,12 @@ body:not(.edit) .bck-flipbox-face.back p {
 }
 
 /*taBlas*/
+.cke_contents table:not(.rf-tablegrid),
+.content table:not(.rf-tablegrid) {
+    border: 1px dotted #CBCCCD;
+}
+
+
 	.bck-td {
 		background: #dcdcdc;
 	}
@@ -1646,7 +1675,7 @@ body:not(.edit) .bck-flipbox-face.back p {
 	/*tablas*/
 
 .bck-table,table {
-    border: 1px dotted #1D549E;
+    border: 2px dotted #1D549E;
 }
 
 .bck-table td,table td {
@@ -1661,20 +1690,23 @@ td,th {
 .cke_contents table:not(.rf-tablegrid) th, 
 .content table:not(.rf-tablegrid) td, 
 .content table:not(.rf-tablegrid) th {
-	border: 1px solid #1d549e;
+	border: 2px dotted #1d549e;
 }
 
 /*celdas*/
 .bck-td-2 {
     background: #8CB5D1;
+    text-align: center;
 }
 
 .bck-td-3 {
     background: #E9EFF5;
+    text-align: center;
 }
 
 .bck-td-4 {
     background: #ffffff;
+    text-align: center;
 }
 
 /*tabs*/
@@ -1689,7 +1721,7 @@ body:not(.edit) .bck-tabs-box {
     outline: 0;
     text-align: center;
     cursor: pointer;
-    padding: 14px;
+    padding: 10px 22px;
     transition: .3s;
     display: inline-block;
     float: left;
@@ -1987,6 +2019,32 @@ position: absolute;
 #actividad .workspace.multiple-choice .opcion.solucion {
     border-color: #1eb3c6;
     background-color: #d2f0f4;
+}
+
+#actividad .workspace.multiple-choice {
+    clear: both;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 30%;
+    margin: auto;
+}
+
+#actividad .workspace.multiple-choice .opcion {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 90px;
+}
+
+#actividad .workspace.multiple-choice .opcion p {
+    padding: 5px;
+    margin: 0;
+    text-align: left;
 }
 
 /*rellenar espacios*/
@@ -3300,7 +3358,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.fron
 
 /*tablas*/
 .coursetag_pensamiento_cientifico_castillo .bck-table {
-    border: 1px dotted #E66638;
+    border: 2px dotted #E66638;
 }
 
 .coursetag_pensamiento_cientifico_castillo .bck-table td {
@@ -3311,7 +3369,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.fron
 .coursetag_pensamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) th, 
 .coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) td, 
 .coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) th {
-	border: 1px solid #E66638;
+    border: 2px dotted #E66638;
 }
 
 /*celdas*/
@@ -4162,7 +4220,7 @@ body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front p {
 
 /*tablas*/
 .coursetag_naturaleza_castillo .bck-table {
-    border: 1px dotted #85B04C;
+    border: 2px dotted #85B04C;
 }
 
 .coursetag_naturaleza_castillo .bck-table td {
@@ -4173,7 +4231,7 @@ body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front p {
 .coursetag_naturaleza_castillo .cke_contents table:not(.rf-tablegrid) th, 
 .coursetag_naturaleza_castillo .content table:not(.rf-tablegrid) td, 
 .coursetag_naturaleza_castillo .content table:not(.rf-tablegrid) th {
-	border: 1px solid #85B04C;
+    border: 2px dotted #85B04C;
 }
 
 /*celdas*/
