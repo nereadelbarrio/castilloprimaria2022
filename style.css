@@ -4229,7 +4229,7 @@ color: #85B04C;
 
 /*caja 03*/
 .coursetag_naturaleza_castillo .bck-box.box-3 {
-    border: 5px solid #773DBD;
+    border: 5px solid #85B04C;
 }
 
 /*caja 04*/
@@ -4364,6 +4364,11 @@ body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front p {
 .coursetag_naturaleza_castillo .bck-tabtitles {
     background-color: #FCECE7;
     color: #85B04C;
+}
+
+.body_clase .coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
+	background-color: #e7efdb;
+	color: #85b04c;
 }
 
 .coursetag_naturaleza_castillo .bck-tabtitles:hover {
