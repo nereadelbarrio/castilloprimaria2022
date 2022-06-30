@@ -975,9 +975,9 @@ content: '';
     border-radius: 10px;
 }
 
-.texto_curso p:last-of-type {
+/*.texto_curso p:last-of-type {
     margin-bottom: 5px;
-}
+}*/
 
 .texto_curso p {
     line-height: normal;
@@ -2505,12 +2505,17 @@ border: 3px solid #E33939;
     border-radius: 0px 0px 8px 8px;
 }
 
+#actividad .workspace.syntax .bloque:before, 
+#actividad .slide-syntax .bloque:before {
+border-radius: 4px;
+}
+
 #actividad .workspace.syntax .circulo {
     background-color: #525252;
     color: #fff;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     width: 20px;
     height: 20px;
     text-align: center;
