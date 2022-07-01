@@ -2711,7 +2711,7 @@ border: none;
 
 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border: 2px solid #F8B100;
+    border: 3px solid #F8B100;
 }
 
 #actividad .workspace.chooseblanks .inline-answer a.selected {
@@ -4084,7 +4084,7 @@ border-bottom: none;
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border: 2px solid #773DBD;
+    border: 3px solid #773DBD;
 }
 
 
@@ -5011,7 +5011,7 @@ border-bottom: none;
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border:2px solid #85B04C;
+    border:3px solid #85B04C;
 }
 
 
