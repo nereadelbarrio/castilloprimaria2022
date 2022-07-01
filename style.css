@@ -286,7 +286,8 @@ body {
     border-radius: 4px;
 }
  
-.fillblankimages-draggable .img-input-container.imgFilled img {
+.fillblankimages-draggable-wrapper .response .bck-i-fullscreen,
+ .fillblankimages-draggable .img-input-container.imgFilled img {
     max-width: 100%;
     width: auto !important;
     padding: 0;
@@ -423,8 +424,8 @@ content: '';
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
-		border-color: #FF3626;
-		background: #FFA49D;
+		border-color: #e33939;
+    	background: #f9d7d7;
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
@@ -915,6 +916,11 @@ content: '';
 		border-top: 2px dashed #f9bfad;
 	}
 
+/*tamaños texto pregutnas*/
+#actividad .workspace {
+	font-size: 16px;
+}	
+
 /*pop up*/
 #actividad .info-button {
     display: inline-block;
@@ -996,10 +1002,11 @@ content: '';
 /*----------------------LISTAS-----------------------*/
 
 /*Tamaño general*/
-#actividad .texto_curso li, #actividad .workspace ul li li {
+#actividad .texto_curso li, 
+#actividad .workspace ul li li {
     position: relative;
     margin-bottom: 10px;
-    font-size: 2.2rem;
+    font-size: 16px;
 }
 
 /*Globo corrección*/
@@ -2017,6 +2024,11 @@ position: absolute;
     display: none;
 }
 
+#actividad .workspace.true-false li img {
+    max-width: 100%;
+    box-shadow: none;
+}
+
 
 /*respuesta multiple*/
 #actividad .workspace.multiple-choice .opcion {
@@ -2395,8 +2407,8 @@ text-align: center;
 }
 
 .content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
-    border-color: #FF3626 !important;
-    background: #FFA49D;
+    border-color: #e33939 !important;
+    background: #f9d7d7;
 }
 /*match*/
 #actividad .workspace.matching .opcion {
