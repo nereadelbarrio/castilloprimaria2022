@@ -1767,6 +1767,11 @@ body:not(.edit) .bck-tabs-box {
     font-weight: 700;
 }
 
+#actividad .bck-tabs-box .bck-tabslists .bck-tabtitles:hover {
+    background-color: #1d549e;
+    color:#fff
+}
+
 .body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
 background-color: #1d549e;
 	color: #fff;
@@ -4473,34 +4478,7 @@ body:not(.edit).coursetag_naturaleza_castillo .bck-tabcontents .div-contents {
     border-top: 1px solid #85B04C;
 }
 /**/
-/*tabs
-.coursetag_pensamiento_cientifico_castillo .bck-tabtitles {
-    background-color: #F5F9F1;
-    color: #fff;
-}
 
-.coursetag_pensamiento_cientifico_castillo .bck-tabtitles:hover {
-    background-color: #85B04C;
-    color:#fff
-}
-
-
-.body_clase.coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
-    background-color: #85B04C;
-}
-
-.body_clase.coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
-background-color: #85B04C;
-    color: #fff
-}
-
-body:not(.edit).coursetag_naturaleza_castillo .bck-tabcontents .div-contents {
-    border-top: 1px solid #E66638;
-}
-
-body:not(.edit).coursetag_naturaleza_castillo .bck-tabcontents .div-contents {
-    border-top: 1px solid #E66638;
-}
 
 /*tabs*/
 .coursetag_naturaleza_castillo .bck-tabtitles {
