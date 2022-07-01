@@ -3020,6 +3020,10 @@ FONT-FAMILY: 'Nunito';
     background-color: #D2F0F4 !important;
 }
 
+.rf-wordcontainer li {
+	margin-bottom: 20px;
+}
+
 .rf-wordcontainer li .index {
     margin-right: 5px;
     color: #1d549e;
@@ -3112,6 +3116,10 @@ padding: 0 14px;
     color: #525252;
     font-size: 1.5rem;
     margin-top: 45px;
+}
+
+.puzzle-wrapper {
+	width: 50%;
 }
 
 #actividad .slide.crosswords-puzzle table.puzzle td {
