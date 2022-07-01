@@ -1795,7 +1795,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
     color: #fff;
     background-color: #90bf55;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px 0px #00000059;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     font-weight: 600;
 }
@@ -1806,7 +1806,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 	    color: #fff;
     background-color: #90bf55;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px 0px #00000059;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     font-weight: 600;
 }
@@ -1816,7 +1816,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 	color: #fff;
     background-color: #1d549e;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px 0px #00000059;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
     font-weight: 600;
@@ -1830,7 +1830,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 color: #fff;
     background-color: #1d549e;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px 0px #00000059;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
     font-weight: 600;
@@ -1841,7 +1841,7 @@ color: #fff;
 	color: #fff;
     background-color: #d2d2d2;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px 0px #00000059;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
     font-weight: 600;
@@ -1856,7 +1856,7 @@ color: #fff;
 	color: #fff;
     background-color: #1eb3c6;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px 0px #00000059;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
     font-weight: 600;
@@ -1872,7 +1872,7 @@ color: #fff;
 	color: #fff;
     background-color: #1eb3c6;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px 0px #00000059;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
     font-weight: 600;
@@ -2063,6 +2063,7 @@ position: absolute;
     display: flex;
     justify-content: center;
     padding: 5px 50px;
+    box-shadow: 0px 3px 5px 0px #d7dde5;
 }
 
 #actividad .workspace.multiple-choice .opcion p {
@@ -2162,6 +2163,10 @@ content: "\f00d";
     -moz-border-radius: 4px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#actividad .workspace.multiple-choice .opcion img {
+	box-shadow: none;
 }
 
 /*.content_type_clase_castilloprimaria2022demo .slide_main input[disabled],
