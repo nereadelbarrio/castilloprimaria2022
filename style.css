@@ -784,8 +784,14 @@ content: '';
     background-size: contain;
     width: 42px;
     height: 42px !important;
+	vertical-align: text-top;
+    margin-top: -9px;
+    display: inline-block;
+    background-repeat: no-repeat;
     border-radius: 0;
-    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -10px;
+    padding: 0;
 }
 
 /*#actividad .player.video {
@@ -2690,7 +2696,7 @@ border: none;
     display: inline-block;
     vertical-align: middle;
     border: 2px solid #FBD066;
-    padding: 3px 6px;
+    padding: 3px 18px;
     margin: 0 2px;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
@@ -2711,14 +2717,14 @@ border: none;
     border: 2px solid #90BF55;
     background-color: #EDF5E4;
     border-radius: 8px;
-    padding: 3px 10px;
+    padding: 3px 18px;
 }
 
 #actividad .workspace.chooseblanks .respuesta_ko {
     border: 2px solid #E33939;
     background-color: #F9D7D7;
     border-radius: 8px;
-    padding: 3px 10px;
+    padding: 3px 18px;
 }
 
 
@@ -2726,14 +2732,14 @@ border: none;
     border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
         border-radius: 8px;
-    padding: 3px 10px;
+    padding: 3px 18px;
 }
 
 #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
 	    border: 2px solid #90BF55;
     background-color: #EDF5E4;
     border-radius: 8px;
-    padding: 3px 10px;
+    padding: 3px 18px;
     color: #000;
 }
 
@@ -2741,7 +2747,7 @@ border: none;
     border: 2px solid #E33939;
     background-color: #F9D7D7;
     border-radius: 8px;
-    padding: 3px 10px;
+    padding: 3px 18px;
     color: #000;
 }
 
@@ -2749,8 +2755,14 @@ border: none;
 	    border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
         border-radius: 8px;
-    padding: 3px 10px;
+    padding: 3px 18px;
     color: #000;
+}
+
+
+#actividad .workspace.chooseblanks img {
+	box-shadow: none;
+
 }
 
 /*test*/
@@ -2878,6 +2890,11 @@ font-size: 18px;
 
 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
     display: none;
+}
+
+/*respuestas cprtas*/
+.shortanswer-container .js-rich-group {
+	border-radius: 12px;
 }
 
 /*palabras cryuzadas*/
@@ -3558,8 +3575,14 @@ background-color: #E66638;
     background-size: contain;
     width: 42px;
     height: 42px !important;
+	vertical-align: text-top;
+    margin-top: -9px;
+    display: inline-block;
+    background-repeat: no-repeat;
     border-radius: 0;
-    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -10px;
+    padding: 0;
 }
 
 
@@ -4505,8 +4528,14 @@ background-color: #85B04C;
     background-size: contain;
     width: 42px;
     height: 42px !important;
+	vertical-align: text-top;
+    margin-top: -9px;
+    display: inline-block;
+    background-repeat: no-repeat;
     border-radius: 0;
-    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -10px;
+    padding: 0;
 }
 
 
