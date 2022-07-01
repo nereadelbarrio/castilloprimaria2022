@@ -3176,6 +3176,7 @@ padding: 0 14px;
     width: 350px;
     padding: 1rem 3rem;
     line-height: 2.1rem;
+    margin-top: 13px;
 }
 
 .slide.crosswords-puzzle .ta-table-cw.down {
@@ -3408,7 +3409,7 @@ color: #E66638;
 
 /*caja 03*/
 .coursetag_pensamiento_cientifico_castillo .bck-box.box-3 {
-    border: 5px solid #773DBD;
+    border: 2px solid #773DBD;
 }
 
 /*caja 04*/
@@ -3478,6 +3479,7 @@ color: #E66638;
 
 .coursetag_pensamiento_cientifico_castillo .bck-dropdown-icon {
     background-color: #EB8560;
+        height: 41px;
 }
 
 .coursetag_pensamiento_cientifico_castillo .bck-dropdown-content {
@@ -4218,7 +4220,7 @@ border-bottom: none;
     position: absolute;
     left: -107px;
     z-index: -1;
-    top: -4px;
+    top: 30px;
 }
 
 
@@ -4315,7 +4317,7 @@ color: #85B04C;
 
 /*caja 03*/
 .coursetag_naturaleza_castillo .bck-box.box-3 {
-    border: 5px solid #85B04C;
+    border: 2px solid #85B04C;
 }
 
 /*caja 04*/
@@ -4384,6 +4386,7 @@ color: #85B04C;
 /*desplegables*/
 .coursetag_naturaleza_castillo .bck-dropdown-icon {
     background-color: #B6D094;
+        height: 41px;
 }
 
 .coursetag_naturaleza_castillo .bck-dropdown-content {
