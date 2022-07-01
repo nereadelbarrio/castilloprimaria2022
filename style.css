@@ -306,7 +306,7 @@ body {
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
 	font-family: 'Nunito';
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     color: #fff;
     display: block;
@@ -318,6 +318,7 @@ body {
     margin-left: 7px;
     width: fit-content;
     position: relative;
+    box-shadow: 0px 1px 2px 2px #d5dce2;
 }
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
@@ -692,7 +693,7 @@ content: '';
 	#top-navigator .slider-indicators li {
 		text-indent: 0;
 	    border-radius: 10px;
-	    box-shadow: 0px 3px 9px 0px #00000030;
+	    box-shadow: 0px 3px 0px 0px #e5e5e5;
 	}
 
 	.content_type_clase_castilloprimaria2022demo .publisher-navbar #top-navigator {
@@ -822,7 +823,7 @@ content: '';
 
 /*titulo 02*/
 	.bck-title2 {
-		font-weight: 600;
+		font-weight: 700;
     color: #000;
     font-size: 2rem;
     font-family: 'Nunito';
@@ -831,7 +832,7 @@ content: '';
 
 /*titulo 03*/
 	.bck-title3 {
-	font-weight: 600;
+	font-weight: 700;
     color: #1d549e;
     font-family: 'Nunito';
     font-size: 25px;
@@ -1448,7 +1449,7 @@ margin-top: -20px;
 .bck-box.box-3 {
     border: 0;
     padding: 20px;
-    border: 3px solid #f8b100;
+    border: 2px solid #f8b100;
     background-color: #fff;
     margin-bottom: 40px;
     border-radius: 20px;
@@ -1556,6 +1557,15 @@ background-image: url(images/icono_caja05.png);
     display: inline-block;
 }
 
+.bck-box.box-5 >.bck-content {
+    margin-top: -38px;
+    padding: 5px;
+    margin-bottom: -10px;
+}
+
+.bck-box.box-5 >.bck-content p{
+	color: #000;
+}
 
 /*desplegables*/
 .bck-dropdown {
@@ -1891,7 +1901,7 @@ color: #fff;
 }
 
 .workspace.true-false .radio-option input.filter-radio[type="radio"]+label.filter-label {
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     line-height: 24px;
@@ -2463,7 +2473,7 @@ text-align: center;
     align-items: center;
     border-radius: 5px;
     padding: 5px;
-    width: 100%;
+    width: 50%;
     text-align: left;
     border: 3px solid #F8B100;
     color: #000;
@@ -2646,14 +2656,14 @@ border: none;
 /*señalar respuesta*/
 #actividad .workspace.chooseblanks select {
     border: 0;
-    border-bottom: 3px solid #F8B100;
+    border-bottom: 2px solid #F8B100;
     color: #000;
 }
 
 #actividad .workspace.chooseblanks .inline-answer a {
     display: inline-block;
     vertical-align: middle;
-    border: 3px solid #FBD066;
+    border: 2px solid #FBD066;
     padding: 3px 6px;
     margin: 0 2px;
     -webkit-border-radius: 13px;
@@ -2664,7 +2674,7 @@ border: none;
 
 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border: 3px solid #F8B100;
+    border: 2px solid #F8B100;
 }
 
 #actividad .workspace.chooseblanks .inline-answer a.selected {
@@ -3171,6 +3181,23 @@ padding: 0 14px;
 
 /*************COURSETAG***********/
 /*coursetag_lenguajes_castillo*/
+.coursetag_lenguajes_castillo .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #a5bbd8;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
 /*coursetag_pensamiento_cientifico_castillo*/
 /*fondo slide*/
 .coursetag_pensamiento_cientifico_castillo #swipeview-slider>div {
@@ -3797,7 +3824,7 @@ background-color: #90bf55;
 .coursetag_pensamiento_cientifico_castillo #actividad .markword-active {
     border-radius: 12px !important;
     padding: 4px !important;
-    border: 2px solid #F8B100 !important;
+    border: 2px solid #773dbd !important;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .markword-correct {
@@ -3982,16 +4009,16 @@ border-bottom: none;
 /*señalar respuesta*/
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks select {
     border: 0;
-    border-bottom: 3px solid #773DBD;
+    border-bottom: 2px solid #773DBD;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a {
-    border: 3px solid #AD8BD7;
+    border: 2px solid #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border: 3px solid #773DBD;
+    border: 2px solid #773DBD;
 }
 
 
@@ -4151,7 +4178,7 @@ content: '';
 
 /*botonera*/
 .coursetag_naturaleza_castillo #actividad .btn-primary {
-    background-color: #85B04C;
+    background-color: #e66638;
 }
 
 .coursetag_naturaleza_castillo #actividad .btn-primary:not([disabled]):hover, 
@@ -4366,7 +4393,7 @@ body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front p {
     color: #85B04C;
 }
 
-.body_clase .coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
+.body_clase.coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
 	background-color: #e7efdb;
 	color: #85b04c;
 }
@@ -4826,7 +4853,7 @@ text-align: center;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 3px solid #9DC070;
+    border: 3px solid #e66638;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
@@ -4852,9 +4879,9 @@ border: 3px solid #E33939;
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .bloque, 
 .coursetag_naturaleza_castillo #actividad .slide-syntax .sintaxis_frase .bloque {
 	position: relative;
-    border-bottom: 2px #9DC070 solid;
-    border-left: 2px #9DC070 solid;
-    border-right: 2px #9DC070 solid;
+    border-bottom: 2px #f0a388 solid;
+    border-left: 2px #f0a388 solid;
+    border-right: 2px #f0a388 solid;
 }
 
 .coursetag_naturaleza_castillo .form-control {
@@ -4867,7 +4894,7 @@ border: 3px solid #E33939;
     color: #000;
     background-color: #fff;
     background-image: none;
-    border: 2px solid #85B04C;
+    border: 2px solid #f0a388;
     border-radius: 8px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -4927,16 +4954,16 @@ border-bottom: none;
 /*señalar respuesta*/
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks select {
     border: 0;
-    border-bottom: 3px solid #85B04C;
+    border-bottom: 2px solid #85B04C;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a {
-    border: 3px solid #9DC070;
+    border: 2px solid #9DC070;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border: 3px solid #85B04C;
+    border:2px solid #85B04C;
 }
 
 
