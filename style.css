@@ -1244,7 +1244,7 @@ content: counter(bck-li-counter) ".";
 	border-radius: 50%;
 	position: absolute;
 	margin-top: .45em;
-	margin-left: 6px;
+	margin-left: -12px;
 }
 
 	.texto_curso ul li,
@@ -4161,7 +4161,7 @@ border-bottom: none;
     background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
 }
 
-/*coursetag_naturaleza_castillo*/
+
 /*coursetag_naturaleza_castillo*/
 /*fondo slide*/
 .coursetag_naturaleza_castillo #swipeview-slider>div {
