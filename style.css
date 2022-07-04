@@ -4983,7 +4983,8 @@ border: 3px solid #E33939;
 border-bottom: none;
     border-left: none;
     border-right: none;
-    border-top:none;
+    border-top:none; 
+}
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
 	border: 3px solid #E33939;
