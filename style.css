@@ -2622,6 +2622,7 @@ border-radius: 4px;
 border-bottom: none;
     border-left: none;
     border-right: none;
+    border-top: none;
 }
 
 .form-control[disabled], 
@@ -4054,6 +4055,7 @@ border: 3px solid #E33939;
 border-bottom: none;
     border-left: none;
     border-right: none;
+    border-top: none;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
@@ -4981,7 +4983,7 @@ border: 3px solid #E33939;
 border-bottom: none;
     border-left: none;
     border-right: none;
-}
+    border-top:none;
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
 	border: 3px solid #E33939;
