@@ -429,7 +429,7 @@ content: '';
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
-		border-color: #00BDFF;
+		border-color: #1eb3c6 !important;
 		background: #B6ECFF;
 	}
 
@@ -847,7 +847,7 @@ content: '';
 
 /*titulo 04*/
 	.bck-title4 {
-	font-weight: 700;
+	font-weight: 800;
     color: #1d549e;
     font-family: 'Nunito';
     font-size: 25px;
