@@ -294,6 +294,7 @@ body {
     background-image: url(images/fondo_slide_01.png);
     background-position-y: top;
     background-repeat: no-repeat;
+    background-size: 100% auto;
 	}
 
 /*imagenes*/	
@@ -405,13 +406,13 @@ font-family: 'Nunito';
     margin-top: -30px;*/
     content: '';
     position: absolute;
-    width: 90px;
+    width: 96px;
     height: 103px;
     top: 28px;
-    left: -90px;
+    left: -89px;
     background-image: url(images/decoracion_01izda_lenguaje.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 92% auto;
 }
 
 
@@ -960,7 +961,7 @@ font-family: 'Nunito';
 
 /*tooltip*/
 .bck-tooltip {
-	/*    text-decoration: dotted;
+	/*    
     border-bottom: 1px dotted #1d549e;
     color: #1d549e;
     font-weight: 600;
@@ -969,6 +970,7 @@ font-family: 'Nunito';
     color: var(--theme-color-main);
     font-weight: 600;
     cursor: pointer;
+    text-decoration: dotted;
 }
 
 .popover-title {
@@ -1020,8 +1022,9 @@ font-family: 'Nunito';
 
 /**subrayado*/
 .bck-underline {
-    text-decoration: underline;
-    color: #1d539c;
+    border-bottom: 1px solid;
+    color: var(--theme-color-main);
+    cursor: pointer;
 }
 
 /*hr*/
@@ -1494,33 +1497,36 @@ content: counter(bck-li-counter) ".";
 
 	/*caja 01*/
 	.bck-box.box-1 {
-    border: 1px solid #1D549E;
+	border: 1px solid #1D549E;
     padding: 20px 10px 10px 20px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 25px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    /* position: relative; */
+    width: 100%;
+    margin: 40px 0;
 	}
 
 	.bck-box.box-1 > .bck-title {
-    background-color: #fff;
+	background-color: #fff;
     width: fit-content;
     border-radius: 10px;
     position: relative;
     margin-top: -25px;
     margin-left: -10px;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 14px 0px 14px;
 }
 
 
 
 .bck-box.box-1 > .bck-title p {
     color: #000;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 21px;
+    font-weight: 400;
 }
 
 	.bck-box.box-1 > .bck-content {
-	background-color: rgb(219 228 239);
+background-color: #DBE4EF;
     border-radius: 20px;
     padding: 68px 13px 21px 30px;
     position: relative;
@@ -1537,29 +1543,34 @@ content: counter(bck-li-counter) ".";
 
 /*caja 02*/
 	.bck-box.box-2 {
-	border: 0;
-    padding: 20px;
-    background-color: #1d549e;
-    margin-bottom: 40px;
+	position: relative;
+    width: 100%;
     border-radius: 20px;
-    box-shadow: 0px 4px 8px 1px #09305447;
+    background-color: var(--theme-color-main);
+    padding: 20px 20px 36px 20px;
+    color: var(--theme-text-color-bright);
+    font-weight: 300;
+    box-shadow: 0px 4px 5px rgb(9 48 84 / 15%);
+    margin: 40px 0;
 }
 
 .bck-box.box-2 > .bck-title p {
-	    color: #fff;
-    font-size: 25px;
-    font-weight: 700;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
 }
 
 
 .bck-box.box-2 > .bck-title {
-margin-top: -20px;
+/*margin-top: -20px;
     margin-left: -20px;
     margin-right: -20px;
     border-radius: 40px 40px 0 0;
     padding: 14px 20px 10px;
     color: #ffffff;
-    background: none;
+    background: none;*/
+    font-size: var(--theme-font-size-h3);
+    margin: 0 0 -4px 0;
 }
 
 .bck-box.box-2 > .bck-content p {
@@ -1569,24 +1580,33 @@ margin-top: -20px;
 
 /*caja 03*/
 .bck-box.box-3 {
-    border: 0;
+    /*border: 0;
     padding: 20px;
     border: 2px solid #f8b100;
     background-color: #fff;
     margin-bottom: 40px;
     border-radius: 20px;
-    box-shadow: 0px 4px 8px 1px #0003;
+    box-shadow: 0px 4px 8px 1px #0003;*/
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid var(--theme-color-secondary);
+    background-color: #FFF;
+    padding: 17px 17px 33px 17px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;
 }
 
 .bck-box.box-3 > .bck-title {
  background: none;
+margin: 0 0 -4px 0;
 }
 
 
 .bck-box.box-3 > .bck-title p {
 	    color: #000;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 21px;
+    font-weight: 500;
 }
 
 .bck-box.box-3 > .bck-content p {
