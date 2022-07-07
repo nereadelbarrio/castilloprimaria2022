@@ -227,7 +227,7 @@ CASTILLO PRIMARIA
     --theme-icon-color-fail: url(../img/ui-icon-color-fail.svg);
     --theme-icon-color-video: url(../img/ui-icon-color-video.svg);
     --theme-icon-color-info: url(../img/ui-icon-color-info.svg);
-    --theme-graphic-tape: url(../img/ui-graphic-tape.svg);
+    --theme-graphic-tape: url(../imges/ui-graphic-tape.svg);
     --theme-graphic-boolean-normal-off: url(../img/ui-icon-bool-normal-off.svg);
     --theme-graphic-boolean-normal-on: url(../img/ui-icon-bool-normal-on.svg);
     --theme-graphic-boolean-ok-off: url(../img/ui-icon-bool-ok-off.svg);
@@ -237,7 +237,7 @@ CASTILLO PRIMARIA
     --theme-graphic-boolean-answer-off: url(../img/ui-icon-bool-answer-off.svg);
     --theme-graphic-boolean-answer-on: url(../img/ui-icon-bool-answer-on.svg);
     --theme-graphic-memory-card: url(../img/ui-graphic-memory-card.png);
-    --theme-pattern-01: url(../img/ui-pattern-01.png);
+    --theme-pattern-01: url(../imges/ui-pattern-01.png);
 }
 
 
@@ -1025,6 +1025,7 @@ font-family: 'Nunito';
     border-bottom: 1px solid;
     color: var(--theme-color-main);
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*hr*/
