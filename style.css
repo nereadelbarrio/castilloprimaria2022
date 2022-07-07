@@ -227,7 +227,7 @@ CASTILLO PRIMARIA
     --theme-icon-color-fail: url(../img/ui-icon-color-fail.svg);
     --theme-icon-color-video: url(../img/ui-icon-color-video.svg);
     --theme-icon-color-info: url(../img/ui-icon-color-info.svg);
-    --theme-graphic-tape: url(../images/ui-graphic-tape.svg);
+    --theme-graphic-tape: url(images/ui-graphic-tape.svg);
     --theme-graphic-boolean-normal-off: url(../img/ui-icon-bool-normal-off.svg);
     --theme-graphic-boolean-normal-on: url(../img/ui-icon-bool-normal-on.svg);
     --theme-graphic-boolean-ok-off: url(../img/ui-icon-bool-ok-off.svg);
@@ -237,7 +237,7 @@ CASTILLO PRIMARIA
     --theme-graphic-boolean-answer-off: url(../img/ui-icon-bool-answer-off.svg);
     --theme-graphic-boolean-answer-on: url(../img/ui-icon-bool-answer-on.svg);
     --theme-graphic-memory-card: url(../img/ui-graphic-memory-card.png);
-    --theme-pattern-01: url(../images/ui-pattern-01.png);
+    --theme-pattern-01: url(images/ui-pattern-01.png);
 }
 
 
@@ -1683,7 +1683,7 @@ margin: 0 0 -4px 0;
 .bck-box.box-5 > .bck-title {
 color: #1d549e;
     position: relative;
-    top: -60px;
+    top: -45px;
     text-align: center;
 }
 
@@ -1705,10 +1705,10 @@ background-image: url(images/ui-graphic-tape.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;*/
-    content: '';
+	content: '';
     position: absolute;
-    left: calc(100% - 56px);
-    top: -12px;
+    left: calc(100% - 35px);
+    top: 23px;
     width: 72px;
     height: 26px;
     background-image: var(--theme-graphic-tape);
@@ -1732,8 +1732,8 @@ background-image: url(images/ui-graphic-tape.svg);
     display: inline-block;*/
     content: '';
     position: absolute;
-    left: -18px;
-    top: -12px;
+    left: -41px;
+    top: 23px;
     width: 72px;
     height: 26px;
     background-image: var(--theme-graphic-tape);
