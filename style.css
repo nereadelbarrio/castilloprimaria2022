@@ -479,7 +479,7 @@ font-family: 'Nunito';
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input {
-		color: #555;
+		/*color: #555;
 		background-color: #fff;
 		background-image: none;
 		border: 2px solid #ccc;
@@ -487,7 +487,25 @@ font-family: 'Nunito';
 		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
 		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
 		-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+		position: relative;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 34px;
+    padding: 0 20px;
+    min-width: 120px;
+    font-size: var(--theme-fill-font-size);
+    font-weight: var(--theme-fill-font-weight);
+    color: var(--theme-fill-text-color);
+    line-height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input:focus {
@@ -807,11 +825,18 @@ font-family: 'Nunito';
 		display: block;
 		max-height: 300px;
 		overflow-y: auto;
+		display: none;
+    cursor: none;
 	}
 
 	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button {
 		border: none;
 		color: #676767;
+		font-size: 18px;
+    font-weight: 400;
+    color: #676767;
+    margin: 0 20px;
+    cursor: none;
 	}
 
 	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown button:focus {
@@ -2065,6 +2090,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
     max-height: 100%;
     max-width: 100%;
     color: #676767;
+    border-bottom: 1px solid #1d549e;
 }
 
 
@@ -2703,18 +2729,26 @@ text-align: center;
 
 /*clasificar*/
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 0;
+    /*border: 0;
     padding: 0px;
     box-shadow: 0 0 0 1px #1d549e, 0 0 0 3px #88a5cc, 0 0 0 5px #88a5cc, 0 0 0 6px #1d549e;
+    background-image: url(images/box-4.svg);
     outline: dashed 7px #1d549e;
     background-color: #fff;
     margin-bottom: 40px;
     border-radius: 20px;
-    margin: 0 10px;
+    margin: 0 10px;*/
+    border: 0;
+    background-image: url(images/box-4.svg);
+    border-radius: 25px;
+    background-color: #FFF;
+    padding: 20px 20px 36px 20px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
-text-align: center;
+/*text-align: center;
     font-weight: bold;
     border-bottom: 1px solid #EDF1F7;
     display: table;
@@ -2723,16 +2757,51 @@ text-align: center;
     margin-top: -1px;
     background-color: #EDF1F7;
     color: #1D549E;
+    padding: 10px;*/
+    border-bottom: 1px solid #EDF1F7;
+    display: table;
+    width: 100%;
+    margin: 0px;
+    margin-top: -1px;
+    background-color: #EDF1F7;
+    color: #1D549E;
     padding: 10px;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 500;
+    color: var(--theme-color-main);
+    text-align: center;
+    padding: 8px;
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    background: #fff;
+/*background: #fff;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 7px;
     color: #000;
-    border: 3px solid #F8B100;
+    border: 1px solid #F8B100;
+    border-radius: 10px;*/
+    border: 1px solid #F8B100;
+    border-radius: 10px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 34px !important;;
+    padding: 0 20px;
+    min-width: 120px;
+    font-size: var(--theme-fill-font-size);
+    font-weight: var(--theme-fill-font-weight);
+    color: var(--theme-fill-text-color);
+    line-height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    border-width: 1.5px;
+    border-color: var(--theme-widget-normal-color);
 }
 
 #actividad .workspace.clasificar .clasificar_lista li>p {
@@ -2768,11 +2837,11 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     width: 50%;
     text-align: left;
-    border: 3px solid #F8B100;
+    border: 2px solid #F8B100;
     color: #000;
 }
 
