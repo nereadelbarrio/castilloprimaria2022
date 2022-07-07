@@ -1422,7 +1422,7 @@ content: counter(bck-li-counter) ".";
 #actividad .content .texto_curso .bck-ul-1,
 #actividad .content .workspace ul li .bck-ul-1 {
 	list-style-type: none;
-    padding-left: 63px;
+    padding-left: 30px;
 }
 
 #actividad .content .cke_contents .bck-ul-1 li,
@@ -1438,6 +1438,7 @@ content: counter(bck-li-counter) ".";
     font-size: 16px;
     font-family: 'Nunito';
     color: #676767;
+        margin-bottom: 10px;
 }
 
 #actividad .content .cke_contents .bck-ul-1 li:before,
@@ -1447,11 +1448,13 @@ content: counter(bck-li-counter) ".";
 	content: "";
     height: 8px;
     width: 8px;
-    background-color: #000;
+    background-color: #1D549E;
     border-radius: 50%;
     position: absolute;
-    margin-top: 0.45em;
-    margin-left: -32px;
+    margin-top: 8px;
+    margin-left: -28px;
+    color: var(--theme-color-main);
+    font-size: calc(var(--theme-font-size) * 1.3333);
 }
 
 
@@ -1460,7 +1463,7 @@ content: counter(bck-li-counter) ".";
 #actividad .content .texto_curso .bck-ul-2,
 #actividad .content .workspace ul li .bck-ul-2 {
 	list-style-type: none;
-    padding-left: 63px;
+    padding-left: 30px;
 }
 
 #actividad .content .cke_contents .bck-ul-2 li,
@@ -1476,6 +1479,7 @@ content: counter(bck-li-counter) ".";
     font-size: 16px;
     font-family: 'Nunito';
     color: #676767;
+    margin-bottom: 10px;
 }
 
 #actividad .content .cke_contents .bck-ul-2 li:before,
@@ -1485,11 +1489,13 @@ content: counter(bck-li-counter) ".";
 	content: "";
     height: 8px;
     width: 8px;
-    background-color: #f8b100;
+    background-color: #F8B100;
     border-radius: 50%;
     position: absolute;
-    margin-top: 0.45em;
-    margin-left: -32px;
+    margin-top: 8px;
+    margin-left: -28px;
+    color: var(--theme-color-secondary);
+    font-size: calc(var(--theme-font-size) * 1.3333);
 }
 /**/
 
