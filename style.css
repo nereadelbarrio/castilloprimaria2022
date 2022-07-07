@@ -2,6 +2,7 @@
 CASTILLO PRIMARIA
 */
 
+
 @font-face {
     font-family: 'Nunito';
     src: url('fonts/Nunito-Black.eot');
@@ -171,6 +172,75 @@ CASTILLO PRIMARIA
 }
 
 
+:root {
+    --theme-font-family: 'Nunito', sans-serif;
+    --theme-text-color: #676767;
+    --theme-text-color-dark: #000;
+    --theme-text-color-bright: #FFF;
+    --theme-color-main: #1D549E;
+    --theme-color-secondary: #F8B100;
+    --theme-background-color: #E9EFF5;
+    --theme-font-size: 18px;
+    --theme-font-size-h1: 36px;
+    --theme-font-size-h2: 27px;
+    --theme-font-size-h3: 21px;
+    --theme-font-size-h4: 21px;
+    --theme-widget-color-main: var(--theme-color-main);
+    --theme-widget-color-main-bright: #DBE4EF;
+    --theme-widget-color-secondary: var(--theme-color-secondary);
+    --theme-widget-color-secondary-bright: #FEF5E0;
+    --theme-widget-normal-color: #FBD066;
+    --theme-widget-normal-color-bright: #FEF5E0;
+    --theme-widget-normal-color-brighter: #FFF;
+    --theme-widget-selected-color: var(--theme-color-secondary);
+    --theme-widget-selected-color-bright: #FFF;
+    --theme-widget-ok-color: #90BF55;
+    --theme-widget-ok-color-bright: #EDF5E4;
+    --theme-widget-fail-color: #E33939;
+    --theme-widget-fail-color-bright: #F9D7D7;
+    --theme-widget-answer-color: #1EB3C6;
+    --theme-widget-answer-color-bright: #D2F0F4;
+    --theme-widget-disabled-color: #EDEDED;
+    --theme-widget-disabled-color-bright: #EDEDED;
+    --theme-button-font-size: 16px;
+    --theme-button-font-weight: 600;
+    --theme-button-text-color: #FFF;
+    --theme-button-text-color-disabled: #A4A4A4;
+    --theme-fill-font-size: 18px;
+    --theme-fill-font-weight: 300;
+    --theme-fill-text-color: #000;
+    --theme-boolean-font-size: 18px;
+    --theme-boolean-font-weight: 300;
+    --theme-boolean-text-color: #676767;
+    --theme-drag-drop-text-item-font-size: 18px;
+    --theme-drag-drop-text-item-font-weight: 600;
+    --theme-drag-drop-text-item-color: #000;
+    --theme-drag-drop-text-label-font-size: 18px;
+    --theme-drag-drop-text-label-font-weight: 400;
+    --theme-drag-drop-text-label-color: #FFF;
+    --theme-multi-choice-font-size: 18px;
+    --theme-multi-choice-font-weight: 400;
+    --theme-multi-choice-text-color: #000;
+    --theme-icon-arrow-up: url(../img/ui-icon-arrow-up.svg);
+    --theme-icon-arrow-down: url(../img/ui-icon-arrow-down.svg);
+    --theme-icon-color-ok: url(../img/ui-icon-color-ok.svg);
+    --theme-icon-color-fail: url(../img/ui-icon-color-fail.svg);
+    --theme-icon-color-video: url(../img/ui-icon-color-video.svg);
+    --theme-icon-color-info: url(../img/ui-icon-color-info.svg);
+    --theme-graphic-tape: url(../img/ui-graphic-tape.svg);
+    --theme-graphic-boolean-normal-off: url(../img/ui-icon-bool-normal-off.svg);
+    --theme-graphic-boolean-normal-on: url(../img/ui-icon-bool-normal-on.svg);
+    --theme-graphic-boolean-ok-off: url(../img/ui-icon-bool-ok-off.svg);
+    --theme-graphic-boolean-ok-on: url(../img/ui-icon-bool-ok-on.svg);
+    --theme-graphic-boolean-fail-off: url(../img/ui-icon-bool-fail-off.svg);
+    --theme-graphic-boolean-fail-on: url(../img/ui-icon-bool-fail-on.svg);
+    --theme-graphic-boolean-answer-off: url(../img/ui-icon-bool-answer-off.svg);
+    --theme-graphic-boolean-answer-on: url(../img/ui-icon-bool-answer-on.svg);
+    --theme-graphic-memory-card: url(../img/ui-graphic-memory-card.png);
+    --theme-pattern-01: url(../img/ui-pattern-01.png);
+}
+
+
 body {
     font: 400 15px 'Nunito',sans-serif;
     line-height: 21px;
@@ -306,8 +376,8 @@ body {
 	}
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
-	font-family: 'Nunito';
-    font-size: 35px;
+	/*font-family: 'Nunito';
+    font-size: 36px;
     font-weight: 700;
     color: #fff;
     display: block;
@@ -319,11 +389,19 @@ body {
     margin-left: 7px;
     width: fit-content;
     position: relative;
-    box-shadow: 0px 1px 2px 2px #d5dce2;
+    box-shadow: 0px 1px 2px 2px #d5dce2;*/
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    padding: 0 36px;
+    margin-bottom: 22px;
+    border-radius: 0 0 37.5px 37.5px;
+    background-color: #1D549E;
+    box-shadow: 0px 4px 8px rgb(9 48 84 / 25%)
 }
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:before {
-	background: url(images/decoracion_01izda_lenguaje.png);
+	/*background: url(images/decoracion_01izda_lenguaje.png);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
@@ -331,12 +409,21 @@ body {
     position: absolute;
     left: -107px;
     z-index: -1;
-    margin-top: -30px;
+    margin-top: -30px;*/
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 88px;
+    top: 28px;
+    left: -80px;
+    background-image: : url(images/decoracion_01izda_lenguaje.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 
 .content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3:after {
-content: '';
+/*content: '';
     padding: 10px;
     background-image: url(images/decoracion_01dcha_lenguaje.png);
     background-repeat: no-repeat;
@@ -345,7 +432,16 @@ content: '';
     position: absolute;
     right: -163px;
     z-index: 10;
-    top: -13px;
+    top: -13px;*/
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 66px;
+    top: 0;
+    left: 100%;
+    background-image: url(images/decoracion_01dcha_lenguaje.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 
@@ -819,38 +915,54 @@ content: '';
 
 /*titulo 01*/
 	.bck-title1 {
-		font-size: 28px;
+		/*font-size: 27px;
 	    padding: 10px 40px 10px 98px;
 	    margin-bottom: 25px;
-	    color: #1d549e;
+	    color: #1D549E;
 	    margin-left: -98px;
 	    font-weight: 700;
-	    font-family: 'Nunito';
+	    font-family: 'Nunito';*/
+	    position: relative;
+    font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: var(--theme-color-main);
 	}
 
 /*titulo 02*/
 	.bck-title2 {
-		font-weight: 700;
+	/*font-weight: 700;
     color: #000;
     font-size: 2rem;
     font-family: 'Nunito';
-    font-size: 25px;
+    font-size: 25px;*/
+    position: relative;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 600;
+    color: var(--theme-text-color-dark);
 	}
 
 /*titulo 03*/
 	.bck-title3 {
-	font-weight: 700;
+	/*font-weight: 700;
     color: #1d549e;
     font-family: 'Nunito';
-    font-size: 25px;
+    font-size: 25px;*/
+    position: relative;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 600;
+    color: var(--theme-color-main);
 	}
 
 /*titulo 04*/
 	.bck-title4 {
-	font-weight: 800;
+	/*font-weight: 800;
     color: #1d549e;
     font-family: 'Nunito';
-    font-size: 25px;
+    font-size: 25px;*/
+    position: relative;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 700;
+    color: var(--theme-color-main);
 	}	
 
 /*tooltip*/
@@ -1486,17 +1598,25 @@ margin-top: -20px;
 }
 
 
-/*caja 04*/
+/*caja 04
 .bck-box.box-4 {
     border: 0;
     padding: 20px;
-    /* border: 5px solid #f8b100; */
     box-shadow: 0 0 0 1px #1d549e, 0 0 0 3px #88a5cc, 0 0 0 5px #88a5cc, 0 0 0 6px #1d549e;
     outline: dashed 7px #1d549e;
     background-color: #fff;
     margin-bottom: 40px;
     border-radius: 20px;
-    /* box-shadow: 0px 4px 8px 1px #0003; */
+}*/
+.bck-box.box-4 {
+	position: relative;
+    width: 100.2%;
+    border-radius: 20px;
+    background-image: url(images/box-4.svg);
+    background-color: #FFF;
+    padding: 20px 20px 36px 20px;
+    box-shadow: none;
+    margin: 40px 0;
 }
 
 .bck-box.box-4 > .bck-title {
