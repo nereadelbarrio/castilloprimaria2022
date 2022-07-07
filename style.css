@@ -1179,14 +1179,15 @@ margin-left: auto;
 #actividad .content .texto_curso .bck-ol-1 li,
 #actividad .popover-content .bck-ol-1 li,
 #actividad .content .workspace ul li .bck-ol-1 li {
-	counter-increment: bck-li-counter;
+counter-increment: bck-li-counter;
     padding-left: 0px;
     position: relative;
     z-index: 0;
-    font-weight: 800;
-    font-size: 16px;
     font-family: 'Nunito';
-        color: #000;
+    font-size: var(--theme-font-size);
+    font-weight: 500;
+    color: var(--theme-text-color-dark);
+    margin-bottom: 10px;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
@@ -1202,14 +1203,14 @@ margin-left: auto;
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 content: counter(bck-li-counter) ".";
     font-family: 'Nunito';
-    font-weight: 800;
     position: absolute;
     text-align: right;
-    color: #1d549e;
-    font-size: 19px;
     margin-top: 0px;
     left: -25px;
     top: -1px;
+    color: var(--theme-color-main);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
 }
 
 
@@ -1218,9 +1219,9 @@ content: counter(bck-li-counter) ".";
 #actividad .content .cke_contents .bck-ol-2,
 #actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ul li .bck-ol-2 {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
-	padding-left: 72px;
+		list-style-type: none;
+    counter-reset: bck-li-counter;
+    font-size: var(--theme-font-size);
 }
 
 #actividad .content .cke_contents .bck-ol-2 li,
@@ -1235,6 +1236,7 @@ content: counter(bck-li-counter) ".";
     font-size: 16px;
     font-family: 'Nunito';
     color: #676767;
+    margin-bottom: 10px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li:before,
@@ -1250,14 +1252,14 @@ content: counter(bck-li-counter) ".";
 #actividad .content .workspace ul li .bck-ol-2 li:before {
 content: counter(bck-li-counter, lower-alpha)')';
     font-family: 'Nunito';
-    font-weight: 700;
     position: absolute;
     text-align: right;
-    color: #f8b100;
-    font-size: 19px;
     margin-top: 0px;
     left: -18px;
     top: -1px;
+    color: var(--theme-color-secondary);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
 }
 
 
@@ -1275,14 +1277,14 @@ content: counter(bck-li-counter, lower-alpha)')';
 #actividad .content .texto_curso .bck-ol-3 li,
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
-	counter-increment: bck-li-counter;
+counter-increment: bck-li-counter;
     padding-left: 0px;
     position: relative;
     z-index: 0;
-    font-weight: 800;
-    font-size: 16px;
     font-family: 'Nunito';
-     color: #1d549e;
+    font-size: var(--theme-font-size);
+    font-weight: 500;
+    color: var(--theme-color-main);
 }
 
 #actividad .content .cke_contents .bck-ol-3 li:before,
@@ -1298,14 +1300,61 @@ content: counter(bck-li-counter, lower-alpha)')';
 #actividad .content .workspace ul li .bck-ol-3 li:before {
 content: counter(bck-li-counter) ".";
     font-family: 'Nunito';
-    font-weight: 800;
     position: absolute;
     text-align: right;
-    color: #1d549e;
-    font-size: 19px;
     margin-top: 0px;
     left: -25px;
     top: -1px;
+    color: var(--theme-color-main);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
+}
+
+/*LISTA ORDENADA 4*/
+#actividad .content .cke_contents .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4,
+#actividad .content .workspace ul li .bck-ol-4 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+	padding-left: 41px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li {
+counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-family: 'Nunito';
+    font-size: var(--theme-font-size);
+    color: var(--theme-text-color-dark);
+    margin-bottom: 10px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li:before,
+#actividad .content .texto_curso .bck-ol-4 li:before,
+#actividad .popover-content .bck-ol-4 li:before,
+#actividad .content .workspace ul li .bck-ol-4 li:before {
+	margin-left: -13px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li:before,
+#actividad .content .texto_curso .bck-ol-4 li:before,
+#actividad .popover-content .bck-ol-4 li:before,
+#actividad .content .workspace ul li .bck-ol-4 li:before {
+content: counter(bck-li-counter) ".";
+    font-family: 'Nunito';
+    position: absolute;
+    text-align: right;
+    margin-top: 0px;
+    left: -25px;
+    top: -1px;
+    color: var(--theme-color-main);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
 }
 
 
