@@ -1638,13 +1638,14 @@ margin: 0 0 -4px 0;
 
 .bck-box.box-4 > .bck-title {
  background: none;
+ margin: 0 0 -4px 0;
 }
 
 
 .bck-box.box-4 > .bck-title p {
 	    color: #1d549e;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 21px;
+    font-weight: 500;
 }
 
 .bck-box.box-4 > .bck-content p {
