@@ -1682,8 +1682,6 @@ margin: 0 0 -4px 0;
 
 .bck-box.box-5 > .bck-title {
 color: #1d549e;
-    font-size: 25px;
-    font-weight: 700;
     position: relative;
     top: -60px;
     text-align: center;
@@ -1691,8 +1689,8 @@ color: #1d549e;
 
 .bck-box.box-5 > .bck-title p {
 	    color: #1d549e;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 21px;
+    font-weight: 500;
 }
 
 .bck-box.box-5 > .bck-title:before {
