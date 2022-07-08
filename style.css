@@ -223,7 +223,7 @@ CASTILLO PRIMARIA
     --theme-multi-choice-text-color: #000;
     --theme-icon-arrow-up: url(../img/ui-icon-arrow-up.svg);
     --theme-icon-arrow-down: url(../img/ui-icon-arrow-down.svg);
-    --theme-icon-color-ok: url(../img/ui-icon-color-ok.svg);
+    --theme-icon-color-ok: url(images/ui-icon-color-ok.svg);
     --theme-icon-color-fail: url(../img/ui-icon-color-fail.svg);
     --theme-icon-color-video: url(../img/ui-icon-color-video.svg);
     --theme-icon-color-info: url(../img/ui-icon-color-info.svg);
@@ -2124,13 +2124,20 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 
 /*botonera*/
-#actividad .btn-danger, #actividad .btn-danger[disabled] {
-    color: #fff;
-    background-color: #90bf55;
+#actividad .btn-danger, 
+#actividad .btn-danger[disabled] {
+	color: #fff;
+    background-color: var(--theme-widget-ok-color);
     border-radius: 10px;
-    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
-    font-weight: 600;
+    opacity: 1;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
 }
 
 #actividad .btn-danger:hover, .btn-danger:focus, 
@@ -2146,13 +2153,18 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 
 #actividad .btn-primary {
-	color: #fff;
+color: #fff;
     background-color: #1d549e;
     border-radius: 10px;
-    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
-    font-weight: 600;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
 }
 
 #actividad .btn-primary:not([disabled]):hover, 
@@ -2171,13 +2183,18 @@ color: #fff;
 
 #actividad .btn-primary[disabled], 
 #actividad .btn-primary[disabled]:focus {
-	color: #fff;
-    background-color: #d2d2d2;
+	background-color: var(--theme-widget-disabled-color);
+    color: var(--theme-button-text-color-disabled);
     border-radius: 10px;
-    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
-    font-weight: 600;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
 }
 
 #actividad .btn-solution, 
@@ -2187,12 +2204,17 @@ color: #fff;
 #actividad .btn-next.disabled, 
 #actividad .btn-next[disabled] {
 	color: #fff;
-    background-color: #1eb3c6;
+    background-color: var(--theme-widget-answer-color);
     border-radius: 10px;
-    box-shadow: 0px 3px 0px 0px #e5e5e5;
     border-color: transparent;
     opacity: 1;
-    font-weight: 600;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
 }
 
 #actividad .btn-solution:hover, 
@@ -2358,18 +2380,20 @@ position: absolute;
 
 /*respuesta multiple*/
 #actividad .workspace.multiple-choice .opcion {
-	border: 3px solid #fbd066;
-	border-radius: 10px;
+	border-color: var(--theme-widget-normal-color);
+    background-color: var(--theme-widget-normal-color-brighter);
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-	border-color: #1D549E;
-    background-color: #DBE4EF;
+	border-color: var(--theme-widget-color-main);
+    background-color: var(--theme-widget-color-main-bright);
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
-	border-color: #90bf55;
-    background-color: #edf5e4;
+	border-color: var(--theme-widget-ok-color);
+    background-color: var(--theme-widget-ok-color-bright);
+    background-image: var(--theme-icon-color-ok);
+    padding-right: 34px;
 }
 
 
@@ -2400,14 +2424,36 @@ position: absolute;
     max-width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10px 50px;
-    box-shadow: 0px 3px 5px 0px #d7dde5;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    min-height: 34px;
+    min-width: 50%;
+    padding: 0 20px;
+    font-size: var(--theme-multi-choice-font-size);
+    font-weight: var(--theme-multi-choice-font-weight);
+    color: var(--theme-multi-choice-text-color);
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
 }
 
 #actividad .workspace.multiple-choice .opcion p {
     padding: 5px;
     margin: 0;
     text-align: left;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_over {
+	background-color: #fff;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
@@ -2498,7 +2544,7 @@ content: "\f00d";
 .fillblanks-draggable-wrapper .response {
     margin: 2px;
     min-width: 100px;
-    border: 2px solid #fbd066;
+    border: 1.5px solid #fbd066;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
