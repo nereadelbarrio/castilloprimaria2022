@@ -2392,19 +2392,19 @@ position: absolute;
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
 	border-color: var(--theme-widget-ok-color);
     background-color: var(--theme-widget-ok-color-bright);
-    background-image: var(--theme-icon-color-ok);
     padding-right: 34px;
 }
 
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ko {
-    border-color: #e33939;
-    background-color: #f9d7d7;
+    border-color: var(--theme-widget-fail-color);
+    background-color: var(--theme-widget-fail-color-bright);
+    padding-right: 34px;
 }
 
 #actividad .workspace.multiple-choice .opcion.solucion {
-    border-color: #1eb3c6;
-    background-color: #d2f0f4;
+    border-color: var(--theme-widget-answer-color);
+    background-color: var(--theme-widget-answer-color-bright);
 }
 
 #actividad .workspace.multiple-choice {
@@ -2482,9 +2482,7 @@ content: "\f00d";
     background-color: transparent;
     top: -1px;
     position: relative;
-    padding-top: 12px;
-    margin-bottom: 12px;
-    line-height: 0.1;
+    line-height: 1em;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
@@ -2496,9 +2494,7 @@ content: "\f00d";
     background-color: transparent;
     top: -3px;
     position: relative;
-    padding-top: 12px;
-    margin-bottom: 12px;
-    line-height: 0.1;
+    line-height: 1em;
 }
 
 
