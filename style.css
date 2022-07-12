@@ -179,6 +179,7 @@ CASTILLO PRIMARIA
     --theme-text-color-bright: #FFF;
     --theme-color-main: #1D549E;
     --theme-color-secondary: #F8B100;
+    --theme-color-secondary-b2: #FEF5E0;
     --theme-background-color: #E9EFF5;
     --theme-font-size: 18px;
     --theme-font-size-h1: 36px;
@@ -1102,7 +1103,7 @@ font-family: 'Nunito';
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    background: url(images/icono_pop-up.png);
+    background: url(images/ui-icon-color-info.svg);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
@@ -2395,8 +2396,8 @@ position: absolute;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-	border-color: var(--theme-widget-color-main);
-    background-color: var(--theme-widget-color-main-bright);
+	border-color: var(--theme-color-secondary);
+    background-color: var(----theme-color-secondary);
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
