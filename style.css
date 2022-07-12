@@ -871,7 +871,7 @@ font-family: 'Nunito';
 	#top-navigator .slider-indicators li {
 		text-indent: 0;
 	    border-radius: 10px;
-	    box-shadow: 0px 3px 0px 0px #e5e5e5;
+	    box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
 	}
 
 	.content_type_clase_castilloprimaria2022demo .publisher-navbar #top-navigator {
@@ -4721,28 +4721,20 @@ border-bottom: none;
 
 .content_type_clase_castilloprimaria2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:before {
 	background: url(images/decoracion_01izda_naturaleza.png);
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 63px;
+    content: '';
     position: absolute;
-    left: -107px;
-    z-index: -1;
-    top: 30px;
+    width: 96px;
+    height: 103px;
+    top: 28px;
+    left: -89px;
+    background-repeat: no-repeat;
+    background-size: 92% auto;
 }
 
 
 .content_type_clase_castilloprimaria2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:after {
-content: '';
-    padding: 10px;
+	content: '';
     background-image: url(images/decoracion_01dcha_naturaleza.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 82px;
-    position: absolute;
-    right: -163px;
-    z-index: 10;
-    top: -13px;
 }
 
 /*botonera*/
@@ -4830,8 +4822,6 @@ color: #85B04C;
 
 /*caja 04*/
 .coursetag_naturaleza_castillo .bck-box.box-4 {
-    box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #E7EFDB, 0 0 0 5px #E7EFDB, 0 0 0 6px #85B04C;
-    outline: dashed 7px #85B04C;
     background-image: url(images/box-4_naturaleza.svg);
 }
 .coursetag_naturaleza_castillo .bck-box.box-4 > .bck-title p {
