@@ -239,7 +239,50 @@ CASTILLO PRIMARIA
     --theme-graphic-boolean-answer-on: url(../img/ui-icon-bool-answer-on.svg);
     --theme-graphic-memory-card: url(../img/ui-graphic-memory-card.png);
     --theme-pattern-01: url(images/ui-pattern-01.png);
+
+/**/
+--theme-color-text: #676767;
+    --theme-color-text-black: #000;
+    --theme-color-text-white: #FFF;
+    --theme-color-text-disabled: #A4A4A4;
+    --theme-color-main: #1D549E;
+    --theme-color-main-b1: #4A76B1;
+    --theme-color-main-b2: #7798C5;
+    --theme-color-main-b3: #A5BBD8;
+    --theme-color-main-b4: #DBE4EF;
+    --theme-color-main-b5: #E9EFF5;
+    --theme-color-main-b6: #EDF1F7;
+    --theme-color-main-d1: #093054;
+    --theme-color-hex-main-d1: 9, 48, 84;
+    --theme-color-secondary: #F8B100;
+    --theme-color-secondary-b1: #FBD066;
+    --theme-color-secondary-b2: #FEF5E0;
+    --theme-color-ok: #90BF55;
+    --theme-color-ok-b1: #EDF5E4;
+    --theme-color-fail: #E33939;
+    --theme-color-fail-b1: #F9D7D7;
+    --theme-color-answer: #1EB3C6;
+    --theme-color-answer-b1: #D2F0F4;
+    --theme-color-disabled: #A4A4A4;
+    --theme-color-disabled-b1: #EDEDED;
+    --theme-font-family: 'Nunito', sans-serif;
+    --theme-font-size: 18px;
+    --theme-font-weight: 300;
+    --theme-font-size-h1: 36px;
+    --theme-font-size-h2: 27px;
+    --theme-font-size-h3: 21px;
+    --theme-font-size-h4: 21px;
+    --theme-font-size-button: 16px;
+    --theme-font-size-fill: 18px;
+    --theme-font-size-boolean: 18px;
+    --theme-font-size-drag-drop-item: 18px;
+    --theme-font-size-drag-drop-label: 18px;
+    --theme-font-size-multi-choice: 18px;
+
 }
+
+
+
 
 
 body {
@@ -2415,7 +2458,7 @@ position: absolute;
 
 #actividad .workspace.multiple-choice {
     clear: both;
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 2.1rem;
     top: 0;
     bottom: 0;
@@ -2537,7 +2580,7 @@ content: "\f00d";
     background: #edf5e4;
 }
 .content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
-    border-color: #1eb3c6;
+    border-color: #1eb3c6 !important;
     background: #d2f0f4;
 }
 
@@ -2700,8 +2743,9 @@ min-height: 12px;
 }
 
 .fillblankimages-draggable-wrapper .response.used p:before {
-	border-top: 1px solid #342826;
+	border-top: 2px solid #000;
     transform: rotateZ(-45deg);
+    top: 50%;
 }
 
 .fillblankimages-draggable-wrapper .response.used {
@@ -2794,7 +2838,7 @@ min-height: 12px;
 #actividad .workspace.calculo .cifra input[type=text], 
 #actividad .workspace.calculo .cifra input[type=tel] {
 text-align: center;
-    width: 25px;
+    min-width: 25px !important;
     border-radius: 5px;
     height: 40px;
     margin: 2px;
@@ -2831,12 +2875,34 @@ text-align: center;
 /*ordenar*/
 #actividad .workspace.ordenar .js-rank-item {
     border: 3px solid #F8B100;
-    -webkit-border-radius: 4px;
+    -webkit-border-radius: 10px;
     -moz-border-radius: 4px;
-    border-radius: 4px;
-    margin-bottom: 5px;
+    border-radius: 10px;
+    /* margin-bottom: 5px; */
     cursor: pointer;
+    min-height: 34px;
+    min-width: 50%;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
 }
+
+#actividad .workspace.ordenar .respuesta_over {
+    background-color: var(--theme-color-secondary-b2);
+}
+
 
 /*clasificar*/
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
@@ -3148,6 +3214,12 @@ border: none;
     -moz-border-radius: 13px;
     border-radius: 8px;
     color: #000;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a:hover {
+    color: #000;
+    border-color: var(--theme-color-secondary);
+    background-color: var(--theme-color-secondary-b2);
 }
 
 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
@@ -4398,6 +4470,7 @@ background-color: #90bf55;
     margin-bottom: 5px;
     cursor: pointer;
 }
+
 
 /*clasificar*/
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
