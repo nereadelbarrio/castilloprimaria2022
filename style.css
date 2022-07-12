@@ -559,7 +559,9 @@ font-family: 'Nunito';
     border-width: 1.5px;
     border-color: var(--theme-widget-normal-color);
     border-radius: 10px;
-    height: 2.2em;
+    /*height: 2.2em;
+    height: 1.8em;*/
+    margin: 0;
 }
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input:focus {
@@ -1210,6 +1212,10 @@ font-family: 'Nunito';
     position: relative;
     margin-bottom: 10px;
     font-size: 16px;
+}
+
+.texto_curso li {
+	line-height: 2.2em!important;
 }
 
 /*Globo corrección*/
@@ -2520,7 +2526,8 @@ content: "\f00d";
 .content_type_clase_castilloprimaria2022demo .slide_main input {
 	/*border: 2px solid #fbd066;
     border-radius: 10px;
-    height: 2.2em;*/
+    height: 1.8em;
+    margin: 0;*/
 }
 
 .content_type_clase_castilloprimaria2022demo .slide_main input:focus {
@@ -4314,13 +4321,20 @@ content: "\f00d";
 
 /*rellenar espacios*/
  .coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria2022demo .slide_main input {
-	border: 2px solid #AD8BD7;
+		border-width: 1.5px;
+    border-color: #AD8BD7;
+    background-color: #E4D8F2;
 }
 
  .coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response {
     border: 2px solid #AD8BD7;
 }
 
+.coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response.used p {
+ 	background-color: #E4D8F2;
+    border-radius: 8px;
+
+}
 .coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
     border-color: #1eb3c6 !important;
     background: #d2f0f4;
