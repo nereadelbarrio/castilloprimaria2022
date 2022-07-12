@@ -372,6 +372,7 @@ body {
     width: auto !important;
     padding: 0;
     max-height: 120px;*/
+    max-height: 190px;
     padding: 0;
     width: 190px !important;
     height: 190px !important;
@@ -2714,9 +2715,9 @@ min-height: 12px;
 }
 
 .slide_main .fillblankimages-draggable .img-input-container {
-    max-height: 120px;
-    width: 190px;
-    height: 190px;
+    max-height: 190px;
+    /*width: 190px;
+    height: 190px;*/
     margin: 10px;
     border-radius: 5px;
     border: 1px dashed #A4A4A4;
@@ -2726,6 +2727,7 @@ min-height: 12px;
 
 .slide_main .fillblankimages-draggable .img-input-container.respuesta_ok {
     border-color: #90BF55;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
     border: solid 2px #90BF55;
     background-color: transparent;
     border-radius: 10px;
@@ -2733,12 +2735,14 @@ min-height: 12px;
 
 .slide_main .fillblankimages-draggable .img-input-container.respuesta_ko {
 	border: solid 2px #E33939;
+	box-shadow: 0 0 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
     background-color: transparent;
 }
 
 .slide_main .fillblankimages-draggable .img-input-container.solucion {
 		border: solid 2px #1EB3C6;
+		box-shadow: 0 0 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
     background-color: transparent;
 }
