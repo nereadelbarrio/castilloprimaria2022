@@ -1769,7 +1769,6 @@ margin: 0 0 -4px 0;
 .bck-box.box-4 {
 	position: relative;
     width: 100.2%;
-    border-radius: 20px;
     background-image: url(images/box-4.svg);
     background-color: #FFF;
     padding: 20px 20px 36px 20px;
@@ -3942,6 +3941,16 @@ background-image: url(images/box-4_pensamiento_cientifico.svg);
     color: #E66638;
 }
 
+
+/*lista desordenada 01*/
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso ul.bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content ul.bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li ul.bck-ul-1 li:before {
+    background-color: #E66638;
+}
+
+
 /*lista desordenada 02*/
 .coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ul-2 li:before,
 .coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso ul.bck-ul-2 li:before,
@@ -3954,7 +3963,6 @@ background-image: url(images/box-4_pensamiento_cientifico.svg);
 
 .coursetag_pensamiento_cientifico_castillo .bck-dropdown-icon {
     background-color: #EB8560;
-        height: 41px;
 }
 
 .coursetag_pensamiento_cientifico_castillo .bck-dropdown-content {
