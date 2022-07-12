@@ -2908,15 +2908,6 @@ text-align: center;
 
 /*clasificar*/
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    /*border: 0;
-    padding: 0px;
-    box-shadow: 0 0 0 1px #1d549e, 0 0 0 3px #88a5cc, 0 0 0 5px #88a5cc, 0 0 0 6px #1d549e;
-    background-image: url(images/box-4.svg);
-    outline: dashed 7px #1d549e;
-    background-color: #fff;
-    margin-bottom: 40px;
-    border-radius: 20px;
-    margin: 0 10px;*/
     border: 0;
     background-image: url(images/box-4.svg);
     border-radius: 25px;
@@ -2927,16 +2918,6 @@ text-align: center;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
-/*text-align: center;
-    font-weight: bold;
-    border-bottom: 1px solid #EDF1F7;
-    display: table;
-    width: 100%;
-    margin: 0px;
-    margin-top: -1px;
-    background-color: #EDF1F7;
-    color: #1D549E;
-    padding: 10px;*/
     border-bottom: 1px solid #EDF1F7;
     display: table;
     width: 100%;
@@ -2953,13 +2934,6 @@ text-align: center;
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-/*background: #fff;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 7px;
-    color: #000;
-    border: 1px solid #F8B100;
-    border-radius: 10px;*/
     border: 1px solid #F8B100;
     border-radius: 10px;
     display: inline-block;
@@ -4858,6 +4832,7 @@ color: #85B04C;
 .coursetag_naturaleza_castillo .bck-box.box-4 {
     box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #E7EFDB, 0 0 0 5px #E7EFDB, 0 0 0 6px #85B04C;
     outline: dashed 7px #85B04C;
+    background-image: url(images/box-4_naturaleza.svg);
 }
 .coursetag_naturaleza_castillo .bck-box.box-4 > .bck-title p {
         color: #85B04C;
@@ -5042,7 +5017,7 @@ background-color: #85B04C;
 
 /*audio*/
 .coursetag_naturaleza_castillo #actividad .player.audio {
-	background: url(images/icono_audio_naturaleza.png) 0 0 no-repeat;
+	background: url(images/ui-icon-color-audio_naturaleza.svg) 0 0 no-repeat;
     background-size: contain;
     width: 42px;
     height: 42px !important;
@@ -5064,7 +5039,7 @@ background-color: #85B04C;
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    background: url(images/icono_pop-up_naturaleza.png);
+    background: url(images/ui-icon-color-info_naturaleza.svg);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
@@ -5411,7 +5386,7 @@ background-color: #90bf55;
 }
 
 /*clasificar*/
-.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+/*.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     border: 0;
     padding: 0px;
     box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #CEDFB7, 0 0 0 5px #CEDFB7, 0 0 0 6px #85B04C;
@@ -5420,6 +5395,17 @@ background-color: #90bf55;
     margin-bottom: 40px;
     border-radius: 20px;
     margin: 0 10px;
+}*/
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    
+    background-image: url(images/box-4_naturaleza.svg);
+    /*border-radius: 25px;
+    border: 0;
+    background-color: #FFF;
+    padding: 20px 20px 36px 20px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;*/
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
