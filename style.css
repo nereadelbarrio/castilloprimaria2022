@@ -368,14 +368,8 @@ body {
  
 .fillblankimages-draggable-wrapper .response .bck-i-fullscreen,
  .fillblankimages-draggable .img-input-container.imgFilled img {
-    /*max-width: 100%;
-    width: auto !important;
-    padding: 0;
-    max-height: 120px;*/
     max-height: 190px;
     padding: 0;
-    width: 190px !important;
-    height: 190px !important;
     margin: 10px;
     border-radius: 5px;
     border: 12px solid #FFF;
@@ -2715,9 +2709,9 @@ min-height: 12px;
 }
 
 .slide_main .fillblankimages-draggable .img-input-container {
-    max-height: 190px;
-    /*width: 190px;
-    height: 190px;*/
+    /*max-height: 190px;*/
+    width: 190px;
+    height: 190px;
     margin: 10px;
     border-radius: 5px;
     border: 1px dashed #A4A4A4;
