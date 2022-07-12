@@ -226,7 +226,7 @@ CASTILLO PRIMARIA
     --theme-icon-color-ok: url(images/ui-icon-color-ok.svg);
     --theme-icon-color-fail: url(../img/ui-icon-color-fail.svg);
     --theme-icon-color-video: url(../img/ui-icon-color-video.svg);
-    --theme-icon-color-info: url(../img/ui-icon-color-info.svg);
+    --theme-icon-color-info: url(images/ui-icon-color-info.svg);
     --theme-graphic-tape: url(images/ui-graphic-tape.svg);
     --theme-graphic-boolean-normal-off: url(../img/ui-icon-bool-normal-off.svg);
     --theme-graphic-boolean-normal-on: url(../img/ui-icon-bool-normal-on.svg);
@@ -304,6 +304,14 @@ body {
     border-radius: 5px;
     border: 15px solid #FFF;
     box-shadow: 0 0 4.5px rgb(0 0 0 / 25%);
+}
+
+.body_clase:not(.edit) #actividad .content img {
+	height: auto;
+    -webkit-user-drag: none;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
 }
 
 .zoom_flag_img {
@@ -461,11 +469,11 @@ font-family: 'Nunito';
 
 /*textos*/
 .texto_curso p {
-	line-height: 1.43em!important;
+    line-height: 1.43em!important;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: var(--theme-font-size);
     font-family: 'Nunito';
-    color: #676767;
+    color: var(--theme-color-text);
 }
 
 	.texto_curso p:last-of-type {
@@ -752,13 +760,13 @@ font-family: 'Nunito';
 	.content_type_clase_castilloprimaria2022demo .logo-publisher {
 		content: " ";
 		background-image: url(images/logo_castilloprimaria2022.jpg);
-		height: 36px;
-		background-repeat: no-repeat;
-		width: 100px;
-		margin-left: -100px;
-		margin-right: 60px;
-		float: left;
-		background-size: contain;
+		height: 75px;
+    background-repeat: no-repeat;
+    width: 181px;
+    margin-top: -12px;
+    margin-left: -160px;
+    float: left;
+    background-size: contain;
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slider-indicators {
@@ -916,7 +924,8 @@ font-family: 'Nunito';
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/icono_audio.png) 0 0 no-repeat;
+	/*background: url(images/icono_audio.png) 0 0 no-repeat;*/
+	background: url(images/ui-icon-color-audio.svg) 0 0 no-repeat;
     background-size: contain;
     width: 42px;
     height: 42px !important;
@@ -1376,7 +1385,7 @@ counter-increment: bck-li-counter;
     z-index: 0;
     font-family: 'Nunito';
     font-size: var(--theme-font-size);
-    color: var(--theme-text-color-dark);
+    color: var(--theme-text-color);
     margin-bottom: 10px;
 }
 
@@ -2068,25 +2077,13 @@ body:not(.edit) .bck-tabs-box {
 }
 
 .body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
-	/*background-color: #E9EFF5;
-    overflow: hidden;
-    outline: 0;
-    text-align: center;
-    cursor: pointer;
-    padding: 10px 22px;
-    transition: .3s;
-    display: inline-block;
-    float: left;
-    border-radius: 10px 10px 0 0;
-    margin-left: 4px;
-    color: #1d549e;
-    font-weight: 700;*/
     font-size: var(--theme-font-size);
     font-weight: 600;
     height: 45px;
     line-height: 45px;
     padding: 0 20px;
     margin-left: 5px;
+    margin-top: 4px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -2096,9 +2093,9 @@ body:not(.edit) .bck-tabs-box {
 }
 
 .body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
-background-color: var(--theme-color-main);
+    background-color: var(--theme-color-main);
     color: var(--theme-text-color-bright);
-    box-shadow: 0px -4px 5px rgb(11 52 96 / 15%);
+    box-shadow: 1px -2px 5px rgb(11 52 96 / 15%);
 }
 
 
@@ -2109,9 +2106,8 @@ background-color: var(--theme-color-main);
 
 body:not(.edit) .bck-tabcontents .div-contents {
     display: none;
-    padding: 6px 12px;
     background-color: #fff;
-    padding: 6px 12px;
+    padding: 40px 12px;
     border-left: 0;
     border-top: 1px solid #1d549e;
     max-height: 100%;
@@ -2129,6 +2125,10 @@ body:not(.edit) .bck-tabcontents .div-contents {
     max-width: 100%;
     color: #676767;
     border-bottom: 1px solid #1d549e;
+}
+
+body:not(.edit) .bck-tabcontents .div-contents p {
+
 }
 
 
@@ -4047,7 +4047,8 @@ background-color: #E66638;
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    background: url(images/icono_pop-up_pensamiento.png);
+    /*background: url(images/icono_pop-up_pensamiento.png);*/
+    background: url(images/ui-icon-color-info.svg);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
