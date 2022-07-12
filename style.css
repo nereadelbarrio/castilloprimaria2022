@@ -2999,17 +2999,17 @@ text-align: center;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
-border: 3px solid #E33939;
+border: 2px solid #E33939;
     BACKGROUND-COLOR: #F9D7D7;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
     background-color: #EDF5E4;
-    border: 3px solid #90BF55;
+    border: 2px solid #90BF55;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
-	border: 3px solid #1EB3C6;
+	border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
 }
 
@@ -4476,25 +4476,25 @@ text-align: center;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 3px solid #AD8BD7;
+    border: 1px solid #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
-    border: 3px solid #AD8BD7;
+    border: 2px solid #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
-border: 3px solid #E33939;
+border: 2px solid #E33939;
     BACKGROUND-COLOR: #F9D7D7;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
     background-color: #EDF5E4;
-    border: 3px solid #90BF55;
+    border: 2px solid #90BF55;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
-	border: 3px solid #1EB3C6;
+	border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
 }
 
@@ -4751,7 +4751,7 @@ border-bottom: none;
 
 .coursetag_naturaleza_castillo #actividad .btn-primary[disabled], 
 .coursetag_naturaleza_castillo #actividad .btn-primary[disabled]:focus {
-    background-color: #d2d2d2;
+    background-color: #EDEDED;
 }
 
 
@@ -4879,6 +4879,14 @@ color: #85B04C;
 .coursetag_naturaleza_castillo #actividad .popover-content .bck-ol-4 li:before,
 .coursetag_naturaleza_castillo #actividad .content .workspace ul li .bck-ol-4 li:before {
     color: #85B04C;
+}
+
+/*lista desordenada 01*/
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ul-1 li:before,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso ul.bck-ul-1 li:before,
+.coursetag_naturaleza_castillo #actividad .popover-content ul.bck-ul-1 li:before,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li ul.bck-ul-1 li:before {
+    background-color: #85B04C;
 }
 
 /*lista desordenada 02*/
@@ -5108,16 +5116,7 @@ background-color: #85B04C;
 
 /*memory*/
 .coursetag_naturaleza_castillo #actividad .workspace.memory .front {
-    z-index: 2;
-    width: 120px;
-    height: 140px;
-    margin: 10px;
-    border-radius: 10px;
-    border: none;
     background: url('images/fondo_memorys_naturaleza.png') center center / 50px auto no-repeat;
-    background-size: cover;
-    transition: all .5s ease;
-    box-shadow: -1px 2px 12px #00000059;
 }
 
 
@@ -5261,12 +5260,20 @@ content: "\f00d";
 
 /*rellenar espacios*/
  .coursetag_naturaleza_castillo.content_type_clase_castilloprimaria2022demo .slide_main input {
-	border: 2px solid #F0A388;
+	border-width: 1.5px;
+    border-color: #F0A388;
+    background-color: #FAE0D7;
 }
 
  .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response {
-    border: 2px solid #F0A388;
+    border-width: 1.5px;
+    border-color: #F0A388;
 }
+
+ .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response.used p {
+ 	background-color: #FAE0D7;
+    border-radius: 8px;
+ }
 
 .coursetag_naturaleza_castillo.content_type_clase_castilloprimaria2022demo .slide_main input.solucion {
     border-color: #1eb3c6 !important;
@@ -5425,25 +5432,25 @@ text-align: center;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 3px solid #e66638;
+    border: 1px solid #e66638;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
-    border: 3px solid #9DC070;
+    border: 2px solid #9DC070;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
-border: 3px solid #E33939;
+border: 2px solid #E33939;
     BACKGROUND-COLOR: #F9D7D7;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
     background-color: #EDF5E4;
-    border: 3px solid #90BF55;
+    border: 2px solid #90BF55;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
-	border: 3px solid #1EB3C6;
+	border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
 }
 
