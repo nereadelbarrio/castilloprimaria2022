@@ -4013,7 +4013,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.fron
 .coursetag_pensamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) th, 
 .coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) td, 
 .coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) th {
-    border: 2px dotted var(--theme-color-main);
+    border: 2px dotted #E66638;
     padding: 5px;
 }
 
@@ -4043,6 +4043,11 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.fron
 	color:#fff
 }
 
+
+.coursetag_pensamiento_cientifico_castillo .bck-tabslists {
+border-bottom: 1px solid #E66638;
+}
+
 body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
     border-top: 1px solid #E66638;
 }
@@ -4050,6 +4055,14 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 .body_clase.coursetag_pensamiento_cientifico_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
 background-color: #E66638;
 	color:#fff;
+}
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #E66638;
+}
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+    border-bottom: 1px solid #E66638;
 }
 
 
