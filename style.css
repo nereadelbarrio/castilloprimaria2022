@@ -4182,7 +4182,6 @@ background-color: #E66638;
     background: url('images/fondo_memorys_pensamiento_cientifico.png') center center / 50px auto no-repeat;
     background-size: cover;
     transition: all .5s ease;
-    box-shadow: -1px 2px 12px #00000059;
 }
 
 
@@ -5116,7 +5115,15 @@ background-color: #85B04C;
 
 /*memory*/
 .coursetag_naturaleza_castillo #actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
     background: url('images/fondo_memorys_naturaleza.png') center center / 50px auto no-repeat;
+    background-size: cover;
+    transition: all .5s ease;
 }
 
 
@@ -5270,7 +5277,7 @@ content: "\f00d";
     border-color: #F0A388;
 }
 
- .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response.used p {
+.coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response.used p {
  	background-color: #FAE0D7;
     border-radius: 8px;
  }
