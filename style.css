@@ -551,7 +551,7 @@ font-family: 'Nunito';
     border-width: 1.5px;
     border-color: var(--theme-widget-normal-color);
     background-color: var(--theme-widget-normal-color-bright);
-        height: 1.9em;
+        /*height: 1.9em;*/
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ok {
@@ -2397,7 +2397,7 @@ position: absolute;
 
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
 	border-color: var(--theme-color-secondary);
-    background-color: var(----theme-color-secondary);
+    background-color: var(--theme-color-secondary-b2);
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
@@ -2528,6 +2528,10 @@ content: "\f00d";
     border-radius: 10px;
 }
 
+.fillblanks-draggable .drag-over {
+	box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+}
+
 .content_type_clase_castilloprimaria2022demo .slide_main input.respuesta_ko {
     border-color: #e33939;
     background: #f9d7d7;
@@ -2595,20 +2599,22 @@ fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main inpu
     color: var(--theme-drag-drop-text-item-color);
     margin: 0 0 15px 0;
     margin-right: 10px;
+    background: url(images/drop_izquierda2.png) 0 0 no-repeat;
 }
 
 #actividad .multimedia-container .circulo_gris.ver:after {
 background-color: #fff;
-    border: 2px solid #f8b100;
+border: 2px solid var(--theme-color-secondary);
     box-shadow: 0 0 5px 1px rgb(0 0 0 / 23%);
-    height: 18px;
-    width: 18px;
+    height: 15px;
+    width: 15px;
 }
 
 
 .multimedia-container .respuesta.drop_ok:after, 
 .multimedia-container .answer.drop_ok span:before {
 background-color: #90bf55;
+box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
 .multimedia-container .respuesta.drop_ok:after, 
@@ -2619,8 +2625,8 @@ background-color: #90bf55;
     color: #ffff;
     font-size: 16px;
     border-radius: 50%;
-    height: 18px;
-    width: 18px;
+    height: 15px;
+    width: 15px;
     padding: 0px 3px;
     -webkkit-transform: translate(-12%, -5%);
     -moz-transform: translate(-12%, -5%);
@@ -2631,6 +2637,7 @@ background-color: #90bf55;
 .multimedia-container .answer.drop_ko span:before {
     background-color: #e33939;;
     padding: 0 4px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
 #actividad .multimedia-container .circulo_gris.editar:before,  
@@ -2665,12 +2672,12 @@ min-height: 12px;
 
 
 #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
-    background: #f8b100;
+    background: #1EB3C6;
     -webkit-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     -moz-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
     border-radius: 50%;
-    border-: 2px solid #f8b100;
+    border: 2px solid #1EB3C6;
 }
 
 #actividad .multimedia-container .circulo_gris.drop_solucion:before {
