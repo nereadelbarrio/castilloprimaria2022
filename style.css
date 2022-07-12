@@ -2117,12 +2117,14 @@ body:not(.edit) .bck-tabs-box {
 
 .body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
     font-size: var(--theme-font-size);
-    font-weight: 600;
+    color: var(--theme-color-main);
+        font-weight: 600;
     height: 45px;
     line-height: 45px;
     padding: 0 20px;
     margin-left: 5px;
     margin-top: 4px;
+    margin-bottom: -1px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -3700,7 +3702,7 @@ padding: 0 14px;
 }
 
 .slide.crosswords-puzzle .ta-table-cw.down {
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 /*memory*/
@@ -5728,6 +5730,10 @@ border-bottom: none;
 		float: none;
 		padding-bottom: 20px;
 	}
+
+	.body_clase #actividad .carousel-inner .item-container {
+    margin-top: 0px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -5763,6 +5769,8 @@ border-bottom: none;
 	.content_type_clase_castilloprimaria2022demo #actividad .content .header .title h3 {
 		padding-right: 20px;
 		margin-bottom: 20px;
+		margin-top: -41px;
+		margin-left: -8px;
 	}
 
 }
