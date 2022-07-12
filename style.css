@@ -3714,7 +3714,7 @@ padding: 0 14px;
     background: url('images/fondo_memorys.png') center center / 50px auto no-repeat;
     background-size: cover;
     transition: all .5s ease;
-    box-shadow: -1px 2px 12px #00000059;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
 
@@ -3734,21 +3734,23 @@ padding: 0 14px;
     border-radius: 10px;
     border: 2px solid #f8b100;
     overflow: hidden;
-    box-shadow: -1px 2px 12px #00000059;
-    
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
 #actividad .workspace.memory .still .back {
     border-color: #90BF55;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
 
 #actividad .workspace.memory .on.ko .back {
-    border-color: #E33939
+    border-color: #E33939;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
 #actividad .workspace.memory .still.solucion .back {
     border: 3px solid #11B6C1 !important;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
 /*************COURSETAG***********/
