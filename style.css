@@ -2532,14 +2532,14 @@ content: "\f00d";
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
 	background-image: url(images/ui-icon-color-respuesta-ok.svg);
     background-position: right;
-    background-size: auto;
+    background-size: auto 80%;
     background-repeat: no-repeat;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ko {
 	background-image: url(images/ui-icon-color-respuesta-ko.svg);
     background-position: right;
-    background-size: auto;
+    background-size: auto 80%;
     background-repeat: no-repeat;
 }
 
@@ -4241,7 +4241,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
     background-color: #d2f0f4;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
+/*.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
     font-family: FontAwesome;
     font-size: 27px;
@@ -4274,7 +4274,7 @@ content: "\f00d";
     padding-top: 12px;
     margin-bottom: 12px;
     line-height: 0.1;
-}
+}*/
 
 
 /*verdadero falso*/
@@ -5201,7 +5201,7 @@ background-color: #85B04C;
     background-color: #d2f0f4;
 }
 
-.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
+/*.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
 .coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
     font-family: FontAwesome;
     font-size: 27px;
@@ -5234,7 +5234,7 @@ content: "\f00d";
     padding-top: 12px;
     margin-bottom: 12px;
     line-height: 0.1;
-}
+}*/
 
 /*verdadero falso*/
 /*Damos formatos a los checkbox*/
