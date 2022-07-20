@@ -493,7 +493,9 @@ font-family: 'Nunito';
 	}
 	.content_type_clase_castilloprimaria2022demo #actividad .texto_curso,
 	.content_type_clase_castilloprimaria2022demo #actividad .slide_content_type_1 .pregunta .texto_curso {
-		font-size: 1.6rem;
+		font-size: 1.8rem;
+		margin-bottom: 20px;
+		line-height: 1.43em!important;
 	}
 
 /*textos*/
@@ -1211,7 +1213,8 @@ font-family: 'Nunito';
 #actividad .workspace ul li li {
     position: relative;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 35px;
 }
 
 .texto_curso li {
@@ -1348,7 +1351,7 @@ content: counter(bck-li-counter, lower-alpha)')';
     position: absolute;
     text-align: right;
     margin-top: 0px;
-    left: -20px;
+    left: -13px;
     top: -1px;
     color: var(--theme-color-secondary);
     font-size: calc(var(--theme-font-size) * 1.1666);
@@ -1499,14 +1502,13 @@ content: counter(bck-li-counter) ".";
 #actividad .content .workspace ul li .bck-ul li::before,
 #actividad .popover-background.shown .popover-content>ul>li::before {
 	content: "";
-	height: 6px;
-	width: 6px;
-	background-color: #333;
-	color: #333;
-	border-radius: 50%;
-	position: absolute;
-	margin-top: .45em;
-	margin-left: -12px;
+    height: 8px;
+    width: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    margin: 13px 0 0 -23px;
+    top: 2px;
 }
 
 	.texto_curso ul li,
@@ -1551,7 +1553,7 @@ content: counter(bck-li-counter) ".";
     background-color: #1D549E;
     border-radius: 50%;
     position: absolute;
-    margin: 13px 0 0 -32px;
+    margin: 13px 0 0 -23px;
     top: 2px;
 }
 
@@ -1590,7 +1592,7 @@ content: counter(bck-li-counter) ".";
     background-color: #F8B100;
     border-radius: 50%;
     position: absolute;
-    margin: 13px 0 0 -32px;
+    margin: 13px 0 0 -23px;
     top: 2px;
 }
 /**/
@@ -3244,6 +3246,10 @@ border: none;
 /*test*/
 .radio-option label.filter-label {
 font-size: 18px;
+}
+
+#actividad .workspace.test {
+    font-size: 18px;
 }
 
 #actividad .workspace.test .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, 
