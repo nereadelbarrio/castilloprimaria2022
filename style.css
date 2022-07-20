@@ -799,11 +799,11 @@ font-family: 'Nunito';
 	.content_type_clase_castilloprimaria2022demo .logo-publisher {
 		content: " ";
 		background-image: url(images/ui-logo-castillo.svg);
-		height: 75px;
+		height: 64px;
     background-repeat: no-repeat;
     width: 181px;
     margin-top: -12px;
-    margin-left: -160px;
+    margin-left: -150px;
     float: left;
     background-size: contain;
 	}
