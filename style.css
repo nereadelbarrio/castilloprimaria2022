@@ -579,9 +579,9 @@ font-family: 'Nunito';
 	}
 
 	.content_type_clase_castilloprimaria2022demo .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main input {
+	.fieldset[disabled] .content_type_clase_castilloprimaria2022demo .slide_main input {
 	padding: 0px;
-    border-width: 1.5px;
+    border-width: 2px;
     border-color: var(--theme-widget-normal-color);
     background-color: var(--theme-widget-normal-color-bright);
         /*height: 1.9em;*/
@@ -2013,7 +2013,7 @@ body:not(.edit) .bck-flipbox-face.front {
     z-index: 1;
     border: none;
         border-radius: 10px;
-        box-shadow: 0px 10px 9px -8px #d0d0d0;
+        box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
 }
 
 body:not(.edit) .front .bck-flipbox-section,
@@ -2538,14 +2538,14 @@ content: "\f00d";
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
 	background-image: url(images/ui-icon-color-respuesta-ok.svg);
     background-position: right;
-    background-size: auto 80%;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ko {
 	background-image: url(images/ui-icon-color-respuesta-ko.svg);
     background-position: right;
-    background-size: auto 80%;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
@@ -2905,6 +2905,20 @@ text-align: center;
 
 #actividad .workspace.ordenar .respuesta_over {
     background-color: var(--theme-color-secondary-b2);
+}
+
+#actividad .workspace.ordenar li.ejercicio_ko {
+	background-image: url(images/ui-icon-color-respuesta-ko.svg);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#actividad .workspace.ordenar li.ejercicio_ok {
+	background-image: url(images/ui-icon-color-respuesta-ok.svg);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 
@@ -3932,7 +3946,7 @@ background-image: url(images/box-4_pensamiento_cientifico.svg);
 .coursetag_pensamiento_cientifico_castillo .bck-box.box-5 > .bck-title p {
 	    color: #E66638;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*LISTA ORDENADA 1*/
@@ -4476,12 +4490,30 @@ background-color: #90bf55;
 
 /*ordenar*/
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .js-rank-item {
-    border: 3px solid #773DBD;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    border: 2px solid #773DBD;
+ -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     margin-bottom: 5px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 100%;
+    min-height: 34px;
+    min-width: 50%;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .respuesta_over {
+	background-color: #E4D8F2;
 }
 
 
@@ -4861,7 +4893,7 @@ color: #85B04C;
 
 /*caja 03*/
 .coursetag_naturaleza_castillo .bck-box.box-3 {
-    border: 2px solid #85B04C;
+    border: 2px solid #E66638;
 }
 
 /*caja 04*/
@@ -4878,7 +4910,7 @@ color: #85B04C;
 .coursetag_naturaleza_castillo .bck-box.box-5 > .bck-title p {
 	    color: #85B04C;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*LISTA ORDENADA 1*/
@@ -4944,7 +4976,7 @@ color: #85B04C;
 
 /*desplegables*/
 .coursetag_naturaleza_castillo .bck-dropdown-icon {
-    background-color: #B6D094;
+    background-color: #9dc070;
 }
 
 .coursetag_naturaleza_castillo .bck-dropdown-content {
@@ -5313,13 +5345,13 @@ content: "\f00d";
 
 /*rellenar espacios*/
  .coursetag_naturaleza_castillo.content_type_clase_castilloprimaria2022demo .slide_main input {
-	border-width: 1.5px;
+	border-width: 2px;
     border-color: #F0A388;
     /*background-color: #FAE0D7;*/
 }
 
  .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response {
-    border-width: 1.5px;
+    border-width: 2px;
     border-color: #F0A388;
 }
 
@@ -5440,12 +5472,30 @@ background-color: #90bf55;
 
 /*ordenar*/
 .coursetag_naturaleza_castillo #actividad .workspace.ordenar .js-rank-item {
-    border: 3px solid #E66638;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+	border: 2px solid #E66638;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     margin-bottom: 5px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 100%;
+    min-height: 34px;
+    min-width: 50%;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.ordenar .respuesta_over {
+	background-color: #FAE0D7;
 }
 
 /*clasificar*/
