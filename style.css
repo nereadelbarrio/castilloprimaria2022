@@ -4492,6 +4492,7 @@ background-color: #90bf55;
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     background-image: url(images/box-4_pensamiento_cientifico.svg);
+    border-radius: 14px;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
