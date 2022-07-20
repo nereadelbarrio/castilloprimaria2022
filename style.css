@@ -351,13 +351,13 @@ body {
     box-shadow: 0 0 4.5px rgb(0 0 0 / 25%);
 }
 
-.body_clase:not(.edit) #actividad .content img {
+/*.body_clase:not(.edit) #actividad .content img {
 	height: auto;
     -webkit-user-drag: none;
     border-radius: none;
     border: none;
     box-shadow: none;
-}
+}*/
 
 .zoom_flag_img {
     position: absolute;
