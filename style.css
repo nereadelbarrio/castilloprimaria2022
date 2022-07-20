@@ -290,6 +290,7 @@ body {
     line-height: 21px;
     color: #414141;
     background-color: #eee;
+    font-feature-settings: 'ss01' on;
 }
 
 
@@ -4480,16 +4481,14 @@ background-color: #90bf55;
 
 
 /*clasificar*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+/*.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     border: 0;
-    padding: 0px;
-    box-shadow: 0 0 0 1px #e66638, 0 0 0 3px #fae0d7, 0 0 0 5px #fae0d7, 0 0 0 6px #e66638;
-    outline: dashed 7px #e66638;
-    background-color: #fff;
-    margin-bottom: 40px;
-    border-radius: 20px;
-    margin: 0 10px;
-}
+    border-radius: 25px;
+    background-color: #FFF;
+    padding: 20px 20px 36px 20px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;
+}*/
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     background-image: url(images/box-4_pensamiento_cientifico.svg);
