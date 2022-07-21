@@ -3086,22 +3086,22 @@ text-align: center;
     padding: 5px;
     width: 50%;
     text-align: left;
-    border: 1.5px solid #F8B100;
+    border: 2px solid #F8B100;
     color: #000;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
-border: 1.5px solid #E33939;
+border: 2px solid #E33939;
     BACKGROUND-COLOR: #F9D7D7;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
     background-color: #EDF5E4;
-    border: 1.5px solid #90BF55;
+    border: 2px solid #90BF55;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
-	border: 1.5px solid #1EB3C6;
+	border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
 }
 
