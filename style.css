@@ -4834,6 +4834,13 @@ border-bottom: none;
     background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
 }
 
+/*archivo entregable*/
+.coursetag_pensamiento_cientifico_castillo .deliverablefile .divtitle .title-deliverablefile {
+	font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: #E66638;
+}
+
 
 /*coursetag_naturaleza_castillo*/
 /*fondo slide*/
@@ -5841,7 +5848,12 @@ border-bottom: none;
 }
 
 
-
+/*archivo entregable*/
+..coursetag_naturaleza_castillo .deliverablefile .divtitle .title-deliverablefile {
+	font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: #85B04C;
+}
 
 /**/
 
