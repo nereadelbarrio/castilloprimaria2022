@@ -3392,8 +3392,8 @@ font-size: 18px;
 #actividad .workspace.test .radio-option label.filter-label::before {
 	background: none;
     display: inline-block;
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
     border: 2px solid #f8b100;
     border-radius: 50%;
     color: #f8b100;
@@ -3827,6 +3827,13 @@ padding: 0 14px;
     box-shadow: 0 0 4px rgb(0 0 0 / 25%);
 }
 
+/*archivo entregable*/
+.deliverablefile .divtitle .title-deliverablefile {
+	font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: var(--theme-color-main);
+}
+
 /*************COURSETAG***********/
 /*coursetag_lenguajes_castillo*/
 .coursetag_lenguajes_castillo .form-control {
@@ -4005,12 +4012,13 @@ color: #E66638;
 
 /*caja 03*/
 .coursetag_pensamiento_cientifico_castillo .bck-box.box-3 {
-    border: 2px solid #773DBD;
+    border: 3px solid #773DBD;
 }
 
 /*caja 04*/
 .coursetag_pensamiento_cientifico_castillo .bck-box.box-4 {
 background-image: url(images/box-4_pensamiento_cientifico.svg);
+border-radius: 12px;
 }
 .coursetag_pensamiento_cientifico_castillo .bck-box.box-4 > .bck-title p {
 	    color: #E66638;
@@ -4170,7 +4178,7 @@ border-bottom: 1px solid #E66638;
 }
 
 body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
-    border-top: 1px solid #E66638;
+    border-top: 0px solid #E66638;
 }
 
 .body_clase.coursetag_pensamiento_cientifico_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
@@ -4189,7 +4197,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 
 /*textarea*/
 .coursetag_pensamiento_cientifico_castillo .form-control {
-	border: 2px solid #ad8bd7;
+	border: 1.5px solid #AD8BD7;
 }
 
 .body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo .form-control:focus, 
@@ -4664,7 +4672,7 @@ border: 2px solid #E33939;
     color: #000;
     background-color: #fff;
     background-image: none;
-    border: 2px solid #773DBD;
+    border: 1.5px solid #AD8BD7;
     border-radius: 8px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -4970,7 +4978,7 @@ color: #85B04C;
 
 /*caja 03*/
 .coursetag_naturaleza_castillo .bck-box.box-3 {
-    border: 2px solid #E66638;
+    border: 3px solid #E66638;
 }
 
 /*caja 04*/
