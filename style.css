@@ -888,6 +888,7 @@ font-family: 'Nunito';
 		float: none;
 		margin-top: 10px;
 		display: block;
+		padding: 0 0px 0px 4px;
 	}
 
 	.content_type_clase_castilloprimaria2022demo .publisher-navbar .dropdown {
@@ -5201,7 +5202,7 @@ background-color: #85B04C;
 
 /*textarea*/
 .coursetag_naturaleza_castillo .form-control {
-	border: 2px solid #E66638;
+	border: 1.5px solid #E66638;
 }
 
 .body_clase:not(.edit):not(.edit).coursetag_naturaleza_castillo .form-control:focus, 
@@ -5452,13 +5453,13 @@ content: "\f00d";
 
 /*rellenar espacios*/
  .coursetag_naturaleza_castillo.content_type_clase_castilloprimaria2022demo .slide_main input {
-	border-width: 2px;
+	border-width: 1.5px;
     border-color: #F0A388;
     /*background-color: #FAE0D7;*/
 }
 
  .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response {
-    border-width: 2px;
+    border-width: 1.5px;
     border-color: #F0A388;
 }
 
