@@ -2334,8 +2334,8 @@ color: #fff;
 .true-false .radio-option label.filter-label::before {
     background: none;
     display: inline-block;
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
     border: 2px solid #f8b100;
     border-radius: 50%;
 	color: #f8b100;
@@ -2632,6 +2632,7 @@ content: "\f00d";
 
 #actividad .workspace.multiple-choice .opcion img {
 	box-shadow: none;
+	border: none;
 }
 
 /*.content_type_clase_castilloprimaria2022demo .slide_main input[disabled],
@@ -2808,6 +2809,22 @@ min-height: 12px;
 /*arrastrar imagen a imagen*/
 #actividad .image-over-image .drag_image-over-image li img {
 	box-shadow: none;
+	border: none;
+}
+
+.layout-panel.right .drop_solucion span img {
+	border: 0px solid transparent !important;
+    box-shadow: none !important;
+}
+
+.layout-panel.right .answer span img {
+		border: 0px solid transparent !important;
+    box-shadow: none !important;
+}
+
+.layout-panel.left .answer span img {
+		border: 0px solid transparent !important;
+    box-shadow: none !important;
 }
 
 /*marcar palabras*/
@@ -2885,6 +2902,14 @@ text-align: center;
     max-width: 80%;
     margin: 0;
     box-shadow: none;
+}
+
+#actividad .workspace.calculo .respuesta_ko .marco {
+	background-image: url(images/ui-icon-color-respuesta-ko.svg);
+}
+
+#actividad .workspace.calculo .respuesta_ok .marco {
+	background-image: url(images/ui-icon-color-respuesta-ok.svg);
 }
 
 /*ordenar*/
@@ -4314,8 +4339,8 @@ content: "\f00d";
 .coursetag_pensamiento_cientifico_castillo .true-false .radio-option label.filter-label::before {
     background: none;
     display: inline-block;
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
     border: 2px solid #773DBD;
     border-radius: 50%;
 	color: #773DBD;
@@ -5291,8 +5316,8 @@ content: "\f00d";
 .coursetag_naturaleza_castillo .true-false .radio-option label.filter-label::before {
     background: none;
     display: inline-block;
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
     border: 2px solid #E66638;
     border-radius: 50%;
 	color: #E66638;
