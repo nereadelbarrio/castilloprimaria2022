@@ -5170,7 +5170,7 @@ background-color: #85B04C;
 }
 
 .coursetag_naturaleza_castillo .bck-tabslists {
-	border-bottom: 1px solid #85B04C;
+	border-bottom: 0px solid #85B04C;
 }
 
 
@@ -5824,7 +5824,7 @@ border-bottom: none;
 
 
 /*archivo entregable*/
-..coursetag_naturaleza_castillo .deliverablefile .divtitle .title-deliverablefile {
+.coursetag_naturaleza_castillo .deliverablefile .divtitle .title-deliverablefile {
 	font-size: var(--theme-font-size-h2);
     font-weight: 700;
     color: #85B04C;
