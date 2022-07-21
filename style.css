@@ -4183,11 +4183,11 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.fron
 
 
 .coursetag_pensamiento_cientifico_castillo .bck-tabslists {
-border-bottom: 1px solid #E66638;
+border-bottom: 0px solid #E66638;
 }
 
 body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
-    border-top: 0px solid #E66638;
+    border-top: 1px solid #E66638;
 }
 
 .body_clase.coursetag_pensamiento_cientifico_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
