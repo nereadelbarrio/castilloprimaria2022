@@ -2877,7 +2877,7 @@ text-align: center;
     margin: 2px;
     padding: 0px;
     color: #000;
-    border: 2px solid #fbd066;
+    border: 1.5px solid #fbd066;
 }
 
 #actividad .workspace.calculo .cifra input[type=text]:focus,
@@ -4560,7 +4560,7 @@ background-color: #90bf55;
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=text], 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=tel] {
-    border: 2px solid #AD8BD7;
+    border: 1.5px solid #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=text]:focus,
@@ -5565,7 +5565,7 @@ background-color: #90bf55;
 
 .coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=text], 
 .coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=tel] {
-    border: 2px solid #F0A388;
+    border: 1.5px solid #F0A388;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=text]:focus,
