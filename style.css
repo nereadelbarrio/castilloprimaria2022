@@ -297,7 +297,7 @@ body {
 	.body_clase .content-wrapper {
 		padding-top: 100px;
 		font-family: 'Nunito';
-		font-weight: 500;
+		font-weight: 300;
 		padding-bottom: 0;
 		color: #676767
 	}
@@ -506,6 +506,7 @@ font-family: 'Nunito';
     font-size: var(--theme-font-size);
     font-family: 'Nunito';
     color: var(--theme-color-text);
+    font-weight: 300;
 }
 
 	.texto_curso p:last-of-type {
@@ -1782,8 +1783,9 @@ margin: 0 0 -4px 0;
     background-image: url(images/box-4.svg);
     background-color: #FFF;
     padding: 20px 20px 36px 20px;
-    box-shadow: none;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
     margin: 40px 0;
+    border-radius: 22px;
 }
 
 .bck-box.box-4 > .bck-title {
@@ -2026,7 +2028,7 @@ body:not(.edit) .bck-flipbox-face.back {
     background-color: #1d549e;
     border: none;
         border-radius: 10px;
-        box-shadow: 0px 10px 9px -8px #d0d0d0;
+        box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
 }
 
 body:not(.edit) .back .bck-flipbox-title, body:not(.edit) .back .bck-flipbox-section {
@@ -2107,7 +2109,7 @@ td,th {
 .bck-tabslists {
     /* overflow: hidden; */
     display: flex;
-    border-bottom: 1px solid var(--theme-color-main);
+    border-bottom: 0px solid var(--theme-color-main);
 }
 
 body:not(.edit) .bck-tabs-box {
@@ -3484,7 +3486,7 @@ font-size: 18px;
 .body_clase:not(.edit):not(.edit) .form-control:focus, 
 .body_clase:not(.edit):not(.edit) .form-control:focus-within, 
 .body_clase:not(.edit):not(.edit)  input[type="text"]:focus {
-    border: 2px solid;
+    border: 1.5px solid;
     box-shadow: none;
     border-color: var(--theme-widget-selected-color);
     background-color: var(--theme-widget-selected-color-bright);
@@ -3764,7 +3766,7 @@ padding: 0 14px;
     color: #000;
     background-color: #fff;
     background-image: none;
-    border: 2px solid #a5bbd8;
+    border: 1.5px solid #FBD066;
     border-radius: 8px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
