@@ -2954,7 +2954,6 @@ text-align: center;
     background-repeat: no-repeat;
     border-color: var(--theme-color-fail);
     background-color: var(--theme-color-fail-b1);
-    background-image: url(../img/ui-icon-color-fail.svg);
     padding-right: 34px;
 }
 
@@ -2963,8 +2962,8 @@ text-align: center;
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
-    border-color: var(--theme-color-fail);
-    background-color: var(--theme-color-fail-b1);
+    border-color: var(--theme-color-ok);
+    background-color: var(--theme-color-ok-b1);
     padding-right: 34px;
 }
 
