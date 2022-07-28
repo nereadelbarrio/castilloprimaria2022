@@ -5728,16 +5728,16 @@ border-bottom: none;
 /*señalar respuesta*/
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks select {
     border: 0;
-    border-bottom: 2px solid #85B04C;
+    border-bottom: 2px solid #e66638;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a {
-    border: 2px solid #9DC070;
+    border: 2px solid #e66638;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #fff;
-    border:3px solid #85B04C;
+    border:3px solid #e66638;
 }
 
 
