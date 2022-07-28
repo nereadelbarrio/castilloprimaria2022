@@ -4430,7 +4430,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 }
 
  .coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response {
-    border: 2px solid #AD8BD7;
+    border-color: #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response.used p {
@@ -5426,7 +5426,6 @@ content: "\f00d";
 }
 
  .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response {
-    border-width: 1.5px;
     border-color: #F0A388;
 }
 
