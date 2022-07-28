@@ -3179,7 +3179,7 @@ border-radius: 4px;
 }
 
 #actividad .workspace.syntax .sintaxis_adder .filled {
-    border: 3px solid #f8b100;
+    border: 2px solid #f8b100;
     color: #000;
     background-color: #fff;
 }
@@ -4679,7 +4679,7 @@ border: 2px solid #E33939;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .filled {
-    border: 3px solid #773DBD;
+    border-color: #773DBD;
     color: #000;
     background-color: #fff;
 }
@@ -5688,21 +5688,21 @@ border: 2px solid #E33939;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .filled {
-    border: 3px solid #85B04C;
+    border-color: #e66638;
     color: #000;
     background-color: #fff;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .bloque.filled {
-    border-bottom: 2px #85B04C dashed;
-    border-left: 2px #85B04C dashed;
-    border-right: 2px #85B04C dashed;
+    border-bottom: 2px #e66638 dashed;
+    border-left: 2px #e66638 dashed;
+    border-right: 2px #e66638 dashed;
     border-radius: 3px;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .filled:before, 
 .coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
-    background-color: #85B04C;
+    background-color: #e66638;
 border-bottom: none;
     border-left: none;
     border-right: none;
