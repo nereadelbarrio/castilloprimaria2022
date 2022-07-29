@@ -1226,12 +1226,21 @@ font-family: 'Nunito';
 /*----------------------LISTAS-----------------------*/
 
 /*Tamaño general*/
-#actividad .texto_curso li, 
+#actividad .texto_curso  li, 
 #actividad .workspace ul li li {
     position: relative;
     margin-bottom: 10px;
     font-size: 18px;
-    padding-left: 0;
+    padding-left: 40px;
+}
+#actividad .texto_curso ol li, 
+#actividad .workspace ol li {
+    padding-left: 1px;
+}
+#actividad .texto_curso li::marker,
+ #actividad .workspace li::marker {
+    font-weight: bold;
+    color: var(--theme-text-color-dark);
 }
 
 .texto_curso li {
