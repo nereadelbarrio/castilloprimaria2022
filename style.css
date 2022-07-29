@@ -1231,7 +1231,7 @@ font-family: 'Nunito';
     position: relative;
     margin-bottom: 10px;
     font-size: 18px;
-    padding-left: 40px;
+    padding-left: 0;
 }
 
 .texto_curso li {
