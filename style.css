@@ -4019,8 +4019,8 @@ color: #E66638;
 /*caja 04*/
 .coursetag_pensamiento_cientifico_castillo .bck-box.box-4 {
 background-image: url(images/box-4_pensamiento_cientifico.svg);
-border-radius: 12px;
 }
+
 .coursetag_pensamiento_cientifico_castillo .bck-box.box-4 > .bck-title p {
 	    color: #E66638;
 }
@@ -4599,7 +4599,6 @@ border-color: var(--theme-color-fail);
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     background-image: url(images/box-4_pensamiento_cientifico.svg);
-    border-radius: 14px;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
