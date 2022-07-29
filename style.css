@@ -4625,7 +4625,7 @@ text-align: center;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 1px solid #AD8BD7;
+    border-color: #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
@@ -5638,7 +5638,7 @@ text-align: center;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 1px solid #e66638;
+    border-color: #e66638;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
