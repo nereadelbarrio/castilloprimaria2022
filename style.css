@@ -4777,9 +4777,6 @@ border-bottom: none;
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
     border: 2px solid #E33939;
     background-color: #F9D7D7;
-    border-radius: 8px;
-    padding: 3px 10px;
-    color: #000;
 }
 
 .coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.solucion {
@@ -5790,9 +5787,6 @@ border-bottom: none;
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
     border: 2px solid #E33939;
     background-color: #F9D7D7;
-    border-radius: 8px;
-    padding: 3px 10px;
-    color: #000;
 }
 
 .coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.solucion {
