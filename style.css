@@ -5917,6 +5917,12 @@ border-bottom: none;
 
 }
 
+@media screen and (max-width: 580px) {
+    #actividad .carousel-inner .item-container {
+        margin: 20px 0;
+    }    
+}
+
 @media screen and (max-width: 579px) {
 	.bck-row .col-xs-1,
 	.bck-row .col-xs-2,
