@@ -5855,6 +5855,7 @@ border-bottom: none;
 
     .content_type_clase_castilloprimaria2022demo .logo-publisher {
 		margin-right: 0px;
+        margin-left: -70px;
 	}
 }
 
@@ -5947,6 +5948,9 @@ border-bottom: none;
 }
 
 @media screen and (max-width: 480px) {
+    #actividad .carousel-inner .item-container {
+        padding-top: 0;
+    }
 
     .bck-img.right, img[style~="float:right"] {
         width: 100%;
@@ -5955,11 +5959,6 @@ border-bottom: none;
     .bck-img.left, img[style~="float:left"] {
         width: 100%;
     }
-
-    /*#actividad .carousel-inner .item-container {
-		padding: 40px 20px 90px;
-	}
-    */
 	.content_type_clase_castilloprimaria2022demo .publisher-navbar .navbar-content {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -5968,9 +5967,6 @@ border-bottom: none;
 		content: none;
 		display: none;
 
-	}
-	#actividad .carousel-inner .item-container {
-		padding-top: 13px;
 	}
 	.js-slide-wrapper > .header .single-pagination {
 		padding-top: 15px;
