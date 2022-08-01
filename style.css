@@ -5844,7 +5844,6 @@ border-bottom: none;
     }
 
     #actividad .carousel-inner .item-container {
-        margin: 0;
         width: 100% !important;
         max-width: none;
         box-shadow: none;
